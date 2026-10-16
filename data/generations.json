@@ -1,0 +1,225 @@
+[
+ {
+  "id": 1,
+  "name": "Generation I",
+  "ready": true,
+  "region": "kanto",
+  "games": [
+   {
+    "id": "red",
+    "name": "Red",
+    "color": "#e63946"
+   },
+   {
+    "id": "blue",
+    "name": "Blue",
+    "color": "#3b6fd8"
+   },
+   {
+    "id": "yellow",
+    "name": "Yellow",
+    "color": "#f2c100"
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "name": "Generation II",
+  "ready": false,
+  "region": null,
+  "games": [
+   {
+    "id": "gold",
+    "name": "Gold"
+   },
+   {
+    "id": "silver",
+    "name": "Silver"
+   },
+   {
+    "id": "crystal",
+    "name": "Crystal"
+   }
+  ]
+ },
+ {
+  "id": 3,
+  "name": "Generation III",
+  "ready": false,
+  "region": null,
+  "games": [
+   {
+    "id": "ruby",
+    "name": "Ruby"
+   },
+   {
+    "id": "sapphire",
+    "name": "Sapphire"
+   },
+   {
+    "id": "emerald",
+    "name": "Emerald"
+   },
+   {
+    "id": "firered",
+    "name": "FireRed"
+   },
+   {
+    "id": "leafgreen",
+    "name": "LeafGreen"
+   }
+  ]
+ },
+ {
+  "id": 4,
+  "name": "Generation IV",
+  "ready": false,
+  "region": null,
+  "games": [
+   {
+    "id": "diamond",
+    "name": "Diamond"
+   },
+   {
+    "id": "pearl",
+    "name": "Pearl"
+   },
+   {
+    "id": "platinum",
+    "name": "Platinum"
+   },
+   {
+    "id": "heartgold",
+    "name": "HeartGold"
+   },
+   {
+    "id": "soulsilver",
+    "name": "SoulSilver"
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "name": "Generation V",
+  "ready": false,
+  "region": null,
+  "games": [
+   {
+    "id": "black",
+    "name": "Black"
+   },
+   {
+    "id": "white",
+    "name": "White"
+   },
+   {
+    "id": "black2",
+    "name": "Black 2"
+   },
+   {
+    "id": "white2",
+    "name": "White 2"
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "name": "Generation VI",
+  "ready": false,
+  "region": null,
+  "games": [
+   {
+    "id": "x",
+    "name": "X"
+   },
+   {
+    "id": "y",
+    "name": "Y"
+   },
+   {
+    "id": "omegaruby",
+    "name": "Omega Ruby"
+   },
+   {
+    "id": "alphasapphire",
+    "name": "Alpha Sapphire"
+   }
+  ]
+ },
+ {
+  "id": 7,
+  "name": "Generation VII",
+  "ready": false,
+  "region": null,
+  "games": [
+   {
+    "id": "sun",
+    "name": "Sun"
+   },
+   {
+    "id": "moon",
+    "name": "Moon"
+   },
+   {
+    "id": "ultrasun",
+    "name": "Ultra Sun"
+   },
+   {
+    "id": "ultramoon",
+    "name": "Ultra Moon"
+   },
+   {
+    "id": "letsgopikachu",
+    "name": "Let's Go, Pikachu!"
+   },
+   {
+    "id": "letsgoeevee",
+    "name": "Let's Go, Eevee!"
+   }
+  ]
+ },
+ {
+  "id": 8,
+  "name": "Generation VIII",
+  "ready": false,
+  "region": null,
+  "games": [
+   {
+    "id": "sword",
+    "name": "Sword"
+   },
+   {
+    "id": "shield",
+    "name": "Shield"
+   },
+   {
+    "id": "brilliantdiamond",
+    "name": "Brilliant Diamond"
+   },
+   {
+    "id": "shiningpearl",
+    "name": "Shining Pearl"
+   },
+   {
+    "id": "legendsarceus",
+    "name": "Legends: Arceus"
+   }
+  ]
+ },
+ {
+  "id": 9,
+  "name": "Generation IX",
+  "ready": false,
+  "region": null,
+  "games": [
+   {
+    "id": "scarlet",
+    "name": "Scarlet"
+   },
+   {
+    "id": "violet",
+    "name": "Violet"
+   }
+  ]
+ }
+]

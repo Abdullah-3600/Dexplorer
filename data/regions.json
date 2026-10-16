@@ -1,0 +1,18 @@
+[
+ {
+  "id": "kanto",
+  "name": "Kanto",
+  "generation": 1,
+  "dex": [
+   1,
+   151
+  ],
+  "map": "assets/kanto-map.png",
+  "mapSize": [
+   1130,
+   960
+  ],
+  "zones": "data/kanto/zones.json",
+  "encounters": "data/kanto/encounters.json"
+ }
+]
