@@ -25,20 +25,23 @@
  {
   "id": 2,
   "name": "Generation II",
-  "ready": false,
-  "region": null,
+  "ready": true,
+  "region": "johto",
   "games": [
    {
     "id": "gold",
-    "name": "Gold"
+    "name": "Gold",
+    "color": "#d4a017"
    },
    {
     "id": "silver",
-    "name": "Silver"
+    "name": "Silver",
+    "color": "#9aa5b1"
    },
    {
     "id": "crystal",
-    "name": "Crystal"
+    "name": "Crystal",
+    "color": "#3fb6e8"
    }
   ]
  },

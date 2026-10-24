@@ -12,11 +12,14 @@ const gameName = id => (state.gen.games.find(g => g.id === id) || {}).name || id
 const vlab = games => games.length === state.gen.games.length ? "" : " · " + games.map(gameName).join("/");
 const heat = r => r.rate == null ? 100 : r.rate;
 function mk(t, a) { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); return e }
+const scale = () => state.region ? state.region.mapSize[0] / 1130 : 1;
 function shape(s, a) {
   return s.type === "circle"
     ? mk("circle", { cx: s.cx, cy: s.cy, r: s.r, ...a })
-    : mk("rect", { x: s.x, y: s.y, width: s.w, height: s.h, rx: 10, ...a });
+    : mk("rect", { x: s.x, y: s.y, width: s.w, height: s.h, rx: 10 * scale(), ...a });
 }
+const TIME = { morning: "Morning", day: "Day", night: "Night" };
+const tlab = r => r.time && r.time.length < 3 ? " · " + r.time.map(t => TIME[t]).join("/") : "";
 function setColor() {
   const g = state.gen.games.find(g => g.id === state.game);
   document.documentElement.style.setProperty("--gc", (g && g.color) || "#e63946");
@@ -62,7 +65,7 @@ function draw() {
 }
 function tip(cx, cy, x) {
   const e = $("tip");
-  e.innerHTML = "<b>" + x.z.name + "</b>" + x.rows.map(r => `<div class="it"><div><span>${r.sublocation ? r.sublocation + " · " : ""}${r.method}${vlab(r.games)}</span><span>${r.rate != null ? r.rate + "%" : ""}</span></div><small>Lv ${r.levels}${r.note ? " · " + r.note : ""}</small></div>`).join("");
+  e.innerHTML = "<b>" + x.z.name + "</b>" + x.rows.map(r => `<div class="it"><div><span>${r.sublocation ? r.sublocation + " · " : ""}${r.method}${tlab(r)}${vlab(r.games)}</span><span>${r.rate != null ? r.rate + "%" : ""}</span></div><small>Lv ${r.levels}${r.note ? " · " + r.note : ""}</small></div>`).join("");
   e.style.display = "block";
   e.style.left = Math.max(8, Math.min(cx + 14, innerWidth - e.offsetWidth - 8)) + "px";
   e.style.top = Math.max(8, Math.min(cy + 14, innerHeight - e.offsetHeight - 8)) + "px";
@@ -75,7 +78,7 @@ function list(f = "") {
   state.mons.filter(m => m.id >= lo && m.id <= hi && (m.name.toLowerCase().includes(f) || String(m.id).includes(f))).forEach(m => {
     const b = document.createElement("button");
     b.className = "cell"; b.setAttribute("aria-pressed", !!state.sel && state.sel.id === m.id); b.setAttribute("aria-label", m.name);
-    b.innerHTML = `<img alt="" src="${m.sprite}"><small>#${pad(m.id)}</small><span>${m.name}</span>`;
+    b.innerHTML = `<img alt="" src="${m.sprites[state.gen.id]}"><small>#${pad(m.id)}</small><span>${m.name}</span>`;
     b.onclick = () => { state.sel = m; u.querySelectorAll(".cell").forEach(c => c.setAttribute("aria-pressed", c === b)); draw() };
     u.appendChild(b);
   });
@@ -158,6 +161,7 @@ async function setGeneration(g) {
   $("mapimg").setAttribute("href", region.map);
   $("mapimg").setAttribute("width", region.mapSize[0]); $("mapimg").setAttribute("height", region.mapSize[1]);
   $("m").setAttribute("viewBox", `0 0 ${region.mapSize[0]} ${region.mapSize[1]}`);
+  document.querySelector("#b feGaussianBlur").setAttribute("stdDeviation", 7 * region.mapSize[0] / 1130);
   setColor(); buildGames(); drawGens(); list($("q").value); draw();
 }
 $("q").oninput = e => list(e.target.value);

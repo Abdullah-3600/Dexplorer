@@ -2,756 +2,1909 @@
  {
   "id": 1,
   "name": "Bulbasaur",
-  "sprite": "assets/sprites/gen1/1.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/1.png",
+   "2": "assets/sprites/gen2/1.png"
+  }
  },
  {
   "id": 2,
   "name": "Ivysaur",
-  "sprite": "assets/sprites/gen1/2.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/2.png",
+   "2": "assets/sprites/gen2/2.png"
+  }
  },
  {
   "id": 3,
   "name": "Venusaur",
-  "sprite": "assets/sprites/gen1/3.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/3.png",
+   "2": "assets/sprites/gen2/3.png"
+  }
  },
  {
   "id": 4,
   "name": "Charmander",
-  "sprite": "assets/sprites/gen1/4.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/4.png",
+   "2": "assets/sprites/gen2/4.png"
+  }
  },
  {
   "id": 5,
   "name": "Charmeleon",
-  "sprite": "assets/sprites/gen1/5.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/5.png",
+   "2": "assets/sprites/gen2/5.png"
+  }
  },
  {
   "id": 6,
   "name": "Charizard",
-  "sprite": "assets/sprites/gen1/6.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/6.png",
+   "2": "assets/sprites/gen2/6.png"
+  }
  },
  {
   "id": 7,
   "name": "Squirtle",
-  "sprite": "assets/sprites/gen1/7.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/7.png",
+   "2": "assets/sprites/gen2/7.png"
+  }
  },
  {
   "id": 8,
   "name": "Wartortle",
-  "sprite": "assets/sprites/gen1/8.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/8.png",
+   "2": "assets/sprites/gen2/8.png"
+  }
  },
  {
   "id": 9,
   "name": "Blastoise",
-  "sprite": "assets/sprites/gen1/9.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/9.png",
+   "2": "assets/sprites/gen2/9.png"
+  }
  },
  {
   "id": 10,
   "name": "Caterpie",
-  "sprite": "assets/sprites/gen1/10.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/10.png",
+   "2": "assets/sprites/gen2/10.png"
+  }
  },
  {
   "id": 11,
   "name": "Metapod",
-  "sprite": "assets/sprites/gen1/11.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/11.png",
+   "2": "assets/sprites/gen2/11.png"
+  }
  },
  {
   "id": 12,
   "name": "Butterfree",
-  "sprite": "assets/sprites/gen1/12.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/12.png",
+   "2": "assets/sprites/gen2/12.png"
+  }
  },
  {
   "id": 13,
   "name": "Weedle",
-  "sprite": "assets/sprites/gen1/13.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/13.png",
+   "2": "assets/sprites/gen2/13.png"
+  }
  },
  {
   "id": 14,
   "name": "Kakuna",
-  "sprite": "assets/sprites/gen1/14.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/14.png",
+   "2": "assets/sprites/gen2/14.png"
+  }
  },
  {
   "id": 15,
   "name": "Beedrill",
-  "sprite": "assets/sprites/gen1/15.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/15.png",
+   "2": "assets/sprites/gen2/15.png"
+  }
  },
  {
   "id": 16,
   "name": "Pidgey",
-  "sprite": "assets/sprites/gen1/16.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/16.png",
+   "2": "assets/sprites/gen2/16.png"
+  }
  },
  {
   "id": 17,
   "name": "Pidgeotto",
-  "sprite": "assets/sprites/gen1/17.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/17.png",
+   "2": "assets/sprites/gen2/17.png"
+  }
  },
  {
   "id": 18,
   "name": "Pidgeot",
-  "sprite": "assets/sprites/gen1/18.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/18.png",
+   "2": "assets/sprites/gen2/18.png"
+  }
  },
  {
   "id": 19,
   "name": "Rattata",
-  "sprite": "assets/sprites/gen1/19.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/19.png",
+   "2": "assets/sprites/gen2/19.png"
+  }
  },
  {
   "id": 20,
   "name": "Raticate",
-  "sprite": "assets/sprites/gen1/20.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/20.png",
+   "2": "assets/sprites/gen2/20.png"
+  }
  },
  {
   "id": 21,
   "name": "Spearow",
-  "sprite": "assets/sprites/gen1/21.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/21.png",
+   "2": "assets/sprites/gen2/21.png"
+  }
  },
  {
   "id": 22,
   "name": "Fearow",
-  "sprite": "assets/sprites/gen1/22.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/22.png",
+   "2": "assets/sprites/gen2/22.png"
+  }
  },
  {
   "id": 23,
   "name": "Ekans",
-  "sprite": "assets/sprites/gen1/23.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/23.png",
+   "2": "assets/sprites/gen2/23.png"
+  }
  },
  {
   "id": 24,
   "name": "Arbok",
-  "sprite": "assets/sprites/gen1/24.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/24.png",
+   "2": "assets/sprites/gen2/24.png"
+  }
  },
  {
   "id": 25,
   "name": "Pikachu",
-  "sprite": "assets/sprites/gen1/25.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/25.png",
+   "2": "assets/sprites/gen2/25.png"
+  }
  },
  {
   "id": 26,
   "name": "Raichu",
-  "sprite": "assets/sprites/gen1/26.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/26.png",
+   "2": "assets/sprites/gen2/26.png"
+  }
  },
  {
   "id": 27,
   "name": "Sandshrew",
-  "sprite": "assets/sprites/gen1/27.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/27.png",
+   "2": "assets/sprites/gen2/27.png"
+  }
  },
  {
   "id": 28,
   "name": "Sandslash",
-  "sprite": "assets/sprites/gen1/28.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/28.png",
+   "2": "assets/sprites/gen2/28.png"
+  }
  },
  {
   "id": 29,
   "name": "Nidoran♀",
-  "sprite": "assets/sprites/gen1/29.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/29.png",
+   "2": "assets/sprites/gen2/29.png"
+  }
  },
  {
   "id": 30,
   "name": "Nidorina",
-  "sprite": "assets/sprites/gen1/30.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/30.png",
+   "2": "assets/sprites/gen2/30.png"
+  }
  },
  {
   "id": 31,
   "name": "Nidoqueen",
-  "sprite": "assets/sprites/gen1/31.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/31.png",
+   "2": "assets/sprites/gen2/31.png"
+  }
  },
  {
   "id": 32,
   "name": "Nidoran♂",
-  "sprite": "assets/sprites/gen1/32.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/32.png",
+   "2": "assets/sprites/gen2/32.png"
+  }
  },
  {
   "id": 33,
   "name": "Nidorino",
-  "sprite": "assets/sprites/gen1/33.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/33.png",
+   "2": "assets/sprites/gen2/33.png"
+  }
  },
  {
   "id": 34,
   "name": "Nidoking",
-  "sprite": "assets/sprites/gen1/34.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/34.png",
+   "2": "assets/sprites/gen2/34.png"
+  }
  },
  {
   "id": 35,
   "name": "Clefairy",
-  "sprite": "assets/sprites/gen1/35.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/35.png",
+   "2": "assets/sprites/gen2/35.png"
+  }
  },
  {
   "id": 36,
   "name": "Clefable",
-  "sprite": "assets/sprites/gen1/36.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/36.png",
+   "2": "assets/sprites/gen2/36.png"
+  }
  },
  {
   "id": 37,
   "name": "Vulpix",
-  "sprite": "assets/sprites/gen1/37.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/37.png",
+   "2": "assets/sprites/gen2/37.png"
+  }
  },
  {
   "id": 38,
   "name": "Ninetales",
-  "sprite": "assets/sprites/gen1/38.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/38.png",
+   "2": "assets/sprites/gen2/38.png"
+  }
  },
  {
   "id": 39,
   "name": "Jigglypuff",
-  "sprite": "assets/sprites/gen1/39.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/39.png",
+   "2": "assets/sprites/gen2/39.png"
+  }
  },
  {
   "id": 40,
   "name": "Wigglytuff",
-  "sprite": "assets/sprites/gen1/40.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/40.png",
+   "2": "assets/sprites/gen2/40.png"
+  }
  },
  {
   "id": 41,
   "name": "Zubat",
-  "sprite": "assets/sprites/gen1/41.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/41.png",
+   "2": "assets/sprites/gen2/41.png"
+  }
  },
  {
   "id": 42,
   "name": "Golbat",
-  "sprite": "assets/sprites/gen1/42.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/42.png",
+   "2": "assets/sprites/gen2/42.png"
+  }
  },
  {
   "id": 43,
   "name": "Oddish",
-  "sprite": "assets/sprites/gen1/43.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/43.png",
+   "2": "assets/sprites/gen2/43.png"
+  }
  },
  {
   "id": 44,
   "name": "Gloom",
-  "sprite": "assets/sprites/gen1/44.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/44.png",
+   "2": "assets/sprites/gen2/44.png"
+  }
  },
  {
   "id": 45,
   "name": "Vileplume",
-  "sprite": "assets/sprites/gen1/45.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/45.png",
+   "2": "assets/sprites/gen2/45.png"
+  }
  },
  {
   "id": 46,
   "name": "Paras",
-  "sprite": "assets/sprites/gen1/46.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/46.png",
+   "2": "assets/sprites/gen2/46.png"
+  }
  },
  {
   "id": 47,
   "name": "Parasect",
-  "sprite": "assets/sprites/gen1/47.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/47.png",
+   "2": "assets/sprites/gen2/47.png"
+  }
  },
  {
   "id": 48,
   "name": "Venonat",
-  "sprite": "assets/sprites/gen1/48.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/48.png",
+   "2": "assets/sprites/gen2/48.png"
+  }
  },
  {
   "id": 49,
   "name": "Venomoth",
-  "sprite": "assets/sprites/gen1/49.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/49.png",
+   "2": "assets/sprites/gen2/49.png"
+  }
  },
  {
   "id": 50,
   "name": "Diglett",
-  "sprite": "assets/sprites/gen1/50.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/50.png",
+   "2": "assets/sprites/gen2/50.png"
+  }
  },
  {
   "id": 51,
   "name": "Dugtrio",
-  "sprite": "assets/sprites/gen1/51.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/51.png",
+   "2": "assets/sprites/gen2/51.png"
+  }
  },
  {
   "id": 52,
   "name": "Meowth",
-  "sprite": "assets/sprites/gen1/52.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/52.png",
+   "2": "assets/sprites/gen2/52.png"
+  }
  },
  {
   "id": 53,
   "name": "Persian",
-  "sprite": "assets/sprites/gen1/53.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/53.png",
+   "2": "assets/sprites/gen2/53.png"
+  }
  },
  {
   "id": 54,
   "name": "Psyduck",
-  "sprite": "assets/sprites/gen1/54.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/54.png",
+   "2": "assets/sprites/gen2/54.png"
+  }
  },
  {
   "id": 55,
   "name": "Golduck",
-  "sprite": "assets/sprites/gen1/55.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/55.png",
+   "2": "assets/sprites/gen2/55.png"
+  }
  },
  {
   "id": 56,
   "name": "Mankey",
-  "sprite": "assets/sprites/gen1/56.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/56.png",
+   "2": "assets/sprites/gen2/56.png"
+  }
  },
  {
   "id": 57,
   "name": "Primeape",
-  "sprite": "assets/sprites/gen1/57.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/57.png",
+   "2": "assets/sprites/gen2/57.png"
+  }
  },
  {
   "id": 58,
   "name": "Growlithe",
-  "sprite": "assets/sprites/gen1/58.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/58.png",
+   "2": "assets/sprites/gen2/58.png"
+  }
  },
  {
   "id": 59,
   "name": "Arcanine",
-  "sprite": "assets/sprites/gen1/59.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/59.png",
+   "2": "assets/sprites/gen2/59.png"
+  }
  },
  {
   "id": 60,
   "name": "Poliwag",
-  "sprite": "assets/sprites/gen1/60.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/60.png",
+   "2": "assets/sprites/gen2/60.png"
+  }
  },
  {
   "id": 61,
   "name": "Poliwhirl",
-  "sprite": "assets/sprites/gen1/61.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/61.png",
+   "2": "assets/sprites/gen2/61.png"
+  }
  },
  {
   "id": 62,
   "name": "Poliwrath",
-  "sprite": "assets/sprites/gen1/62.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/62.png",
+   "2": "assets/sprites/gen2/62.png"
+  }
  },
  {
   "id": 63,
   "name": "Abra",
-  "sprite": "assets/sprites/gen1/63.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/63.png",
+   "2": "assets/sprites/gen2/63.png"
+  }
  },
  {
   "id": 64,
   "name": "Kadabra",
-  "sprite": "assets/sprites/gen1/64.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/64.png",
+   "2": "assets/sprites/gen2/64.png"
+  }
  },
  {
   "id": 65,
   "name": "Alakazam",
-  "sprite": "assets/sprites/gen1/65.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/65.png",
+   "2": "assets/sprites/gen2/65.png"
+  }
  },
  {
   "id": 66,
   "name": "Machop",
-  "sprite": "assets/sprites/gen1/66.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/66.png",
+   "2": "assets/sprites/gen2/66.png"
+  }
  },
  {
   "id": 67,
   "name": "Machoke",
-  "sprite": "assets/sprites/gen1/67.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/67.png",
+   "2": "assets/sprites/gen2/67.png"
+  }
  },
  {
   "id": 68,
   "name": "Machamp",
-  "sprite": "assets/sprites/gen1/68.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/68.png",
+   "2": "assets/sprites/gen2/68.png"
+  }
  },
  {
   "id": 69,
   "name": "Bellsprout",
-  "sprite": "assets/sprites/gen1/69.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/69.png",
+   "2": "assets/sprites/gen2/69.png"
+  }
  },
  {
   "id": 70,
   "name": "Weepinbell",
-  "sprite": "assets/sprites/gen1/70.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/70.png",
+   "2": "assets/sprites/gen2/70.png"
+  }
  },
  {
   "id": 71,
   "name": "Victreebel",
-  "sprite": "assets/sprites/gen1/71.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/71.png",
+   "2": "assets/sprites/gen2/71.png"
+  }
  },
  {
   "id": 72,
   "name": "Tentacool",
-  "sprite": "assets/sprites/gen1/72.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/72.png",
+   "2": "assets/sprites/gen2/72.png"
+  }
  },
  {
   "id": 73,
   "name": "Tentacruel",
-  "sprite": "assets/sprites/gen1/73.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/73.png",
+   "2": "assets/sprites/gen2/73.png"
+  }
  },
  {
   "id": 74,
   "name": "Geodude",
-  "sprite": "assets/sprites/gen1/74.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/74.png",
+   "2": "assets/sprites/gen2/74.png"
+  }
  },
  {
   "id": 75,
   "name": "Graveler",
-  "sprite": "assets/sprites/gen1/75.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/75.png",
+   "2": "assets/sprites/gen2/75.png"
+  }
  },
  {
   "id": 76,
   "name": "Golem",
-  "sprite": "assets/sprites/gen1/76.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/76.png",
+   "2": "assets/sprites/gen2/76.png"
+  }
  },
  {
   "id": 77,
   "name": "Ponyta",
-  "sprite": "assets/sprites/gen1/77.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/77.png",
+   "2": "assets/sprites/gen2/77.png"
+  }
  },
  {
   "id": 78,
   "name": "Rapidash",
-  "sprite": "assets/sprites/gen1/78.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/78.png",
+   "2": "assets/sprites/gen2/78.png"
+  }
  },
  {
   "id": 79,
   "name": "Slowpoke",
-  "sprite": "assets/sprites/gen1/79.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/79.png",
+   "2": "assets/sprites/gen2/79.png"
+  }
  },
  {
   "id": 80,
   "name": "Slowbro",
-  "sprite": "assets/sprites/gen1/80.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/80.png",
+   "2": "assets/sprites/gen2/80.png"
+  }
  },
  {
   "id": 81,
   "name": "Magnemite",
-  "sprite": "assets/sprites/gen1/81.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/81.png",
+   "2": "assets/sprites/gen2/81.png"
+  }
  },
  {
   "id": 82,
   "name": "Magneton",
-  "sprite": "assets/sprites/gen1/82.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/82.png",
+   "2": "assets/sprites/gen2/82.png"
+  }
  },
  {
   "id": 83,
   "name": "Farfetch'd",
-  "sprite": "assets/sprites/gen1/83.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/83.png",
+   "2": "assets/sprites/gen2/83.png"
+  }
  },
  {
   "id": 84,
   "name": "Doduo",
-  "sprite": "assets/sprites/gen1/84.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/84.png",
+   "2": "assets/sprites/gen2/84.png"
+  }
  },
  {
   "id": 85,
   "name": "Dodrio",
-  "sprite": "assets/sprites/gen1/85.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/85.png",
+   "2": "assets/sprites/gen2/85.png"
+  }
  },
  {
   "id": 86,
   "name": "Seel",
-  "sprite": "assets/sprites/gen1/86.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/86.png",
+   "2": "assets/sprites/gen2/86.png"
+  }
  },
  {
   "id": 87,
   "name": "Dewgong",
-  "sprite": "assets/sprites/gen1/87.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/87.png",
+   "2": "assets/sprites/gen2/87.png"
+  }
  },
  {
   "id": 88,
   "name": "Grimer",
-  "sprite": "assets/sprites/gen1/88.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/88.png",
+   "2": "assets/sprites/gen2/88.png"
+  }
  },
  {
   "id": 89,
   "name": "Muk",
-  "sprite": "assets/sprites/gen1/89.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/89.png",
+   "2": "assets/sprites/gen2/89.png"
+  }
  },
  {
   "id": 90,
   "name": "Shellder",
-  "sprite": "assets/sprites/gen1/90.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/90.png",
+   "2": "assets/sprites/gen2/90.png"
+  }
  },
  {
   "id": 91,
   "name": "Cloyster",
-  "sprite": "assets/sprites/gen1/91.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/91.png",
+   "2": "assets/sprites/gen2/91.png"
+  }
  },
  {
   "id": 92,
   "name": "Gastly",
-  "sprite": "assets/sprites/gen1/92.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/92.png",
+   "2": "assets/sprites/gen2/92.png"
+  }
  },
  {
   "id": 93,
   "name": "Haunter",
-  "sprite": "assets/sprites/gen1/93.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/93.png",
+   "2": "assets/sprites/gen2/93.png"
+  }
  },
  {
   "id": 94,
   "name": "Gengar",
-  "sprite": "assets/sprites/gen1/94.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/94.png",
+   "2": "assets/sprites/gen2/94.png"
+  }
  },
  {
   "id": 95,
   "name": "Onix",
-  "sprite": "assets/sprites/gen1/95.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/95.png",
+   "2": "assets/sprites/gen2/95.png"
+  }
  },
  {
   "id": 96,
   "name": "Drowzee",
-  "sprite": "assets/sprites/gen1/96.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/96.png",
+   "2": "assets/sprites/gen2/96.png"
+  }
  },
  {
   "id": 97,
   "name": "Hypno",
-  "sprite": "assets/sprites/gen1/97.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/97.png",
+   "2": "assets/sprites/gen2/97.png"
+  }
  },
  {
   "id": 98,
   "name": "Krabby",
-  "sprite": "assets/sprites/gen1/98.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/98.png",
+   "2": "assets/sprites/gen2/98.png"
+  }
  },
  {
   "id": 99,
   "name": "Kingler",
-  "sprite": "assets/sprites/gen1/99.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/99.png",
+   "2": "assets/sprites/gen2/99.png"
+  }
  },
  {
   "id": 100,
   "name": "Voltorb",
-  "sprite": "assets/sprites/gen1/100.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/100.png",
+   "2": "assets/sprites/gen2/100.png"
+  }
  },
  {
   "id": 101,
   "name": "Electrode",
-  "sprite": "assets/sprites/gen1/101.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/101.png",
+   "2": "assets/sprites/gen2/101.png"
+  }
  },
  {
   "id": 102,
   "name": "Exeggcute",
-  "sprite": "assets/sprites/gen1/102.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/102.png",
+   "2": "assets/sprites/gen2/102.png"
+  }
  },
  {
   "id": 103,
   "name": "Exeggutor",
-  "sprite": "assets/sprites/gen1/103.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/103.png",
+   "2": "assets/sprites/gen2/103.png"
+  }
  },
  {
   "id": 104,
   "name": "Cubone",
-  "sprite": "assets/sprites/gen1/104.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/104.png",
+   "2": "assets/sprites/gen2/104.png"
+  }
  },
  {
   "id": 105,
   "name": "Marowak",
-  "sprite": "assets/sprites/gen1/105.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/105.png",
+   "2": "assets/sprites/gen2/105.png"
+  }
  },
  {
   "id": 106,
   "name": "Hitmonlee",
-  "sprite": "assets/sprites/gen1/106.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/106.png",
+   "2": "assets/sprites/gen2/106.png"
+  }
  },
  {
   "id": 107,
   "name": "Hitmonchan",
-  "sprite": "assets/sprites/gen1/107.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/107.png",
+   "2": "assets/sprites/gen2/107.png"
+  }
  },
  {
   "id": 108,
   "name": "Lickitung",
-  "sprite": "assets/sprites/gen1/108.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/108.png",
+   "2": "assets/sprites/gen2/108.png"
+  }
  },
  {
   "id": 109,
   "name": "Koffing",
-  "sprite": "assets/sprites/gen1/109.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/109.png",
+   "2": "assets/sprites/gen2/109.png"
+  }
  },
  {
   "id": 110,
   "name": "Weezing",
-  "sprite": "assets/sprites/gen1/110.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/110.png",
+   "2": "assets/sprites/gen2/110.png"
+  }
  },
  {
   "id": 111,
   "name": "Rhyhorn",
-  "sprite": "assets/sprites/gen1/111.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/111.png",
+   "2": "assets/sprites/gen2/111.png"
+  }
  },
  {
   "id": 112,
   "name": "Rhydon",
-  "sprite": "assets/sprites/gen1/112.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/112.png",
+   "2": "assets/sprites/gen2/112.png"
+  }
  },
  {
   "id": 113,
   "name": "Chansey",
-  "sprite": "assets/sprites/gen1/113.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/113.png",
+   "2": "assets/sprites/gen2/113.png"
+  }
  },
  {
   "id": 114,
   "name": "Tangela",
-  "sprite": "assets/sprites/gen1/114.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/114.png",
+   "2": "assets/sprites/gen2/114.png"
+  }
  },
  {
   "id": 115,
   "name": "Kangaskhan",
-  "sprite": "assets/sprites/gen1/115.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/115.png",
+   "2": "assets/sprites/gen2/115.png"
+  }
  },
  {
   "id": 116,
   "name": "Horsea",
-  "sprite": "assets/sprites/gen1/116.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/116.png",
+   "2": "assets/sprites/gen2/116.png"
+  }
  },
  {
   "id": 117,
   "name": "Seadra",
-  "sprite": "assets/sprites/gen1/117.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/117.png",
+   "2": "assets/sprites/gen2/117.png"
+  }
  },
  {
   "id": 118,
   "name": "Goldeen",
-  "sprite": "assets/sprites/gen1/118.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/118.png",
+   "2": "assets/sprites/gen2/118.png"
+  }
  },
  {
   "id": 119,
   "name": "Seaking",
-  "sprite": "assets/sprites/gen1/119.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/119.png",
+   "2": "assets/sprites/gen2/119.png"
+  }
  },
  {
   "id": 120,
   "name": "Staryu",
-  "sprite": "assets/sprites/gen1/120.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/120.png",
+   "2": "assets/sprites/gen2/120.png"
+  }
  },
  {
   "id": 121,
   "name": "Starmie",
-  "sprite": "assets/sprites/gen1/121.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/121.png",
+   "2": "assets/sprites/gen2/121.png"
+  }
  },
  {
   "id": 122,
   "name": "Mr. Mime",
-  "sprite": "assets/sprites/gen1/122.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/122.png",
+   "2": "assets/sprites/gen2/122.png"
+  }
  },
  {
   "id": 123,
   "name": "Scyther",
-  "sprite": "assets/sprites/gen1/123.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/123.png",
+   "2": "assets/sprites/gen2/123.png"
+  }
  },
  {
   "id": 124,
   "name": "Jynx",
-  "sprite": "assets/sprites/gen1/124.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/124.png",
+   "2": "assets/sprites/gen2/124.png"
+  }
  },
  {
   "id": 125,
   "name": "Electabuzz",
-  "sprite": "assets/sprites/gen1/125.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/125.png",
+   "2": "assets/sprites/gen2/125.png"
+  }
  },
  {
   "id": 126,
   "name": "Magmar",
-  "sprite": "assets/sprites/gen1/126.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/126.png",
+   "2": "assets/sprites/gen2/126.png"
+  }
  },
  {
   "id": 127,
   "name": "Pinsir",
-  "sprite": "assets/sprites/gen1/127.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/127.png",
+   "2": "assets/sprites/gen2/127.png"
+  }
  },
  {
   "id": 128,
   "name": "Tauros",
-  "sprite": "assets/sprites/gen1/128.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/128.png",
+   "2": "assets/sprites/gen2/128.png"
+  }
  },
  {
   "id": 129,
   "name": "Magikarp",
-  "sprite": "assets/sprites/gen1/129.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/129.png",
+   "2": "assets/sprites/gen2/129.png"
+  }
  },
  {
   "id": 130,
   "name": "Gyarados",
-  "sprite": "assets/sprites/gen1/130.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/130.png",
+   "2": "assets/sprites/gen2/130.png"
+  }
  },
  {
   "id": 131,
   "name": "Lapras",
-  "sprite": "assets/sprites/gen1/131.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/131.png",
+   "2": "assets/sprites/gen2/131.png"
+  }
  },
  {
   "id": 132,
   "name": "Ditto",
-  "sprite": "assets/sprites/gen1/132.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/132.png",
+   "2": "assets/sprites/gen2/132.png"
+  }
  },
  {
   "id": 133,
   "name": "Eevee",
-  "sprite": "assets/sprites/gen1/133.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/133.png",
+   "2": "assets/sprites/gen2/133.png"
+  }
  },
  {
   "id": 134,
   "name": "Vaporeon",
-  "sprite": "assets/sprites/gen1/134.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/134.png",
+   "2": "assets/sprites/gen2/134.png"
+  }
  },
  {
   "id": 135,
   "name": "Jolteon",
-  "sprite": "assets/sprites/gen1/135.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/135.png",
+   "2": "assets/sprites/gen2/135.png"
+  }
  },
  {
   "id": 136,
   "name": "Flareon",
-  "sprite": "assets/sprites/gen1/136.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/136.png",
+   "2": "assets/sprites/gen2/136.png"
+  }
  },
  {
   "id": 137,
   "name": "Porygon",
-  "sprite": "assets/sprites/gen1/137.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/137.png",
+   "2": "assets/sprites/gen2/137.png"
+  }
  },
  {
   "id": 138,
   "name": "Omanyte",
-  "sprite": "assets/sprites/gen1/138.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/138.png",
+   "2": "assets/sprites/gen2/138.png"
+  }
  },
  {
   "id": 139,
   "name": "Omastar",
-  "sprite": "assets/sprites/gen1/139.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/139.png",
+   "2": "assets/sprites/gen2/139.png"
+  }
  },
  {
   "id": 140,
   "name": "Kabuto",
-  "sprite": "assets/sprites/gen1/140.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/140.png",
+   "2": "assets/sprites/gen2/140.png"
+  }
  },
  {
   "id": 141,
   "name": "Kabutops",
-  "sprite": "assets/sprites/gen1/141.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/141.png",
+   "2": "assets/sprites/gen2/141.png"
+  }
  },
  {
   "id": 142,
   "name": "Aerodactyl",
-  "sprite": "assets/sprites/gen1/142.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/142.png",
+   "2": "assets/sprites/gen2/142.png"
+  }
  },
  {
   "id": 143,
   "name": "Snorlax",
-  "sprite": "assets/sprites/gen1/143.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/143.png",
+   "2": "assets/sprites/gen2/143.png"
+  }
  },
  {
   "id": 144,
   "name": "Articuno",
-  "sprite": "assets/sprites/gen1/144.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/144.png",
+   "2": "assets/sprites/gen2/144.png"
+  }
  },
  {
   "id": 145,
   "name": "Zapdos",
-  "sprite": "assets/sprites/gen1/145.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/145.png",
+   "2": "assets/sprites/gen2/145.png"
+  }
  },
  {
   "id": 146,
   "name": "Moltres",
-  "sprite": "assets/sprites/gen1/146.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/146.png",
+   "2": "assets/sprites/gen2/146.png"
+  }
  },
  {
   "id": 147,
   "name": "Dratini",
-  "sprite": "assets/sprites/gen1/147.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/147.png",
+   "2": "assets/sprites/gen2/147.png"
+  }
  },
  {
   "id": 148,
   "name": "Dragonair",
-  "sprite": "assets/sprites/gen1/148.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/148.png",
+   "2": "assets/sprites/gen2/148.png"
+  }
  },
  {
   "id": 149,
   "name": "Dragonite",
-  "sprite": "assets/sprites/gen1/149.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/149.png",
+   "2": "assets/sprites/gen2/149.png"
+  }
  },
  {
   "id": 150,
   "name": "Mewtwo",
-  "sprite": "assets/sprites/gen1/150.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/150.png",
+   "2": "assets/sprites/gen2/150.png"
+  }
  },
  {
   "id": 151,
   "name": "Mew",
-  "sprite": "assets/sprites/gen1/151.png"
+  "sprites": {
+   "1": "assets/sprites/gen1/151.png",
+   "2": "assets/sprites/gen2/151.png"
+  }
+ },
+ {
+  "id": 152,
+  "name": "Chikorita",
+  "sprites": {
+   "2": "assets/sprites/gen2/152.png"
+  }
+ },
+ {
+  "id": 153,
+  "name": "Bayleef",
+  "sprites": {
+   "2": "assets/sprites/gen2/153.png"
+  }
+ },
+ {
+  "id": 154,
+  "name": "Meganium",
+  "sprites": {
+   "2": "assets/sprites/gen2/154.png"
+  }
+ },
+ {
+  "id": 155,
+  "name": "Cyndaquil",
+  "sprites": {
+   "2": "assets/sprites/gen2/155.png"
+  }
+ },
+ {
+  "id": 156,
+  "name": "Quilava",
+  "sprites": {
+   "2": "assets/sprites/gen2/156.png"
+  }
+ },
+ {
+  "id": 157,
+  "name": "Typhlosion",
+  "sprites": {
+   "2": "assets/sprites/gen2/157.png"
+  }
+ },
+ {
+  "id": 158,
+  "name": "Totodile",
+  "sprites": {
+   "2": "assets/sprites/gen2/158.png"
+  }
+ },
+ {
+  "id": 159,
+  "name": "Croconaw",
+  "sprites": {
+   "2": "assets/sprites/gen2/159.png"
+  }
+ },
+ {
+  "id": 160,
+  "name": "Feraligatr",
+  "sprites": {
+   "2": "assets/sprites/gen2/160.png"
+  }
+ },
+ {
+  "id": 161,
+  "name": "Sentret",
+  "sprites": {
+   "2": "assets/sprites/gen2/161.png"
+  }
+ },
+ {
+  "id": 162,
+  "name": "Furret",
+  "sprites": {
+   "2": "assets/sprites/gen2/162.png"
+  }
+ },
+ {
+  "id": 163,
+  "name": "Hoothoot",
+  "sprites": {
+   "2": "assets/sprites/gen2/163.png"
+  }
+ },
+ {
+  "id": 164,
+  "name": "Noctowl",
+  "sprites": {
+   "2": "assets/sprites/gen2/164.png"
+  }
+ },
+ {
+  "id": 165,
+  "name": "Ledyba",
+  "sprites": {
+   "2": "assets/sprites/gen2/165.png"
+  }
+ },
+ {
+  "id": 166,
+  "name": "Ledian",
+  "sprites": {
+   "2": "assets/sprites/gen2/166.png"
+  }
+ },
+ {
+  "id": 167,
+  "name": "Spinarak",
+  "sprites": {
+   "2": "assets/sprites/gen2/167.png"
+  }
+ },
+ {
+  "id": 168,
+  "name": "Ariados",
+  "sprites": {
+   "2": "assets/sprites/gen2/168.png"
+  }
+ },
+ {
+  "id": 169,
+  "name": "Crobat",
+  "sprites": {
+   "2": "assets/sprites/gen2/169.png"
+  }
+ },
+ {
+  "id": 170,
+  "name": "Chinchou",
+  "sprites": {
+   "2": "assets/sprites/gen2/170.png"
+  }
+ },
+ {
+  "id": 171,
+  "name": "Lanturn",
+  "sprites": {
+   "2": "assets/sprites/gen2/171.png"
+  }
+ },
+ {
+  "id": 172,
+  "name": "Pichu",
+  "sprites": {
+   "2": "assets/sprites/gen2/172.png"
+  }
+ },
+ {
+  "id": 173,
+  "name": "Cleffa",
+  "sprites": {
+   "2": "assets/sprites/gen2/173.png"
+  }
+ },
+ {
+  "id": 174,
+  "name": "Igglybuff",
+  "sprites": {
+   "2": "assets/sprites/gen2/174.png"
+  }
+ },
+ {
+  "id": 175,
+  "name": "Togepi",
+  "sprites": {
+   "2": "assets/sprites/gen2/175.png"
+  }
+ },
+ {
+  "id": 176,
+  "name": "Togetic",
+  "sprites": {
+   "2": "assets/sprites/gen2/176.png"
+  }
+ },
+ {
+  "id": 177,
+  "name": "Natu",
+  "sprites": {
+   "2": "assets/sprites/gen2/177.png"
+  }
+ },
+ {
+  "id": 178,
+  "name": "Xatu",
+  "sprites": {
+   "2": "assets/sprites/gen2/178.png"
+  }
+ },
+ {
+  "id": 179,
+  "name": "Mareep",
+  "sprites": {
+   "2": "assets/sprites/gen2/179.png"
+  }
+ },
+ {
+  "id": 180,
+  "name": "Flaaffy",
+  "sprites": {
+   "2": "assets/sprites/gen2/180.png"
+  }
+ },
+ {
+  "id": 181,
+  "name": "Ampharos",
+  "sprites": {
+   "2": "assets/sprites/gen2/181.png"
+  }
+ },
+ {
+  "id": 182,
+  "name": "Bellossom",
+  "sprites": {
+   "2": "assets/sprites/gen2/182.png"
+  }
+ },
+ {
+  "id": 183,
+  "name": "Marill",
+  "sprites": {
+   "2": "assets/sprites/gen2/183.png"
+  }
+ },
+ {
+  "id": 184,
+  "name": "Azumarill",
+  "sprites": {
+   "2": "assets/sprites/gen2/184.png"
+  }
+ },
+ {
+  "id": 185,
+  "name": "Sudowoodo",
+  "sprites": {
+   "2": "assets/sprites/gen2/185.png"
+  }
+ },
+ {
+  "id": 186,
+  "name": "Politoed",
+  "sprites": {
+   "2": "assets/sprites/gen2/186.png"
+  }
+ },
+ {
+  "id": 187,
+  "name": "Hoppip",
+  "sprites": {
+   "2": "assets/sprites/gen2/187.png"
+  }
+ },
+ {
+  "id": 188,
+  "name": "Skiploom",
+  "sprites": {
+   "2": "assets/sprites/gen2/188.png"
+  }
+ },
+ {
+  "id": 189,
+  "name": "Jumpluff",
+  "sprites": {
+   "2": "assets/sprites/gen2/189.png"
+  }
+ },
+ {
+  "id": 190,
+  "name": "Aipom",
+  "sprites": {
+   "2": "assets/sprites/gen2/190.png"
+  }
+ },
+ {
+  "id": 191,
+  "name": "Sunkern",
+  "sprites": {
+   "2": "assets/sprites/gen2/191.png"
+  }
+ },
+ {
+  "id": 192,
+  "name": "Sunflora",
+  "sprites": {
+   "2": "assets/sprites/gen2/192.png"
+  }
+ },
+ {
+  "id": 193,
+  "name": "Yanma",
+  "sprites": {
+   "2": "assets/sprites/gen2/193.png"
+  }
+ },
+ {
+  "id": 194,
+  "name": "Wooper",
+  "sprites": {
+   "2": "assets/sprites/gen2/194.png"
+  }
+ },
+ {
+  "id": 195,
+  "name": "Quagsire",
+  "sprites": {
+   "2": "assets/sprites/gen2/195.png"
+  }
+ },
+ {
+  "id": 196,
+  "name": "Espeon",
+  "sprites": {
+   "2": "assets/sprites/gen2/196.png"
+  }
+ },
+ {
+  "id": 197,
+  "name": "Umbreon",
+  "sprites": {
+   "2": "assets/sprites/gen2/197.png"
+  }
+ },
+ {
+  "id": 198,
+  "name": "Murkrow",
+  "sprites": {
+   "2": "assets/sprites/gen2/198.png"
+  }
+ },
+ {
+  "id": 199,
+  "name": "Slowking",
+  "sprites": {
+   "2": "assets/sprites/gen2/199.png"
+  }
+ },
+ {
+  "id": 200,
+  "name": "Misdreavus",
+  "sprites": {
+   "2": "assets/sprites/gen2/200.png"
+  }
+ },
+ {
+  "id": 201,
+  "name": "Unown",
+  "sprites": {
+   "2": "assets/sprites/gen2/201.png"
+  }
+ },
+ {
+  "id": 202,
+  "name": "Wobbuffet",
+  "sprites": {
+   "2": "assets/sprites/gen2/202.png"
+  }
+ },
+ {
+  "id": 203,
+  "name": "Girafarig",
+  "sprites": {
+   "2": "assets/sprites/gen2/203.png"
+  }
+ },
+ {
+  "id": 204,
+  "name": "Pineco",
+  "sprites": {
+   "2": "assets/sprites/gen2/204.png"
+  }
+ },
+ {
+  "id": 205,
+  "name": "Forretress",
+  "sprites": {
+   "2": "assets/sprites/gen2/205.png"
+  }
+ },
+ {
+  "id": 206,
+  "name": "Dunsparce",
+  "sprites": {
+   "2": "assets/sprites/gen2/206.png"
+  }
+ },
+ {
+  "id": 207,
+  "name": "Gligar",
+  "sprites": {
+   "2": "assets/sprites/gen2/207.png"
+  }
+ },
+ {
+  "id": 208,
+  "name": "Steelix",
+  "sprites": {
+   "2": "assets/sprites/gen2/208.png"
+  }
+ },
+ {
+  "id": 209,
+  "name": "Snubbull",
+  "sprites": {
+   "2": "assets/sprites/gen2/209.png"
+  }
+ },
+ {
+  "id": 210,
+  "name": "Granbull",
+  "sprites": {
+   "2": "assets/sprites/gen2/210.png"
+  }
+ },
+ {
+  "id": 211,
+  "name": "Qwilfish",
+  "sprites": {
+   "2": "assets/sprites/gen2/211.png"
+  }
+ },
+ {
+  "id": 212,
+  "name": "Scizor",
+  "sprites": {
+   "2": "assets/sprites/gen2/212.png"
+  }
+ },
+ {
+  "id": 213,
+  "name": "Shuckle",
+  "sprites": {
+   "2": "assets/sprites/gen2/213.png"
+  }
+ },
+ {
+  "id": 214,
+  "name": "Heracross",
+  "sprites": {
+   "2": "assets/sprites/gen2/214.png"
+  }
+ },
+ {
+  "id": 215,
+  "name": "Sneasel",
+  "sprites": {
+   "2": "assets/sprites/gen2/215.png"
+  }
+ },
+ {
+  "id": 216,
+  "name": "Teddiursa",
+  "sprites": {
+   "2": "assets/sprites/gen2/216.png"
+  }
+ },
+ {
+  "id": 217,
+  "name": "Ursaring",
+  "sprites": {
+   "2": "assets/sprites/gen2/217.png"
+  }
+ },
+ {
+  "id": 218,
+  "name": "Slugma",
+  "sprites": {
+   "2": "assets/sprites/gen2/218.png"
+  }
+ },
+ {
+  "id": 219,
+  "name": "Magcargo",
+  "sprites": {
+   "2": "assets/sprites/gen2/219.png"
+  }
+ },
+ {
+  "id": 220,
+  "name": "Swinub",
+  "sprites": {
+   "2": "assets/sprites/gen2/220.png"
+  }
+ },
+ {
+  "id": 221,
+  "name": "Piloswine",
+  "sprites": {
+   "2": "assets/sprites/gen2/221.png"
+  }
+ },
+ {
+  "id": 222,
+  "name": "Corsola",
+  "sprites": {
+   "2": "assets/sprites/gen2/222.png"
+  }
+ },
+ {
+  "id": 223,
+  "name": "Remoraid",
+  "sprites": {
+   "2": "assets/sprites/gen2/223.png"
+  }
+ },
+ {
+  "id": 224,
+  "name": "Octillery",
+  "sprites": {
+   "2": "assets/sprites/gen2/224.png"
+  }
+ },
+ {
+  "id": 225,
+  "name": "Delibird",
+  "sprites": {
+   "2": "assets/sprites/gen2/225.png"
+  }
+ },
+ {
+  "id": 226,
+  "name": "Mantine",
+  "sprites": {
+   "2": "assets/sprites/gen2/226.png"
+  }
+ },
+ {
+  "id": 227,
+  "name": "Skarmory",
+  "sprites": {
+   "2": "assets/sprites/gen2/227.png"
+  }
+ },
+ {
+  "id": 228,
+  "name": "Houndour",
+  "sprites": {
+   "2": "assets/sprites/gen2/228.png"
+  }
+ },
+ {
+  "id": 229,
+  "name": "Houndoom",
+  "sprites": {
+   "2": "assets/sprites/gen2/229.png"
+  }
+ },
+ {
+  "id": 230,
+  "name": "Kingdra",
+  "sprites": {
+   "2": "assets/sprites/gen2/230.png"
+  }
+ },
+ {
+  "id": 231,
+  "name": "Phanpy",
+  "sprites": {
+   "2": "assets/sprites/gen2/231.png"
+  }
+ },
+ {
+  "id": 232,
+  "name": "Donphan",
+  "sprites": {
+   "2": "assets/sprites/gen2/232.png"
+  }
+ },
+ {
+  "id": 233,
+  "name": "Porygon2",
+  "sprites": {
+   "2": "assets/sprites/gen2/233.png"
+  }
+ },
+ {
+  "id": 234,
+  "name": "Stantler",
+  "sprites": {
+   "2": "assets/sprites/gen2/234.png"
+  }
+ },
+ {
+  "id": 235,
+  "name": "Smeargle",
+  "sprites": {
+   "2": "assets/sprites/gen2/235.png"
+  }
+ },
+ {
+  "id": 236,
+  "name": "Tyrogue",
+  "sprites": {
+   "2": "assets/sprites/gen2/236.png"
+  }
+ },
+ {
+  "id": 237,
+  "name": "Hitmontop",
+  "sprites": {
+   "2": "assets/sprites/gen2/237.png"
+  }
+ },
+ {
+  "id": 238,
+  "name": "Smoochum",
+  "sprites": {
+   "2": "assets/sprites/gen2/238.png"
+  }
+ },
+ {
+  "id": 239,
+  "name": "Elekid",
+  "sprites": {
+   "2": "assets/sprites/gen2/239.png"
+  }
+ },
+ {
+  "id": 240,
+  "name": "Magby",
+  "sprites": {
+   "2": "assets/sprites/gen2/240.png"
+  }
+ },
+ {
+  "id": 241,
+  "name": "Miltank",
+  "sprites": {
+   "2": "assets/sprites/gen2/241.png"
+  }
+ },
+ {
+  "id": 242,
+  "name": "Blissey",
+  "sprites": {
+   "2": "assets/sprites/gen2/242.png"
+  }
+ },
+ {
+  "id": 243,
+  "name": "Raikou",
+  "sprites": {
+   "2": "assets/sprites/gen2/243.png"
+  }
+ },
+ {
+  "id": 244,
+  "name": "Entei",
+  "sprites": {
+   "2": "assets/sprites/gen2/244.png"
+  }
+ },
+ {
+  "id": 245,
+  "name": "Suicune",
+  "sprites": {
+   "2": "assets/sprites/gen2/245.png"
+  }
+ },
+ {
+  "id": 246,
+  "name": "Larvitar",
+  "sprites": {
+   "2": "assets/sprites/gen2/246.png"
+  }
+ },
+ {
+  "id": 247,
+  "name": "Pupitar",
+  "sprites": {
+   "2": "assets/sprites/gen2/247.png"
+  }
+ },
+ {
+  "id": 248,
+  "name": "Tyranitar",
+  "sprites": {
+   "2": "assets/sprites/gen2/248.png"
+  }
+ },
+ {
+  "id": 249,
+  "name": "Lugia",
+  "sprites": {
+   "2": "assets/sprites/gen2/249.png"
+  }
+ },
+ {
+  "id": 250,
+  "name": "Ho-Oh",
+  "sprites": {
+   "2": "assets/sprites/gen2/250.png"
+  }
+ },
+ {
+  "id": 251,
+  "name": "Celebi",
+  "sprites": {
+   "2": "assets/sprites/gen2/251.png"
+  }
  }
 ]

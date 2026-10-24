@@ -14,5 +14,21 @@
   ],
   "zones": "data/kanto/zones.json",
   "encounters": "data/kanto/encounters.json"
+ },
+ {
+  "id": "johto",
+  "name": "Johto",
+  "generation": 2,
+  "dex": [
+   1,
+   251
+  ],
+  "map": "assets/johto-map.png",
+  "mapSize": [
+   288,
+   120
+  ],
+  "zones": "data/johto/zones.json",
+  "encounters": "data/johto/encounters.json"
  }
 ]

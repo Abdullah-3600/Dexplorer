@@ -73,3 +73,5 @@ svg{display:block;width:100%;height:auto}svg image{image-rendering:pixelated}
 
 .tip .it{padding:4px 0;border-top:1px solid var(--ln)}.tip .it:first-of-type{border-top:0}.tip small{color:var(--mu)}
 @media(max-width:760px){.app{grid-template-columns:1fr;grid-template-rows:46% 1fr}aside{min-width:0;border-right:0;border-bottom:1px solid var(--ln)}}
+
+.hit{vector-effect:non-scaling-stroke}
