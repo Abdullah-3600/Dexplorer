@@ -48,7 +48,7 @@
  {
   "id": 3,
   "name": "Generation III",
-  "ready": false,
+  "ready": true,
   "regions": [
    {
     "id": "hoenn",
