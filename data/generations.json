@@ -49,27 +49,45 @@
   "id": 3,
   "name": "Generation III",
   "ready": false,
-  "region": null,
-  "games": [
+  "regions": [
    {
-    "id": "ruby",
-    "name": "Ruby"
+    "id": "hoenn",
+    "name": "Hoenn",
+    "region": "hoenn",
+    "games": [
+     {
+      "id": "ruby",
+      "name": "Ruby",
+      "color": "#b5173b"
+     },
+     {
+      "id": "sapphire",
+      "name": "Sapphire",
+      "color": "#2a5db0"
+     },
+     {
+      "id": "emerald",
+      "name": "Emerald",
+      "color": "#1f9d6b"
+     }
+    ]
    },
    {
-    "id": "sapphire",
-    "name": "Sapphire"
-   },
-   {
-    "id": "emerald",
-    "name": "Emerald"
-   },
-   {
-    "id": "firered",
-    "name": "FireRed"
-   },
-   {
-    "id": "leafgreen",
-    "name": "LeafGreen"
+    "id": "kanto",
+    "name": "Kanto",
+    "region": "kanto-frlg",
+    "games": [
+     {
+      "id": "firered",
+      "name": "FireRed",
+      "color": "#f26a21"
+     },
+     {
+      "id": "leafgreen",
+      "name": "LeafGreen",
+      "color": "#5fb04a"
+     }
+    ]
    }
   ]
  },

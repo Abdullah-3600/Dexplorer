@@ -30,5 +30,37 @@
   ],
   "zones": "data/johto/zones.json",
   "encounters": "data/johto/encounters.json"
+ },
+ {
+  "id": "hoenn",
+  "name": "Hoenn",
+  "generation": 3,
+  "dex": [
+   1,
+   386
+  ],
+  "map": "assets/hoenn-map.png",
+  "mapSize": [
+   1286,
+   857
+  ],
+  "zones": "data/hoenn/zones.json",
+  "encounters": "data/hoenn/encounters.json"
+ },
+ {
+  "id": "kanto-frlg",
+  "name": "Kanto",
+  "generation": 3,
+  "dex": [
+   1,
+   386
+  ],
+  "map": "assets/kanto-frlg-map.png",
+  "mapSize": [
+   1142,
+   857
+  ],
+  "zones": "data/kanto-frlg/zones.json",
+  "encounters": "data/kanto-frlg/encounters.json"
  }
 ]

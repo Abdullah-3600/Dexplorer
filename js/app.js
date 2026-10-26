@@ -3,13 +3,16 @@
 const $ = id => document.getElementById(id), NS = "http://www.w3.org/2000/svg";
 const getJSON = async u => { const r = await fetch(u); if (!r.ok) throw new Error(u + " (" + r.status + ")"); return r.json() };
 const pad = n => String(n).padStart(3, "0");
-const state = { gens: [], regions: [], mons: [], gen: null, region: null, game: null, sel: null, zones: {}, rows: [] };
+const state = { gens: [], regions: [], mons: [], gen: null, opt: null, region: null, games: [], game: null, sel: null, zones: {}, rows: [] };
 const regionData = {};
-const seg = $("seg"), gb = $("gb"), gm = $("gm"), mb = $("mb"), mn = $("mn");
+const seg = $("seg"), gb = $("gb"), gm = $("gm"), rw = $("rw"), rb = $("rb"), rm = $("rm"), mb = $("mb"), mn = $("mn");
 
 /* ---------- helpers ---------- */
-const gameName = id => (state.gen.games.find(g => g.id === id) || {}).name || id;
-const vlab = games => games.length === state.gen.games.length ? "" : " · " + games.map(gameName).join("/");
+/* A generation is either single-region ({region, games}) or multi-region ({regions: [{id, name, region, games}]}). */
+const optsOf = g => g.regions || [{ id: g.region, name: null, region: g.region, games: g.games }];
+const optOk = o => !!o.region && state.regions.some(r => r.id === o.region);
+const gameName = id => (state.games.find(g => g.id === id) || {}).name || id;
+const vlab = games => games.length === state.games.length ? "" : " · " + games.map(gameName).join("/");
 const heat = r => r.rate == null ? 100 : r.rate;
 function mk(t, a) { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); return e }
 const scale = () => state.region ? state.region.mapSize[0] / 1130 : 1;
@@ -21,7 +24,7 @@ function shape(s, a) {
 const TIME = { morning: "Morning", day: "Day", night: "Night" };
 const tlab = r => r.time && r.time.length < 3 ? " · " + r.time.map(t => TIME[t]).join("/") : "";
 function setColor() {
-  const g = state.gen.games.find(g => g.id === state.game);
+  const g = state.games.find(g => g.id === state.game);
   document.documentElement.style.setProperty("--gc", (g && g.color) || "#e63946");
 }
 
@@ -95,7 +98,7 @@ function thumb(anim) {
 function buildGames() {
   seg.replaceChildren();
   const t = document.createElement("i"); t.className = "thumb"; seg.appendChild(t);
-  state.gen.games.forEach(g => {
+  state.games.forEach(g => {
     const b = document.createElement("button"); b.textContent = g.name; b.setAttribute("aria-pressed", g.id === state.game);
     b.onclick = () => { state.game = g.id; setColor(); seg.querySelectorAll("button").forEach(c => c.setAttribute("aria-pressed", c === b)); thumb(true); draw() };
     seg.appendChild(b);
@@ -104,37 +107,54 @@ function buildGames() {
 }
 addEventListener("resize", () => thumb(false));
 
-/* ---------- generation menu ---------- */
-const genOn = () => [...gm.querySelectorAll("[role=menuitemradio]:not([aria-disabled=true])")];
+/* ---------- generation and region menus ---------- */
 function setH(el, h) {
   clearTimeout(el._t);
   if (!h) { el.hidden = false; el.classList.remove("out"); return }
   if (el.hidden) return;
   el.classList.add("out"); el._t = setTimeout(() => { el.hidden = true; el.classList.remove("out") }, 120);
 }
-function go(o) { setH(gm, !o); gb.setAttribute("aria-expanded", o); if (o) (gm.querySelector("[aria-checked=true]") || genOn()[0]).focus(); else gb.focus() }
+function dropdown(btn, menu) {
+  const items = () => [...menu.querySelectorAll("[role=menuitemradio]:not([aria-disabled=true])")];
+  const go = o => {
+    setH(menu, !o); btn.setAttribute("aria-expanded", o);
+    if (o) { const f = menu.querySelector("[aria-checked=true]") || items()[0]; if (f) f.focus() } else btn.focus();
+  };
+  btn.onclick = () => go(menu.hidden);
+  btn.onkeydown = e => { if (e.key === "ArrowDown") { e.preventDefault(); go(true) } };
+  document.addEventListener("click", e => { if (!menu.hidden && !menu.parentNode.contains(e.target)) go(false) });
+  menu.onkeydown = e => {
+    const it = items(), i = it.indexOf(document.activeElement);
+    if (e.key === "Escape") { e.preventDefault(); go(false) }
+    else if (e.key === "ArrowDown") { e.preventDefault(); it[(i + 1) % it.length].focus() }
+    else if (e.key === "ArrowUp") { e.preventDefault(); it[(i - 1 + it.length) % it.length].focus() }
+    else if (e.key === "Tab") go(false);
+  };
+  return go;
+}
+const go = dropdown(gb, gm), goRegion = dropdown(rb, rm);
+function item(menu, label, checked, ok, pick) {
+  const b = document.createElement("button");
+  b.setAttribute("role", "menuitemradio"); b.setAttribute("aria-checked", checked);
+  if (!ok) b.setAttribute("aria-disabled", "true");
+  b.innerHTML = "<span>" + label + "</span>" + (ok ? "" : "<small>Soon</small>");
+  b.onclick = () => { if (ok) pick() };
+  menu.appendChild(b);
+}
 function drawGens() {
   gm.replaceChildren();
-  for (const g of state.gens) {
-    const ok = g.ready && g.region && state.regions.some(r => r.id === g.region);
-    const b = document.createElement("button");
-    b.setAttribute("role", "menuitemradio"); b.setAttribute("aria-checked", g === state.gen);
-    if (!ok) b.setAttribute("aria-disabled", "true");
-    b.innerHTML = "<span>" + g.name + "</span>" + (ok ? "" : "<small>Soon</small>");
-    b.onclick = async () => { if (!ok) return; go(false); await setGeneration(g) };
-    gm.appendChild(b);
-  }
+  for (const g of state.gens)
+    item(gm, g.name, g === state.gen, g.ready && optsOf(g).some(optOk), async () => { go(false); await setGeneration(g) });
 }
-gb.onclick = () => go(gm.hidden);
-gb.onkeydown = e => { if (e.key === "ArrowDown") { e.preventDefault(); go(true) } };
-document.addEventListener("click", e => { if (!gm.hidden && !gm.parentNode.contains(e.target)) go(false) });
-gm.onkeydown = e => {
-  const it = genOn(), i = it.indexOf(document.activeElement);
-  if (e.key === "Escape") { e.preventDefault(); go(false) }
-  else if (e.key === "ArrowDown") { e.preventDefault(); it[(i + 1) % it.length].focus() }
-  else if (e.key === "ArrowUp") { e.preventDefault(); it[(i - 1 + it.length) % it.length].focus() }
-  else if (e.key === "Tab") go(false);
-};
+function drawRegions() {
+  const opts = optsOf(state.gen), multi = opts.length > 1;
+  rw.hidden = !multi;
+  rm.replaceChildren();
+  if (!multi) return;
+  $("rbt").textContent = state.opt.name;
+  for (const o of opts)
+    item(rm, o.name, o === state.opt, optOk(o), async () => { goRegion(false); await setGeneration(state.gen, o) });
+}
 
 /* ---------- Dexplorer menu ---------- */
 const enabled = () => [...mn.querySelectorAll("[role=menuitem]:not([aria-disabled=true])")];
@@ -152,17 +172,19 @@ mn.onkeydown = e => {
 mn.querySelectorAll("[role=menuitem]").forEach(b => b.onclick = () => { if (b.getAttribute("aria-disabled") !== "true") mo(false) });
 
 /* ---------- loading ---------- */
-async function setGeneration(g) {
-  const region = state.regions.find(r => r.id === g.region);
+async function setGeneration(g, o) {
+  o = o || optsOf(g).find(optOk);
+  const region = state.regions.find(r => r.id === o.region);
   if (!regionData[region.id]) regionData[region.id] = Promise.all([getJSON(region.zones), getJSON(region.encounters)]);
   const [zones, rows] = await regionData[region.id];
-  Object.assign(state, { gen: g, region, zones, rows, game: g.games[0].id, sel: null });
+  Object.assign(state, { gen: g, opt: o, region, zones, rows, games: o.games, game: o.games[0].id, sel: null });
   $("gbt").textContent = g.name;
   $("mapimg").setAttribute("href", region.map);
   $("mapimg").setAttribute("width", region.mapSize[0]); $("mapimg").setAttribute("height", region.mapSize[1]);
   $("m").setAttribute("viewBox", `0 0 ${region.mapSize[0]} ${region.mapSize[1]}`);
   document.querySelector("#b feGaussianBlur").setAttribute("stdDeviation", 7 * region.mapSize[0] / 1130);
-  setColor(); buildGames(); drawGens(); list($("q").value); draw();
+  $("m").setAttribute("aria-label", region.name + " map with encounter heatmap");
+  setColor(); buildGames(); drawGens(); drawRegions(); list($("q").value); draw();
 }
 $("q").oninput = e => list(e.target.value);
 (async () => {
