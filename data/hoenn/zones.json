@@ -370,12 +370,6 @@
    {"type": "circle", "cx": 1222, "cy": 493, "r": 19}
   ]
  },
- "mirage": {
-  "name": "Mirage Island",
-  "shapes": [
-   {"type": "circle", "cx": 793, "cy": 536, "r": 19}
-  ]
- },
  "origin": {
   "name": "Cave Of Origin",
   "shapes": [
@@ -442,6 +436,30 @@
   "name": "Artisan Cave",
   "shapes": [
    {"type": "circle", "cx": 1007, "cy": 621, "r": 19}
+  ]
+ },
+ "abandonedship": {
+  "name": "Abandoned Ship",
+  "shapes": [
+   {"type": "circle", "cx": 322, "cy": 707, "r": 19}
+  ]
+ },
+ "battlefrontier": {
+  "name": "Battle Frontier",
+  "shapes": [
+   {"type": "rect", "x": 986, "y": 600, "w": 43, "h": 43}
+  ]
+ },
+ "aquahideout": {
+  "name": "Aqua Hideout",
+  "shapes": [
+   {"type": "circle", "cx": 879, "cy": 236, "r": 19}
+  ]
+ },
+ "magmahideout": {
+  "name": "Magma Hideout",
+  "shapes": [
+   {"type": "circle", "cx": 322, "cy": 236, "r": 19}
   ]
  },
  "desertunderpass": {

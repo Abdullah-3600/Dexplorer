@@ -10,7 +10,7 @@ const seg = $("seg"), gb = $("gb"), gm = $("gm"), rw = $("rw"), rb = $("rb"), rm
 /* ---------- helpers ---------- */
 /* A generation is either single-region ({region, games}) or multi-region ({regions: [{id, name, region, games}]}). */
 const optsOf = g => g.regions || [{ id: g.region, name: null, region: g.region, games: g.games }];
-const optOk = o => !!o.region && state.regions.some(r => r.id === o.region);
+const optOk = o => !!o.region && state.regions.some(r => r.id === o.region && !r.pending);
 const gameName = id => (state.games.find(g => g.id === id) || {}).name || id;
 const vlab = games => games.length === state.games.length ? "" : " · " + games.map(gameName).join("/");
 const heat = r => r.rate == null ? 100 : r.rate;
@@ -34,13 +34,15 @@ function find(id) {
   for (const r of state.rows) if (r.pokemon === id && r.games.includes(state.game) && state.zones[r.zone]) (m[r.zone] = m[r.zone] || []).push(r);
   return Object.entries(m).map(([k, rows]) => ({ k, z: state.zones[k], rows, peak: Math.max(...rows.map(heat)) }));
 }
+const offMap = id => state.rows.filter(r => r.pokemon === id && !r.zone && r.games.includes(state.game));
 function draw() {
   $("tipbox").hidden = true;
   const H = $("heat"), X = $("hits"), L = $("list");
   H.replaceChildren(); X.replaceChildren(); L.replaceChildren();
   const sel = state.sel;
   if (!sel) { $("t").textContent = "Select a Pokémon"; L.innerHTML = '<p class="empty">Pick a Pokémon to see where it appears.</p>'; return }
-  $("t").textContent = "#" + pad(sel.id) + " " + sel.name + " · " + gameName(state.game);
+  const rn = state.region.dexKey && sel.dex && sel.dex[state.region.dexKey];
+  $("t").textContent = "#" + pad(sel.id) + (rn && rn !== sel.id ? " · #" + pad(rn) : "") + " " + sel.name + " · " + gameName(state.game);
   $("t").classList.remove("pop"); void $("t").offsetWidth; $("t").classList.add("pop");
   const res = find(sel.id).sort((a, b) => b.peak - a.peak);
   if (state.game !== "yellow" && state.gen.id === 1 && res.some(x => x.k === "r21" && x.rows.some(r => r.method === "Walking"))) {
@@ -48,7 +50,8 @@ function draw() {
     t.textContent = "Tip (Red/Blue glitch): when you surf on the east shore tiles (water with a shoreline on its left) near Cinnabar Island or the Seafoam Islands, wild Pokémon come from the land table of the last area you visited, such as Route 21, so you can meet " + sel.name + " there. Fixed in Yellow.";
     t.hidden = false;
   }
-  if (!res.length) L.innerHTML = '<p class="empty">Not found in the wild in ' + gameName(state.game) + " (evolution, trade, or version-exclusive).</p>";
+  const ev = offMap(sel.id);
+  if (!res.length && !ev.length) L.innerHTML = '<p class="empty">Not found in the wild in ' + gameName(state.game) + " (evolution, breeding, trade, event or version-exclusive).</p>";
   for (const x of res) {
     const t = Math.sqrt(x.peak / 100);
     x.z.shapes.forEach(s => {
@@ -65,6 +68,11 @@ function draw() {
     d.innerHTML = "<b>" + x.z.name + "</b><span>" + Object.entries(bm).map(([m, v]) => m + " " + v + "%").join(" · ") + "</span>";
     L.appendChild(d);
   }
+  for (const r of ev) {   // events and places with no spot on the map: text only
+    const d = document.createElement("div"); d.className = "row";
+    d.innerHTML = "<b>" + r.method + " · not on the map</b><span>Lv " + r.levels + (r.note ? " · " + r.note : "") + "</span>";
+    L.appendChild(d);
+  }
 }
 function tip(cx, cy, x) {
   const e = $("tip");
@@ -77,11 +85,13 @@ function tip(cx, cy, x) {
 /* ---------- Pokémon grid ---------- */
 function list(f = "") {
   const u = $("dex"); u.replaceChildren(); f = f.toLowerCase();
-  const [lo, hi] = state.region.dex;
-  state.mons.filter(m => m.id >= lo && m.id <= hi && (m.name.toLowerCase().includes(f) || String(m.id).includes(f))).forEach(m => {
-    const b = document.createElement("button");
+  const [lo, hi] = state.region.dex, k = state.region.dexKey;
+  const reg = m => (k && m.dex && m.dex[k]) || null;
+  state.mons.filter(m => m.id >= lo && m.id <= hi && (m.name.toLowerCase().includes(f) || String(m.id).includes(f) || String(reg(m) || "").includes(f)))
+    .sort((a, b) => k ? (reg(a) || 1e3 + a.id) - (reg(b) || 1e3 + b.id) : a.id - b.id).forEach(m => {
+    const b = document.createElement("button"), r = reg(m);
     b.className = "cell"; b.setAttribute("aria-pressed", !!state.sel && state.sel.id === m.id); b.setAttribute("aria-label", m.name);
-    b.innerHTML = `<img alt="" src="${m.sprites[state.gen.id]}"><small>#${pad(m.id)}</small><span>${m.name}</span>`;
+    b.innerHTML = `<img alt="" src="${m.sprites[state.gen.id]}"><small>#${pad(m.id)}${r && r !== m.id ? " · #" + pad(r) : ""}</small><span>${m.name}</span>`;
     b.onclick = () => { state.sel = m; u.querySelectorAll(".cell").forEach(c => c.setAttribute("aria-pressed", c === b)); draw() };
     u.appendChild(b);
   });

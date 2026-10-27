@@ -13,7 +13,8 @@
    960
   ],
   "zones": "data/kanto/zones.json",
-  "encounters": "data/kanto/encounters.json"
+  "encounters": "data/kanto/encounters.json",
+  "dexKey": "kanto"
  },
  {
   "id": "johto",
@@ -29,7 +30,8 @@
    120
   ],
   "zones": "data/johto/zones.json",
-  "encounters": "data/johto/encounters.json"
+  "encounters": "data/johto/encounters.json",
+  "dexKey": "johto"
  },
  {
   "id": "hoenn",
@@ -45,7 +47,8 @@
    857
   ],
   "zones": "data/hoenn/zones.json",
-  "encounters": "data/hoenn/encounters.json"
+  "encounters": "data/hoenn/encounters.json",
+  "dexKey": "hoenn"
  },
  {
   "id": "kanto-frlg",
@@ -61,6 +64,8 @@
    857
   ],
   "zones": "data/kanto-frlg/zones.json",
-  "encounters": "data/kanto-frlg/encounters.json"
+  "encounters": "data/kanto-frlg/encounters.json",
+  "dexKey": "kanto",
+  "pending": true
  }
 ]
