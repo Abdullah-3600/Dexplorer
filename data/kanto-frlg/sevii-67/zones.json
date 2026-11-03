@@ -1,0 +1,86 @@
+{
+ "outcastisland": {
+  "name": "Outcast Island",
+  "shapes": [
+   {"type": "rect", "x": 768, "y": 96, "w": 48, "h": 144}
+  ]
+ },
+ "greenpath": {
+  "name": "Green Path",
+  "shapes": [
+   {"type": "rect", "x": 768, "y": 240, "w": 144, "h": 48}
+  ]
+ },
+ "waterpath": {
+  "name": "Water Path",
+  "shapes": [
+   {"type": "rect", "x": 912, "y": 240, "w": 48, "h": 240}
+  ]
+ },
+ "sixisland": {
+  "name": "Six Island",
+  "shapes": [
+   {"type": "rect", "x": 864, "y": 336, "w": 48, "h": 48}
+  ]
+ },
+ "trainertower": {
+  "name": "Trainer Tower",
+  "shapes": [
+   {"type": "rect", "x": 288, "y": 384, "w": 48, "h": 96}
+  ]
+ },
+ "ruinvalley": {
+  "name": "Ruin Valley",
+  "shapes": [
+   {"type": "rect", "x": 816, "y": 432, "w": 96, "h": 96}
+  ]
+ },
+ "sevenisland": {
+  "name": "Seven Island",
+  "shapes": [
+   {"type": "rect", "x": 288, "y": 480, "w": 48, "h": 48}
+  ]
+ },
+ "canyonentrance": {
+  "name": "Canyon Entrance",
+  "shapes": [
+   {"type": "rect", "x": 288, "y": 528, "w": 48, "h": 48}
+  ]
+ },
+ "sevaultcanyon": {
+  "name": "Sevault Canyon",
+  "shapes": [
+   {"type": "rect", "x": 336, "y": 528, "w": 48, "h": 144}
+  ]
+ },
+ "tanobyruins": {
+  "name": "Tanoby Ruins",
+  "shapes": [
+   {"type": "rect", "x": 192, "y": 672, "w": 336, "h": 48}
+  ]
+ },
+ "alteringcave": {
+  "name": "Altering Cave",
+  "shapes": [
+   {"type": "circle", "cx": 792, "cy": 120, "r": 22}
+  ]
+ },
+ "patternbush": {
+  "name": "Pattern Bush",
+  "shapes": [
+   {"type": "circle", "cx": 888, "cy": 264, "r": 22}
+  ]
+ },
+ "dottedhole": {
+  "name": "Dotted Hole",
+  "shapes": [
+   {"type": "circle", "cx": 840, "cy": 504, "r": 22}
+  ]
+ },
+ "tanobychambers": {
+  "name": "Tanoby Chambers",
+  "shapes": [
+   {"type": "circle", "cx": 504, "cy": 696, "r": 22}
+  ]
+ }
+}

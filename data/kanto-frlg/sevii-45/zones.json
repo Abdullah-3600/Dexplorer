@@ -1,0 +1,50 @@
+{
+ "fourisland": {
+  "name": "Four Island",
+  "shapes": [
+   {"type": "rect", "x": 192, "y": 288, "w": 48, "h": 48}
+  ]
+ },
+ "resortgorgeous": {
+  "name": "Resort Gorgeous",
+  "shapes": [
+   {"type": "rect", "x": 816, "y": 528, "w": 144, "h": 48}
+  ]
+ },
+ "waterlabyrinth": {
+  "name": "Water Labyrinth",
+  "shapes": [
+   {"type": "rect", "x": 720, "y": 576, "w": 144, "h": 48}
+  ]
+ },
+ "fiveisland": {
+  "name": "Five Island",
+  "shapes": [
+   {"type": "rect", "x": 816, "y": 624, "w": 48, "h": 48}
+  ]
+ },
+ "fiveislemeadow": {
+  "name": "Five Isle Meadow",
+  "shapes": [
+   {"type": "rect", "x": 864, "y": 624, "w": 48, "h": 96}
+  ]
+ },
+ "memorialpillar": {
+  "name": "Memorial Pillar",
+  "shapes": [
+   {"type": "rect", "x": 912, "y": 672, "w": 48, "h": 144}
+  ]
+ },
+ "icefallcave": {
+  "name": "Icefall Cave",
+  "shapes": [
+   {"type": "circle", "cx": 216, "cy": 312, "r": 22}
+  ]
+ },
+ "lostcave": {
+  "name": "Lost Cave",
+  "shapes": [
+   {"type": "circle", "cx": 936, "cy": 552, "r": 22}
+  ]
+ }
+}

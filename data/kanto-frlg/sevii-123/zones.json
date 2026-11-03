@@ -1,0 +1,62 @@
+{
+ "kindleroad": {
+  "name": "Kindle Road",
+  "shapes": [
+   {"type": "rect", "x": 144, "y": 240, "w": 48, "h": 288}
+  ]
+ },
+ "capebrink": {
+  "name": "Cape Brink",
+  "shapes": [
+   {"type": "rect", "x": 480, "y": 432, "w": 48, "h": 96}
+  ]
+ },
+ "oneisland": {
+  "name": "One Island",
+  "shapes": [
+   {"type": "rect", "x": 96, "y": 480, "w": 48, "h": 48}
+  ]
+ },
+ "treasurebeach": {
+  "name": "Treasure Beach",
+  "shapes": [
+   {"type": "rect", "x": 96, "y": 528, "w": 48, "h": 96}
+  ]
+ },
+ "twoisland": {
+  "name": "Two Island",
+  "shapes": [
+   {"type": "rect", "x": 480, "y": 528, "w": 48, "h": 48}
+  ]
+ },
+ "bondbridge": {
+  "name": "Bond Bridge",
+  "shapes": [
+   {"type": "rect", "x": 720, "y": 672, "w": 192, "h": 48}
+  ]
+ },
+ "threeisland": {
+  "name": "Three Island",
+  "shapes": [
+   {"type": "rect", "x": 912, "y": 672, "w": 48, "h": 48}
+  ]
+ },
+ "threeisleport": {
+  "name": "Three Isle Port",
+  "shapes": [
+   {"type": "rect", "x": 912, "y": 720, "w": 96, "h": 48}
+  ]
+ },
+ "mtember": {
+  "name": "Mt. Ember",
+  "shapes": [
+   {"type": "circle", "cx": 168, "cy": 264, "r": 22}
+  ]
+ },
+ "berryforest": {
+  "name": "Berry Forest",
+  "shapes": [
+   {"type": "circle", "cx": 744, "cy": 696, "r": 22}
+  ]
+ }
+}

@@ -3,8 +3,9 @@
 const $ = id => document.getElementById(id), NS = "http://www.w3.org/2000/svg";
 const getJSON = async u => { const r = await fetch(u); if (!r.ok) throw new Error(u + " (" + r.status + ")"); return r.json() };
 const pad = n => String(n).padStart(3, "0");
-const state = { gens: [], regions: [], mons: [], gen: null, opt: null, region: null, games: [], game: null, sel: null, zones: {}, rows: [] };
+const state = { gens: [], regions: [], mons: [], gen: null, opt: null, region: null, games: [], game: null, sel: null, zones: {}, rows: [], maps: [] };
 const regionData = {};
+const mapsEl = $("maps"), insetsEl = $("insets");
 const seg = $("seg"), gb = $("gb"), gm = $("gm"), rw = $("rw"), rb = $("rb"), rm = $("rm"), mb = $("mb"), mn = $("mn");
 
 /* ---------- helpers ---------- */
@@ -37,8 +38,8 @@ function find(id) {
 const offMap = id => state.rows.filter(r => r.pokemon === id && !r.zone && r.games.includes(state.game));
 function draw() {
   $("tipbox").hidden = true;
-  const H = $("heat"), X = $("hits"), L = $("list");
-  H.replaceChildren(); X.replaceChildren(); L.replaceChildren();
+  const L = $("list");
+  state.maps.forEach(m => { m.heat.replaceChildren(); m.hits.replaceChildren() }); L.replaceChildren();
   const sel = state.sel;
   if (!sel) { $("t").textContent = "Select a Pokémon"; L.innerHTML = '<p class="empty">Pick a Pokémon to see where it appears.</p>'; return }
   const rn = state.region.dexKey && sel.dex && sel.dex[state.region.dexKey];
@@ -54,29 +55,30 @@ function draw() {
   if (!res.length && !ev.length) L.innerHTML = '<p class="empty">Not found in the wild in ' + gameName(state.game) + " (evolution, breeding, trade, event or version-exclusive).</p>";
   for (const x of res) {
     const t = Math.sqrt(x.peak / 100);
+    const M = state.maps[x.z.m || 0], zname = x.z.name + (x.z.where ? " · " + x.z.where : "");
     x.z.shapes.forEach(s => {
-      H.appendChild(shape(s, { fill: `hsl(${215 - 90 * t} ${85 - 15 * t}% ${50 - 8 * t}%)`, opacity: .45 + .5 * t }));
-      const h = shape(s, { class: "hit", tabindex: 0, stroke: `hsl(${215 - 90 * t} 80% 26%)`, "aria-label": x.z.name + ": " + x.rows.map(r => r.method + " level " + r.levels + (r.rate != null ? " " + r.rate + "%" : "")).join(", ") });
+      M.heat.appendChild(shape(s, { fill: `hsl(${215 - 90 * t} ${85 - 15 * t}% ${50 - 8 * t}%)`, opacity: .45 + .5 * t }));
+      const h = shape(s, { class: "hit", tabindex: 0, stroke: `hsl(${215 - 90 * t} 80% 26%)`, "aria-label": zname + ": " + x.rows.map(r => r.method + " level " + r.levels + (r.rate != null ? " " + r.rate + "%" : "")).join(", ") });
       h.onmousemove = e => tip(e.clientX, e.clientY, x);
       h.onmouseleave = () => $("tip").style.display = "none";
       h.onfocus = () => { const b = h.getBoundingClientRect(); tip(b.right, b.top, x) };
       h.onblur = h.onmouseleave;
-      X.appendChild(h);
+      M.hits.appendChild(h);
     });
     const bm = {}; x.rows.forEach(r => bm[r.method] = Math.max(bm[r.method] || 0, heat(r)));
     const d = document.createElement("div"); d.className = "row";
-    d.innerHTML = "<b>" + x.z.name + "</b><span>" + Object.entries(bm).map(([m, v]) => m + " " + v + "%").join(" · ") + "</span>";
+    d.innerHTML = "<b>" + zname + "</b><span>" + Object.entries(bm).map(([m, v]) => m + " " + v + "%").join(" · ") + "</span>";
     L.appendChild(d);
   }
   for (const r of ev) {   // events and places with no spot on the map: text only
     const d = document.createElement("div"); d.className = "row";
-    d.innerHTML = "<b>" + r.method + " · not on the map</b><span>Lv " + r.levels + (r.note ? " · " + r.note : "") + "</span>";
+    d.innerHTML = "<b>" + r.method + " · not on the map</b><span>" + [r.sublocation, "Lv " + r.levels, r.rate != null && r.rate + "%", r.note].filter(Boolean).join(" · ") + "</span>";
     L.appendChild(d);
   }
 }
 function tip(cx, cy, x) {
   const e = $("tip");
-  e.innerHTML = "<b>" + x.z.name + "</b>" + x.rows.map(r => `<div class="it"><div><span>${r.sublocation ? r.sublocation + " · " : ""}${r.method}${tlab(r)}${vlab(r.games)}</span><span>${r.rate != null ? r.rate + "%" : ""}</span></div><small>Lv ${r.levels}${r.note ? " · " + r.note : ""}</small></div>`).join("");
+  e.innerHTML = "<b>" + x.z.name + (x.z.where ? " · " + x.z.where : "") + "</b>" + x.rows.map(r => `<div class="it"><div><span>${r.sublocation ? r.sublocation + " · " : ""}${r.method}${tlab(r)}${vlab(r.games)}</span><span>${r.rate != null ? r.rate + "%" : ""}</span></div><small>Lv ${r.levels}${r.note ? " · " + r.note : ""}</small></div>`).join("");
   e.style.display = "block";
   e.style.left = Math.max(8, Math.min(cx + 14, innerWidth - e.offsetWidth - 8)) + "px";
   e.style.top = Math.max(8, Math.min(cy + 14, innerHeight - e.offsetHeight - 8)) + "px";
@@ -181,17 +183,34 @@ mn.onkeydown = e => {
 };
 mn.querySelectorAll("[role=menuitem]").forEach(b => b.onclick = () => { if (b.getAttribute("aria-disabled") !== "true") mo(false) });
 
+/* ---------- extra maps beside the main one ---------- */
+function buildMaps(extras) {
+  insetsEl.replaceChildren();
+  state.maps = [{ heat: $("heat"), hits: $("hits") }];
+  for (const r of extras) {
+    const box = document.createElement("div"); box.className = "map inset";
+    const cap = document.createElement("div"); cap.className = "cap"; cap.textContent = r.name;
+    const svg = mk("svg", { viewBox: `0 0 ${r.mapSize[0]} ${r.mapSize[1]}`, role: "img", "aria-label": r.name + " map with encounter heatmap" });
+    const img = mk("image", { href: r.map, width: r.mapSize[0], height: r.mapSize[1] }), heat = mk("g", { filter: "url(#b)" }), hits = mk("g", {});
+    svg.append(img, heat, hits); box.append(cap, svg); insetsEl.appendChild(box); state.maps.push({ heat, hits });
+  }
+  mapsEl.classList.toggle("solo", !extras.length);
+}
+
 /* ---------- loading ---------- */
 async function setGeneration(g, o) {
   o = o || optsOf(g).find(optOk);
   const region = state.regions.find(r => r.id === o.region);
-  if (!regionData[region.id]) regionData[region.id] = Promise.all([getJSON(region.zones), getJSON(region.encounters)]);
-  const [zones, rows] = await regionData[region.id];
+  const load = r => regionData[r.id] || (regionData[r.id] = Promise.all([getJSON(r.zones), getJSON(r.encounters)]));
+  const extras = (region.insets || []).map(id => state.regions.find(r => r.id === id)).filter(Boolean);   // extra maps shown beside the main one (e.g. the Sevii Islands)
+  const all = [region, ...extras], parts = await Promise.all(all.map(load)), zones = {}, rows = [];
+  parts.forEach(([z, r], i) => { for (const k in z) { if (zones[k]) console.warn("duplicate zone id", k); zones[k] = { ...z[k], m: i, where: i ? all[i].name : null } } rows.push(...r) });
   Object.assign(state, { gen: g, opt: o, region, zones, rows, games: o.games, game: o.games[0].id, sel: null });
   $("gbt").textContent = g.name;
   $("mapimg").setAttribute("href", region.map);
   $("mapimg").setAttribute("width", region.mapSize[0]); $("mapimg").setAttribute("height", region.mapSize[1]);
   $("m").setAttribute("viewBox", `0 0 ${region.mapSize[0]} ${region.mapSize[1]}`);
+  buildMaps(extras);
   document.querySelector("#b feGaussianBlur").setAttribute("stdDeviation", 7 * region.mapSize[0] / 1130);
   $("m").setAttribute("aria-label", region.name + " map with encounter heatmap");
   setColor(); buildGames(); drawGens(); drawRegions(); list($("q").value); draw();
