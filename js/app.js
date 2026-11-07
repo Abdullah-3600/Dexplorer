@@ -181,7 +181,7 @@ mn.onkeydown = e => {
   else if (e.key === "ArrowUp") { e.preventDefault(); it[(i - 1 + it.length) % it.length].focus() }
   else if (e.key === "Tab") mo(false);
 };
-mn.querySelectorAll("[role=menuitem]").forEach(b => b.onclick = () => { if (b.getAttribute("aria-disabled") !== "true") mo(false) });
+mn.querySelectorAll("[role=menuitem]").forEach(b => b.onclick = () => { if (b.dataset.href) location.href = b.dataset.href; else if (b.getAttribute("aria-disabled") !== "true") mo(false) });
 
 /* ---------- extra maps beside the main one ---------- */
 function buildMaps(extras) {
@@ -216,10 +216,22 @@ async function setGeneration(g, o) {
   setColor(); buildGames(); drawGens(); drawRegions(); list($("q").value); draw();
 }
 $("q").oninput = e => list(e.target.value);
+// Deep link: Dexplorer.html?game=gold&pokemon=10 opens that game with that Pokémon selected (used by DexCheck).
+async function deepLink() {
+  const q = new URLSearchParams(location.search), gid = q.get("game"), pid = parseInt(q.get("pokemon"), 10);
+  if (!gid) return;
+  for (const g of state.gens) for (const o of optsOf(g)) if (optOk(o) && o.games.some(x => x.id === gid)) {
+    await setGeneration(g, o); state.game = gid; setColor(); buildGames();
+    const m = state.mons.find(m => m.id === pid);
+    if (m) { state.sel = m; list($("q").value); draw(); const c = $("list").querySelector('.cell[aria-pressed="true"]'); if (c) c.scrollIntoView({ block: "center" }) }
+    return;
+  }
+}
 (async () => {
   try {
     [state.gens, state.regions, state.mons] = await Promise.all([getJSON("data/generations.json"), getJSON("data/regions.json"), getJSON("data/pokemon.json")]);
     await setGeneration(state.gens.find(g => g.ready));
+    await deepLink();
   } catch (err) {
     console.error(err);
     $("list").innerHTML = '<p class="empty">Could not load the data files. Open this folder through a local web server (for example <code>python3 -m http.server</code>, then visit http://localhost:8000) instead of double-clicking index.html.</p>';

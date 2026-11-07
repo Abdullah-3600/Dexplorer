@@ -1,3 +1,6 @@
 {
-  "rewrites": [{ "source": "/", "destination": "/Dexplorer.html" }]
+  "rewrites": [
+    { "source": "/", "destination": "/Dexplorer.html" },
+    { "source": "/dexcheck", "destination": "/DexCheck.html" }
+  ]
 }
