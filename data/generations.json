@@ -94,28 +94,46 @@
  {
   "id": 4,
   "name": "Generation IV",
-  "ready": false,
-  "region": null,
-  "games": [
+  "ready": true,
+  "regions": [
    {
-    "id": "diamond",
-    "name": "Diamond"
+    "id": "sinnoh",
+    "name": "Sinnoh",
+    "region": "sinnoh",
+    "games": [
+     {
+      "id": "diamond",
+      "name": "Diamond",
+      "color": "#6f9fd8"
+     },
+     {
+      "id": "pearl",
+      "name": "Pearl",
+      "color": "#d98cb3"
+     },
+     {
+      "id": "platinum",
+      "name": "Platinum",
+      "color": "#8b93a1"
+     }
+    ]
    },
    {
-    "id": "pearl",
-    "name": "Pearl"
-   },
-   {
-    "id": "platinum",
-    "name": "Platinum"
-   },
-   {
-    "id": "heartgold",
-    "name": "HeartGold"
-   },
-   {
-    "id": "soulsilver",
-    "name": "SoulSilver"
+    "id": "johto",
+    "name": "Johto",
+    "region": "johto-hgss",
+    "games": [
+     {
+      "id": "heartgold",
+      "name": "HeartGold",
+      "color": "#d9a441"
+     },
+     {
+      "id": "soulsilver",
+      "name": "SoulSilver",
+      "color": "#a3afc0"
+     }
+    ]
    }
   ]
  },

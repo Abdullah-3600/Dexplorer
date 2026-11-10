@@ -12,6 +12,8 @@ const seg = $("seg"), gb = $("gb"), gm = $("gm"), rw = $("rw"), rb = $("rb"), rm
 /* A generation is either single-region ({region, games}) or multi-region ({regions: [{id, name, region, games}]}). */
 const optsOf = g => g.regions || [{ id: g.region, name: null, region: g.region, games: g.games }];
 const optOk = o => !!o.region && state.regions.some(r => r.id === o.region && !r.pending);
+const GAME_SPRITES = { diamond: "gen4dp", pearl: "gen4dp", heartgold: "gen4hgss", soulsilver: "gen4hgss" }; // Platinum keeps the plain gen4 folder
+const spriteSrc = m => { const f = state.gen.id === 4 && GAME_SPRITES[state.game]; return f ? `assets/sprites/${f}/${m.id}.png` : (m.sprites[state.gen.id] || Object.values(m.sprites).pop()) };
 const gameName = id => (state.games.find(g => g.id === id) || {}).name || id;
 const vlab = games => games.length === state.games.length ? "" : " · " + games.map(gameName).join("/");
 const heat = r => r.rate == null ? 100 : r.rate;
@@ -93,7 +95,7 @@ function list(f = "") {
     .sort((a, b) => k ? (reg(a) || 1e3 + a.id) - (reg(b) || 1e3 + b.id) : a.id - b.id).forEach(m => {
     const b = document.createElement("button"), r = reg(m);
     b.className = "cell"; b.setAttribute("aria-pressed", !!state.sel && state.sel.id === m.id); b.setAttribute("aria-label", m.name);
-    b.innerHTML = `<img alt="" src="${m.sprites[state.gen.id]}"><small>#${pad(m.id)}${r && r !== m.id ? " · #" + pad(r) : ""}</small><span>${m.name}</span>`;
+    b.innerHTML = `<img alt="" src="${spriteSrc(m)}"><small>#${pad(m.id)}${r && r !== m.id ? " · #" + pad(r) : ""}</small><span>${m.name}</span>`;
     b.onclick = () => { state.sel = m; u.querySelectorAll(".cell").forEach(c => c.setAttribute("aria-pressed", c === b)); draw() };
     u.appendChild(b);
   });

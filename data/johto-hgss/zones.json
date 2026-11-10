@@ -1,0 +1,1034 @@
+{
+ "cianwood": {
+  "name": "Cianwood City",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 185,
+    "y": 517,
+    "w": 65,
+    "h": 108
+   }
+  ]
+ },
+ "r47": {
+  "name": "Route 47",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 55,
+    "y": 520,
+    "w": 75,
+    "h": 80
+   },
+   {
+    "type": "rect",
+    "x": 55,
+    "y": 585,
+    "w": 130,
+    "h": 80
+   }
+  ]
+ },
+ "cliffcave": {
+  "name": "Cliff Cave",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 50,
+    "y": 435,
+    "w": 90,
+    "h": 80
+   }
+  ]
+ },
+ "r41": {
+  "name": "Route 40 / 41",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 250,
+    "y": 440,
+    "w": 80,
+    "h": 170
+   }
+  ]
+ },
+ "whirl": {
+  "name": "Whirl Islands",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 305,
+    "cy": 598,
+    "r": 18
+   }
+  ]
+ },
+ "olivine": {
+  "name": "Olivine City",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 335,
+    "y": 380,
+    "w": 105,
+    "h": 110
+   }
+  ]
+ },
+ "r39": {
+  "name": "Route 39",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 345,
+    "y": 300,
+    "w": 35,
+    "h": 80
+   }
+  ]
+ },
+ "r38": {
+  "name": "Route 38",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 375,
+    "y": 295,
+    "w": 95,
+    "h": 35
+   }
+  ]
+ },
+ "ecruteak": {
+  "name": "Ecruteak City",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 470,
+    "y": 235,
+    "w": 115,
+    "h": 105
+   }
+  ]
+ },
+ "r37": {
+  "name": "Route 37",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 535,
+    "y": 340,
+    "w": 28,
+    "h": 62
+   }
+  ]
+ },
+ "r36": {
+  "name": "Route 36",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 500,
+    "y": 395,
+    "w": 115,
+    "h": 28
+   }
+  ]
+ },
+ "r35": {
+  "name": "Route 35",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 488,
+    "y": 420,
+    "w": 32,
+    "h": 100
+   }
+  ]
+ },
+ "nationalpark": {
+  "name": "National Park",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 450,
+    "y": 350,
+    "w": 65,
+    "h": 65
+   }
+  ]
+ },
+ "violet": {
+  "name": "Violet City",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 620,
+    "y": 375,
+    "w": 105,
+    "h": 115
+   }
+  ]
+ },
+ "r31": {
+  "name": "Route 31",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 730,
+    "y": 440,
+    "w": 75,
+    "h": 28
+   }
+  ]
+ },
+ "r30": {
+  "name": "Route 30",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 775,
+    "y": 460,
+    "w": 32,
+    "h": 160
+   }
+  ]
+ },
+ "darkcave": {
+  "name": "Dark Cave",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 790,
+    "cy": 455,
+    "r": 18
+   },
+   {
+    "type": "circle",
+    "cx": 888,
+    "cy": 548,
+    "r": 18
+   }
+  ]
+ },
+ "cherrygrove": {
+  "name": "Cherrygrove City",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 710,
+    "y": 613,
+    "w": 110,
+    "h": 70
+   }
+  ]
+ },
+ "r29": {
+  "name": "Route 29",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 820,
+    "y": 628,
+    "w": 130,
+    "h": 32
+   }
+  ]
+ },
+ "newbark": {
+  "name": "New Bark Town",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 950,
+    "y": 613,
+    "w": 62,
+    "h": 68
+   }
+  ]
+ },
+ "r46": {
+  "name": "Route 46",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 870,
+    "y": 555,
+    "w": 40,
+    "h": 90
+   }
+  ]
+ },
+ "r45": {
+  "name": "Route 45",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 922,
+    "y": 350,
+    "w": 35,
+    "h": 210
+   }
+  ]
+ },
+ "blackthorn": {
+  "name": "Blackthorn City",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 905,
+    "y": 232,
+    "w": 112,
+    "h": 108
+   }
+  ]
+ },
+ "dragonsden": {
+  "name": "Dragon's Den",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 985,
+    "cy": 262,
+    "r": 18
+   }
+  ]
+ },
+ "mahogany": {
+  "name": "Mahogany Town",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 717,
+    "y": 283,
+    "w": 52,
+    "h": 58
+   }
+  ]
+ },
+ "r43": {
+  "name": "Route 43",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 728,
+    "y": 200,
+    "w": 32,
+    "h": 90
+   }
+  ]
+ },
+ "lakeofrage": {
+  "name": "Lake of Rage",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 662,
+    "y": 87,
+    "w": 165,
+    "h": 115
+   }
+  ]
+ },
+ "r42": {
+  "name": "Route 42",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 585,
+    "y": 295,
+    "w": 130,
+    "h": 30
+   }
+  ]
+ },
+ "mtmortar": {
+  "name": "Mt. Mortar",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 645,
+    "cy": 310,
+    "r": 16
+   }
+  ]
+ },
+ "r44": {
+  "name": "Route 44",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 770,
+    "y": 295,
+    "w": 135,
+    "h": 30
+   }
+  ]
+ },
+ "goldenrod": {
+  "name": "Goldenrod City",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 375,
+    "y": 515,
+    "w": 160,
+    "h": 115
+   }
+  ]
+ },
+ "r34": {
+  "name": "Route 34",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 490,
+    "y": 635,
+    "w": 30,
+    "h": 95
+   }
+  ]
+ },
+ "ilex": {
+  "name": "Ilex Forest",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 500,
+    "cy": 742,
+    "r": 17
+   }
+  ]
+ },
+ "azalea": {
+  "name": "Azalea Town",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 520,
+    "y": 712,
+    "w": 110,
+    "h": 65
+   }
+  ]
+ },
+ "slowpokewell": {
+  "name": "Slowpoke Well",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 598,
+    "cy": 742,
+    "r": 17
+   }
+  ]
+ },
+ "r32": {
+  "name": "Route 32",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 630,
+    "y": 490,
+    "w": 30,
+    "h": 200
+   }
+  ]
+ },
+ "r33": {
+  "name": "Route 33",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 630,
+    "y": 690,
+    "w": 30,
+    "h": 60
+   }
+  ]
+ },
+ "unioncave": {
+  "name": "Union Cave",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 597,
+    "cy": 690,
+    "r": 16
+   }
+  ]
+ },
+ "pewter": {
+  "name": "Pewter City",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1475,
+    "y": 138,
+    "w": 120,
+    "h": 110
+   }
+  ]
+ },
+ "r3": {
+  "name": "Route 3",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1595,
+    "y": 200,
+    "w": 100,
+    "h": 33
+   }
+  ]
+ },
+ "mtmoon": {
+  "name": "Mt. Moon",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 1700,
+    "cy": 215,
+    "r": 18
+   }
+  ]
+ },
+ "r4": {
+  "name": "Route 4",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1720,
+    "y": 200,
+    "w": 145,
+    "h": 33
+   }
+  ]
+ },
+ "cerulean": {
+  "name": "Cerulean City",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1865,
+    "y": 185,
+    "w": 105,
+    "h": 110
+   }
+  ]
+ },
+ "r24": {
+  "name": "Route 24",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1925,
+    "y": 100,
+    "w": 35,
+    "h": 90
+   }
+  ]
+ },
+ "r25": {
+  "name": "Route 25",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1930,
+    "y": 100,
+    "w": 175,
+    "h": 35
+   }
+  ]
+ },
+ "r9": {
+  "name": "Route 9",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1970,
+    "y": 250,
+    "w": 100,
+    "h": 30
+   }
+  ]
+ },
+ "rocktunnel": {
+  "name": "Rock Tunnel",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 2085,
+    "cy": 265,
+    "r": 17
+   }
+  ]
+ },
+ "r10": {
+  "name": "Route 10",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 2070,
+    "y": 285,
+    "w": 35,
+    "h": 90
+   }
+  ]
+ },
+ "lavender": {
+  "name": "Lavender Town",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 2053,
+    "y": 380,
+    "w": 65,
+    "h": 52
+   }
+  ]
+ },
+ "r8": {
+  "name": "Route 8",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1970,
+    "y": 395,
+    "w": 85,
+    "h": 28
+   }
+  ]
+ },
+ "saffron": {
+  "name": "Saffron City",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1860,
+    "y": 325,
+    "w": 110,
+    "h": 115
+   }
+  ]
+ },
+ "r5": {
+  "name": "Route 5",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1882,
+    "y": 295,
+    "w": 32,
+    "h": 35
+   }
+  ]
+ },
+ "r6": {
+  "name": "Route 6",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1882,
+    "y": 440,
+    "w": 32,
+    "h": 35
+   }
+  ]
+ },
+ "vermilion": {
+  "name": "Vermilion City",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1860,
+    "y": 470,
+    "w": 110,
+    "h": 115
+   }
+  ]
+ },
+ "r7": {
+  "name": "Route 7",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1830,
+    "y": 395,
+    "w": 32,
+    "h": 28
+   }
+  ]
+ },
+ "celadon": {
+  "name": "Celadon City",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1715,
+    "y": 375,
+    "w": 115,
+    "h": 115
+   }
+  ]
+ },
+ "diglett": {
+  "name": "Diglett's Cave",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 1985,
+    "cy": 500,
+    "r": 17
+   }
+  ]
+ },
+ "r11": {
+  "name": "Route 11",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 2005,
+    "y": 488,
+    "w": 65,
+    "h": 30
+   }
+  ]
+ },
+ "r12": {
+  "name": "Route 12",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 2068,
+    "y": 440,
+    "w": 38,
+    "h": 170
+   }
+  ]
+ },
+ "r13": {
+  "name": "Route 13",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1975,
+    "y": 588,
+    "w": 130,
+    "h": 28
+   }
+  ]
+ },
+ "r14": {
+  "name": "Route 14",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1975,
+    "y": 610,
+    "w": 32,
+    "h": 100
+   }
+  ]
+ },
+ "r15": {
+  "name": "Route 15",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1830,
+    "y": 680,
+    "w": 170,
+    "h": 30
+   }
+  ]
+ },
+ "fuchsia": {
+  "name": "Fuchsia City",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1720,
+    "y": 615,
+    "w": 110,
+    "h": 110
+   }
+  ]
+ },
+ "safari": {
+  "name": "Safari Zone",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 1750,
+    "cy": 645,
+    "r": 17
+   }
+  ]
+ },
+ "r16": {
+  "name": "Route 16",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1635,
+    "y": 435,
+    "w": 85,
+    "h": 28
+   }
+  ]
+ },
+ "r17": {
+  "name": "Route 17",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1635,
+    "y": 440,
+    "w": 32,
+    "h": 265
+   }
+  ]
+ },
+ "r18": {
+  "name": "Route 18",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1640,
+    "y": 680,
+    "w": 85,
+    "h": 30
+   }
+  ]
+ },
+ "r19": {
+  "name": "Route 19",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1745,
+    "y": 725,
+    "w": 30,
+    "h": 75
+   }
+  ]
+ },
+ "r20": {
+  "name": "Route 20",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1545,
+    "y": 775,
+    "w": 205,
+    "h": 35
+   }
+  ]
+ },
+ "seafoam": {
+  "name": "Seafoam Islands",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 1652,
+    "cy": 790,
+    "r": 18
+   }
+  ]
+ },
+ "cinnabar": {
+  "name": "Cinnabar Island",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1475,
+    "y": 758,
+    "w": 70,
+    "h": 70
+   }
+  ]
+ },
+ "r21": {
+  "name": "Route 21",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1495,
+    "y": 635,
+    "w": 32,
+    "h": 125
+   }
+  ]
+ },
+ "pallet": {
+  "name": "Pallet Town",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1475,
+    "y": 568,
+    "w": 70,
+    "h": 65
+   }
+  ]
+ },
+ "r1": {
+  "name": "Route 1",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1498,
+    "y": 490,
+    "w": 28,
+    "h": 80
+   }
+  ]
+ },
+ "viridian": {
+  "name": "Viridian City",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1430,
+    "y": 375,
+    "w": 115,
+    "h": 115
+   }
+  ]
+ },
+ "r2": {
+  "name": "Route 2",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1498,
+    "y": 330,
+    "w": 28,
+    "h": 45
+   }
+  ]
+ },
+ "vf": {
+  "name": "Viridian Forest",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1495,
+    "y": 245,
+    "w": 35,
+    "h": 85
+   }
+  ]
+ },
+ "r22": {
+  "name": "Route 22",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1345,
+    "y": 438,
+    "w": 85,
+    "h": 28
+   }
+  ]
+ },
+ "r23": {
+  "name": "Route 23",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1302,
+    "y": 375,
+    "w": 36,
+    "h": 25
+   }
+  ]
+ },
+ "victoryroad": {
+  "name": "Victory Road",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1300,
+    "y": 395,
+    "w": 40,
+    "h": 75
+   }
+  ]
+ },
+ "indigo": {
+  "name": "Indigo Plateau",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1295,
+    "y": 335,
+    "w": 50,
+    "h": 40
+   }
+  ]
+ },
+ "mtsilver": {
+  "name": "Mt. Silver",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1095,
+    "y": 345,
+    "w": 150,
+    "h": 125
+   }
+  ]
+ },
+ "r28": {
+  "name": "Route 28",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1195,
+    "y": 438,
+    "w": 105,
+    "h": 30
+   }
+  ]
+ },
+ "r26": {
+  "name": "Route 26",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1300,
+    "y": 470,
+    "w": 40,
+    "h": 160
+   }
+  ]
+ },
+ "r27": {
+  "name": "Route 27",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1085,
+    "y": 625,
+    "w": 255,
+    "h": 40
+   }
+  ]
+ },
+ "tohjo": {
+  "name": "Tohjo Falls",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 1085,
+    "cy": 645,
+    "r": 18
+   }
+  ]
+ }
+}

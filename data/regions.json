@@ -125,5 +125,37 @@
   "zones": "data/kanto-frlg/sevii-67/zones.json",
   "encounters": "data/kanto-frlg/sevii-67/encounters.json",
   "inset": true
+ },
+ {
+  "id": "sinnoh",
+  "name": "Sinnoh",
+  "generation": 4,
+  "dex": [
+   1,
+   493
+  ],
+  "map": "assets/sinnoh-map.png",
+  "mapSize": [
+   1101,
+   857
+  ],
+  "zones": "data/sinnoh/zones.json",
+  "encounters": "data/sinnoh/encounters.json"
+ },
+ {
+  "id": "johto-hgss",
+  "name": "Johto",
+  "generation": 4,
+  "dex": [
+   1,
+   493
+  ],
+  "map": "assets/johto-hgss-map.png",
+  "mapSize": [
+   2157,
+   857
+  ],
+  "zones": "data/johto-hgss/zones.json",
+  "encounters": "data/johto-hgss/encounters.json"
  }
 ]
