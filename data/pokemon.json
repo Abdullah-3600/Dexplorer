@@ -10,7 +10,8 @@
     },
     "dex": {
       "kanto": 1,
-      "johto": 226
+      "johto": 226,
+      "hgss": 231
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/1.png",
@@ -29,7 +30,8 @@
     },
     "dex": {
       "kanto": 2,
-      "johto": 227
+      "johto": 227,
+      "hgss": 232
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/2.png",
@@ -48,7 +50,8 @@
     },
     "dex": {
       "kanto": 3,
-      "johto": 228
+      "johto": 228,
+      "hgss": 233
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/3.png",
@@ -67,7 +70,8 @@
     },
     "dex": {
       "kanto": 4,
-      "johto": 229
+      "johto": 229,
+      "hgss": 234
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/4.png",
@@ -86,7 +90,8 @@
     },
     "dex": {
       "kanto": 5,
-      "johto": 230
+      "johto": 230,
+      "hgss": 235
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/5.png",
@@ -105,7 +110,8 @@
     },
     "dex": {
       "kanto": 6,
-      "johto": 231
+      "johto": 231,
+      "hgss": 236
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/6.png",
@@ -124,7 +130,8 @@
     },
     "dex": {
       "kanto": 7,
-      "johto": 232
+      "johto": 232,
+      "hgss": 237
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/7.png",
@@ -143,7 +150,8 @@
     },
     "dex": {
       "kanto": 8,
-      "johto": 233
+      "johto": 233,
+      "hgss": 238
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/8.png",
@@ -162,7 +170,8 @@
     },
     "dex": {
       "kanto": 9,
-      "johto": 234
+      "johto": 234,
+      "hgss": 239
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/9.png",
@@ -181,7 +190,8 @@
     },
     "dex": {
       "kanto": 10,
-      "johto": 24
+      "johto": 24,
+      "hgss": 24
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/10.png",
@@ -200,7 +210,8 @@
     },
     "dex": {
       "kanto": 11,
-      "johto": 25
+      "johto": 25,
+      "hgss": 25
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/11.png",
@@ -219,7 +230,8 @@
     },
     "dex": {
       "kanto": 12,
-      "johto": 26
+      "johto": 26,
+      "hgss": 26
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/12.png",
@@ -238,7 +250,8 @@
     },
     "dex": {
       "kanto": 13,
-      "johto": 27
+      "johto": 27,
+      "hgss": 27
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/13.png",
@@ -257,7 +270,8 @@
     },
     "dex": {
       "kanto": 14,
-      "johto": 28
+      "johto": 28,
+      "hgss": 28
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/14.png",
@@ -276,7 +290,8 @@
     },
     "dex": {
       "kanto": 15,
-      "johto": 29
+      "johto": 29,
+      "hgss": 29
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/15.png",
@@ -295,7 +310,8 @@
     },
     "dex": {
       "kanto": 16,
-      "johto": 10
+      "johto": 10,
+      "hgss": 10
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/16.png",
@@ -314,7 +330,8 @@
     },
     "dex": {
       "kanto": 17,
-      "johto": 11
+      "johto": 11,
+      "hgss": 11
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/17.png",
@@ -333,7 +350,8 @@
     },
     "dex": {
       "kanto": 18,
-      "johto": 12
+      "johto": 12,
+      "hgss": 12
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/18.png",
@@ -352,7 +370,8 @@
     },
     "dex": {
       "kanto": 19,
-      "johto": 17
+      "johto": 17,
+      "hgss": 17
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/19.png",
@@ -371,7 +390,8 @@
     },
     "dex": {
       "kanto": 20,
-      "johto": 18
+      "johto": 18,
+      "hgss": 18
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/20.png",
@@ -390,7 +410,8 @@
     },
     "dex": {
       "kanto": 21,
-      "johto": 13
+      "johto": 13,
+      "hgss": 13
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/21.png",
@@ -409,7 +430,8 @@
     },
     "dex": {
       "kanto": 22,
-      "johto": 14
+      "johto": 14,
+      "hgss": 14
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/22.png",
@@ -428,7 +450,8 @@
     },
     "dex": {
       "kanto": 23,
-      "johto": 50
+      "johto": 50,
+      "hgss": 50
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/23.png",
@@ -447,7 +470,8 @@
     },
     "dex": {
       "kanto": 24,
-      "johto": 51
+      "johto": 51,
+      "hgss": 51
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/24.png",
@@ -467,7 +491,10 @@
     "dex": {
       "kanto": 25,
       "johto": 22,
-      "hoenn": 156
+      "hoenn": 156,
+      "sinnoh-dp": 104,
+      "sinnoh-pt": 104,
+      "hgss": 22
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/25.png",
@@ -487,7 +514,10 @@
     "dex": {
       "kanto": 26,
       "johto": 23,
-      "hoenn": 157
+      "hoenn": 157,
+      "sinnoh-dp": 105,
+      "sinnoh-pt": 105,
+      "hgss": 23
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/26.png",
@@ -507,7 +537,8 @@
     "dex": {
       "kanto": 27,
       "johto": 48,
-      "hoenn": 112
+      "hoenn": 112,
+      "hgss": 48
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/27.png",
@@ -527,7 +558,8 @@
     "dex": {
       "kanto": 28,
       "johto": 49,
-      "hoenn": 113
+      "hoenn": 113,
+      "hgss": 49
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/28.png",
@@ -546,7 +578,8 @@
     },
     "dex": {
       "kanto": 29,
-      "johto": 95
+      "johto": 95,
+      "hgss": 95
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/29.png",
@@ -565,7 +598,8 @@
     },
     "dex": {
       "kanto": 30,
-      "johto": 96
+      "johto": 96,
+      "hgss": 96
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/30.png",
@@ -584,7 +618,8 @@
     },
     "dex": {
       "kanto": 31,
-      "johto": 97
+      "johto": 97,
+      "hgss": 97
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/31.png",
@@ -603,7 +638,8 @@
     },
     "dex": {
       "kanto": 32,
-      "johto": 98
+      "johto": 98,
+      "hgss": 98
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/32.png",
@@ -622,7 +658,8 @@
     },
     "dex": {
       "kanto": 33,
-      "johto": 99
+      "johto": 99,
+      "hgss": 99
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/33.png",
@@ -641,7 +678,8 @@
     },
     "dex": {
       "kanto": 34,
-      "johto": 100
+      "johto": 100,
+      "hgss": 100
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/34.png",
@@ -660,7 +698,10 @@
     },
     "dex": {
       "kanto": 35,
-      "johto": 41
+      "johto": 41,
+      "sinnoh-dp": 100,
+      "sinnoh-pt": 100,
+      "hgss": 41
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/35.png",
@@ -679,7 +720,10 @@
     },
     "dex": {
       "kanto": 36,
-      "johto": 42
+      "johto": 42,
+      "sinnoh-dp": 101,
+      "sinnoh-pt": 101,
+      "hgss": 42
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/36.png",
@@ -699,7 +743,8 @@
     "dex": {
       "kanto": 37,
       "johto": 125,
-      "hoenn": 153
+      "hoenn": 153,
+      "hgss": 127
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/37.png",
@@ -719,7 +764,8 @@
     "dex": {
       "kanto": 38,
       "johto": 126,
-      "hoenn": 154
+      "hoenn": 154,
+      "hgss": 128
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/38.png",
@@ -739,7 +785,8 @@
     "dex": {
       "kanto": 39,
       "johto": 44,
-      "hoenn": 138
+      "hoenn": 138,
+      "hgss": 44
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/39.png",
@@ -759,7 +806,8 @@
     "dex": {
       "kanto": 40,
       "johto": 45,
-      "hoenn": 139
+      "hoenn": 139,
+      "hgss": 45
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/40.png",
@@ -779,7 +827,10 @@
     "dex": {
       "kanto": 41,
       "johto": 37,
-      "hoenn": 63
+      "hoenn": 63,
+      "sinnoh-dp": 28,
+      "sinnoh-pt": 28,
+      "hgss": 37
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/41.png",
@@ -799,7 +850,10 @@
     "dex": {
       "kanto": 42,
       "johto": 38,
-      "hoenn": 64
+      "hoenn": 64,
+      "sinnoh-dp": 29,
+      "sinnoh-pt": 29,
+      "hgss": 38
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/42.png",
@@ -819,7 +873,8 @@
     "dex": {
       "kanto": 43,
       "johto": 83,
-      "hoenn": 88
+      "hoenn": 88,
+      "hgss": 83
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/43.png",
@@ -839,7 +894,8 @@
     "dex": {
       "kanto": 44,
       "johto": 84,
-      "hoenn": 89
+      "hoenn": 89,
+      "hgss": 84
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/44.png",
@@ -859,7 +915,8 @@
     "dex": {
       "kanto": 45,
       "johto": 85,
-      "hoenn": 90
+      "hoenn": 90,
+      "hgss": 85
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/45.png",
@@ -878,7 +935,8 @@
     },
     "dex": {
       "kanto": 46,
-      "johto": 70
+      "johto": 70,
+      "hgss": 70
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/46.png",
@@ -897,7 +955,8 @@
     },
     "dex": {
       "kanto": 47,
-      "johto": 71
+      "johto": 71,
+      "hgss": 71
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/47.png",
@@ -916,7 +975,8 @@
     },
     "dex": {
       "kanto": 48,
-      "johto": 108
+      "johto": 108,
+      "hgss": 109
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/48.png",
@@ -935,7 +995,8 @@
     },
     "dex": {
       "kanto": 49,
-      "johto": 109
+      "johto": 109,
+      "hgss": 110
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/49.png",
@@ -954,7 +1015,8 @@
     },
     "dex": {
       "kanto": 50,
-      "johto": 132
+      "johto": 132,
+      "hgss": 134
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/50.png",
@@ -973,7 +1035,8 @@
     },
     "dex": {
       "kanto": 51,
-      "johto": 133
+      "johto": 133,
+      "hgss": 135
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/51.png",
@@ -992,7 +1055,8 @@
     },
     "dex": {
       "kanto": 52,
-      "johto": 136
+      "johto": 136,
+      "hgss": 138
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/52.png",
@@ -1011,7 +1075,8 @@
     },
     "dex": {
       "kanto": 53,
-      "johto": 137
+      "johto": 137,
+      "hgss": 139
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/53.png",
@@ -1031,7 +1096,10 @@
     "dex": {
       "kanto": 54,
       "johto": 138,
-      "hoenn": 158
+      "hoenn": 158,
+      "sinnoh-dp": 43,
+      "sinnoh-pt": 43,
+      "hgss": 140
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/54.png",
@@ -1051,7 +1119,10 @@
     "dex": {
       "kanto": 55,
       "johto": 139,
-      "hoenn": 159
+      "hoenn": 159,
+      "sinnoh-dp": 44,
+      "sinnoh-pt": 44,
+      "hgss": 141
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/55.png",
@@ -1070,7 +1141,8 @@
     },
     "dex": {
       "kanto": 56,
-      "johto": 134
+      "johto": 134,
+      "hgss": 136
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/56.png",
@@ -1089,7 +1161,8 @@
     },
     "dex": {
       "kanto": 57,
-      "johto": 135
+      "johto": 135,
+      "hgss": 137
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/57.png",
@@ -1108,7 +1181,8 @@
     },
     "dex": {
       "kanto": 58,
-      "johto": 127
+      "johto": 127,
+      "hgss": 129
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/58.png",
@@ -1127,7 +1201,8 @@
     },
     "dex": {
       "kanto": 59,
-      "johto": 128
+      "johto": 128,
+      "hgss": 130
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/59.png",
@@ -1146,7 +1221,8 @@
     },
     "dex": {
       "kanto": 60,
-      "johto": 72
+      "johto": 72,
+      "hgss": 72
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/60.png",
@@ -1165,7 +1241,8 @@
     },
     "dex": {
       "kanto": 61,
-      "johto": 73
+      "johto": 73,
+      "hgss": 73
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/61.png",
@@ -1184,7 +1261,8 @@
     },
     "dex": {
       "kanto": 62,
-      "johto": 74
+      "johto": 74,
+      "hgss": 74
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/62.png",
@@ -1204,7 +1282,10 @@
     "dex": {
       "kanto": 63,
       "johto": 89,
-      "hoenn": 39
+      "hoenn": 39,
+      "sinnoh-dp": 20,
+      "sinnoh-pt": 20,
+      "hgss": 89
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/63.png",
@@ -1224,7 +1305,10 @@
     "dex": {
       "kanto": 64,
       "johto": 90,
-      "hoenn": 40
+      "hoenn": 40,
+      "sinnoh-dp": 21,
+      "sinnoh-pt": 21,
+      "hgss": 90
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/64.png",
@@ -1244,7 +1328,10 @@
     "dex": {
       "kanto": 65,
       "johto": 91,
-      "hoenn": 41
+      "hoenn": 41,
+      "sinnoh-dp": 22,
+      "sinnoh-pt": 22,
+      "hgss": 91
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/65.png",
@@ -1264,7 +1351,10 @@
     "dex": {
       "kanto": 66,
       "johto": 140,
-      "hoenn": 73
+      "hoenn": 73,
+      "sinnoh-dp": 40,
+      "sinnoh-pt": 40,
+      "hgss": 142
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/66.png",
@@ -1284,7 +1374,10 @@
     "dex": {
       "kanto": 67,
       "johto": 141,
-      "hoenn": 74
+      "hoenn": 74,
+      "sinnoh-dp": 41,
+      "sinnoh-pt": 41,
+      "hgss": 143
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/67.png",
@@ -1304,7 +1397,10 @@
     "dex": {
       "kanto": 68,
       "johto": 142,
-      "hoenn": 75
+      "hoenn": 75,
+      "sinnoh-dp": 42,
+      "sinnoh-pt": 42,
+      "hgss": 144
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/68.png",
@@ -1323,7 +1419,8 @@
     },
     "dex": {
       "kanto": 69,
-      "johto": 64
+      "johto": 64,
+      "hgss": 64
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/69.png",
@@ -1342,7 +1439,8 @@
     },
     "dex": {
       "kanto": 70,
-      "johto": 65
+      "johto": 65,
+      "hgss": 65
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/70.png",
@@ -1361,7 +1459,8 @@
     },
     "dex": {
       "kanto": 71,
-      "johto": 66
+      "johto": 66,
+      "hgss": 66
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/71.png",
@@ -1381,7 +1480,10 @@
     "dex": {
       "kanto": 72,
       "johto": 162,
-      "hoenn": 66
+      "hoenn": 66,
+      "sinnoh-dp": 136,
+      "sinnoh-pt": 136,
+      "hgss": 164
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/72.png",
@@ -1401,7 +1503,10 @@
     "dex": {
       "kanto": 73,
       "johto": 163,
-      "hoenn": 67
+      "hoenn": 67,
+      "sinnoh-dp": 137,
+      "sinnoh-pt": 137,
+      "hgss": 165
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/73.png",
@@ -1421,7 +1526,10 @@
     "dex": {
       "kanto": 74,
       "johto": 34,
-      "hoenn": 57
+      "hoenn": 57,
+      "sinnoh-dp": 31,
+      "sinnoh-pt": 31,
+      "hgss": 34
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/74.png",
@@ -1441,7 +1549,10 @@
     "dex": {
       "kanto": 75,
       "johto": 35,
-      "hoenn": 58
+      "hoenn": 58,
+      "sinnoh-dp": 32,
+      "sinnoh-pt": 32,
+      "hgss": 35
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/75.png",
@@ -1461,7 +1572,10 @@
     "dex": {
       "kanto": 76,
       "johto": 36,
-      "hoenn": 59
+      "hoenn": 59,
+      "sinnoh-dp": 33,
+      "sinnoh-pt": 33,
+      "hgss": 36
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/76.png",
@@ -1480,7 +1594,10 @@
     },
     "dex": {
       "kanto": 77,
-      "johto": 201
+      "johto": 201,
+      "sinnoh-dp": 90,
+      "sinnoh-pt": 90,
+      "hgss": 206
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/77.png",
@@ -1499,7 +1616,10 @@
     },
     "dex": {
       "kanto": 78,
-      "johto": 202
+      "johto": 202,
+      "sinnoh-dp": 91,
+      "sinnoh-pt": 91,
+      "hgss": 207
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/78.png",
@@ -1518,7 +1638,8 @@
     },
     "dex": {
       "kanto": 79,
-      "johto": 80
+      "johto": 80,
+      "hgss": 80
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/79.png",
@@ -1537,7 +1658,8 @@
     },
     "dex": {
       "kanto": 80,
-      "johto": 81
+      "johto": 81,
+      "hgss": 81
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/80.png",
@@ -1557,7 +1679,9 @@
     "dex": {
       "kanto": 81,
       "johto": 118,
-      "hoenn": 82
+      "hoenn": 82,
+      "sinnoh-pt": 178,
+      "hgss": 119
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/81.png",
@@ -1577,7 +1701,9 @@
     "dex": {
       "kanto": 82,
       "johto": 119,
-      "hoenn": 83
+      "hoenn": 83,
+      "sinnoh-pt": 179,
+      "hgss": 120
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/82.png",
@@ -1596,7 +1722,8 @@
     },
     "dex": {
       "kanto": 83,
-      "johto": 158
+      "johto": 158,
+      "hgss": 160
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/83.png",
@@ -1616,7 +1743,8 @@
     "dex": {
       "kanto": 84,
       "johto": 199,
-      "hoenn": 92
+      "hoenn": 92,
+      "hgss": 204
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/84.png",
@@ -1636,7 +1764,8 @@
     "dex": {
       "kanto": 85,
       "johto": 200,
-      "hoenn": 93
+      "hoenn": 93,
+      "hgss": 205
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/85.png",
@@ -1655,7 +1784,8 @@
     },
     "dex": {
       "kanto": 86,
-      "johto": 176
+      "johto": 176,
+      "hgss": 178
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/86.png",
@@ -1674,7 +1804,8 @@
     },
     "dex": {
       "kanto": 87,
-      "johto": 177
+      "johto": 177,
+      "hgss": 179
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/87.png",
@@ -1694,7 +1825,8 @@
     "dex": {
       "kanto": 88,
       "johto": 116,
-      "hoenn": 106
+      "hoenn": 106,
+      "hgss": 117
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/88.png",
@@ -1714,7 +1846,8 @@
     "dex": {
       "kanto": 89,
       "johto": 117,
-      "hoenn": 107
+      "hoenn": 107,
+      "hgss": 118
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/89.png",
@@ -1733,7 +1866,8 @@
     },
     "dex": {
       "kanto": 90,
-      "johto": 169
+      "johto": 169,
+      "hgss": 171
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/90.png",
@@ -1752,7 +1886,8 @@
     },
     "dex": {
       "kanto": 91,
-      "johto": 170
+      "johto": 170,
+      "hgss": 172
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/91.png",
@@ -1771,7 +1906,10 @@
     },
     "dex": {
       "kanto": 92,
-      "johto": 58
+      "johto": 58,
+      "sinnoh-dp": 69,
+      "sinnoh-pt": 69,
+      "hgss": 58
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/92.png",
@@ -1790,7 +1928,10 @@
     },
     "dex": {
       "kanto": 93,
-      "johto": 59
+      "johto": 59,
+      "sinnoh-dp": 70,
+      "sinnoh-pt": 70,
+      "hgss": 59
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/93.png",
@@ -1809,7 +1950,10 @@
     },
     "dex": {
       "kanto": 94,
-      "johto": 60
+      "johto": 60,
+      "sinnoh-dp": 71,
+      "sinnoh-pt": 71,
+      "hgss": 60
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/94.png",
@@ -1828,7 +1972,10 @@
     },
     "dex": {
       "kanto": 95,
-      "johto": 62
+      "johto": 62,
+      "sinnoh-dp": 34,
+      "sinnoh-pt": 34,
+      "hgss": 62
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/95.png",
@@ -1847,7 +1994,8 @@
     },
     "dex": {
       "kanto": 96,
-      "johto": 87
+      "johto": 87,
+      "hgss": 87
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/96.png",
@@ -1866,7 +2014,8 @@
     },
     "dex": {
       "kanto": 97,
-      "johto": 88
+      "johto": 88,
+      "hgss": 88
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/97.png",
@@ -1885,7 +2034,8 @@
     },
     "dex": {
       "kanto": 98,
-      "johto": 164
+      "johto": 164,
+      "hgss": 166
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/98.png",
@@ -1904,7 +2054,8 @@
     },
     "dex": {
       "kanto": 99,
-      "johto": 165
+      "johto": 165,
+      "hgss": 167
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/99.png",
@@ -1924,7 +2075,8 @@
     "dex": {
       "kanto": 100,
       "johto": 120,
-      "hoenn": 84
+      "hoenn": 84,
+      "hgss": 121
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/100.png",
@@ -1944,7 +2096,8 @@
     "dex": {
       "kanto": 101,
       "johto": 121,
-      "hoenn": 85
+      "hoenn": 85,
+      "hgss": 122
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/101.png",
@@ -1963,7 +2116,8 @@
     },
     "dex": {
       "kanto": 102,
-      "johto": 104
+      "johto": 104,
+      "hgss": 105
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/102.png",
@@ -1982,7 +2136,8 @@
     },
     "dex": {
       "kanto": 103,
-      "johto": 105
+      "johto": 105,
+      "hgss": 106
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/103.png",
@@ -2001,7 +2156,8 @@
     },
     "dex": {
       "kanto": 104,
-      "johto": 203
+      "johto": 203,
+      "hgss": 208
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/104.png",
@@ -2020,7 +2176,8 @@
     },
     "dex": {
       "kanto": 105,
-      "johto": 204
+      "johto": 204,
+      "hgss": 209
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/105.png",
@@ -2039,7 +2196,8 @@
     },
     "dex": {
       "kanto": 106,
-      "johto": 144
+      "johto": 144,
+      "hgss": 146
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/106.png",
@@ -2058,7 +2216,8 @@
     },
     "dex": {
       "kanto": 107,
-      "johto": 145
+      "johto": 145,
+      "hgss": 147
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/107.png",
@@ -2077,7 +2236,9 @@
     },
     "dex": {
       "kanto": 108,
-      "johto": 178
+      "johto": 178,
+      "sinnoh-pt": 161,
+      "hgss": 180
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/108.png",
@@ -2097,7 +2258,8 @@
     "dex": {
       "kanto": 109,
       "johto": 114,
-      "hoenn": 108
+      "hoenn": 108,
+      "hgss": 115
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/109.png",
@@ -2117,7 +2279,8 @@
     "dex": {
       "kanto": 110,
       "johto": 115,
-      "hoenn": 109
+      "hoenn": 109,
+      "hgss": 116
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/110.png",
@@ -2137,7 +2300,9 @@
     "dex": {
       "kanto": 111,
       "johto": 206,
-      "hoenn": 169
+      "hoenn": 169,
+      "sinnoh-pt": 186,
+      "hgss": 211
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/111.png",
@@ -2157,7 +2322,9 @@
     "dex": {
       "kanto": 112,
       "johto": 207,
-      "hoenn": 170
+      "hoenn": 170,
+      "sinnoh-pt": 187,
+      "hgss": 212
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/112.png",
@@ -2176,7 +2343,10 @@
     },
     "dex": {
       "kanto": 113,
-      "johto": 217
+      "johto": 217,
+      "sinnoh-dp": 97,
+      "sinnoh-pt": 97,
+      "hgss": 222
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/113.png",
@@ -2195,7 +2365,9 @@
     },
     "dex": {
       "kanto": 114,
-      "johto": 179
+      "johto": 179,
+      "sinnoh-pt": 181,
+      "hgss": 182
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/114.png",
@@ -2214,7 +2386,8 @@
     },
     "dex": {
       "kanto": 115,
-      "johto": 205
+      "johto": 205,
+      "hgss": 210
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/115.png",
@@ -2234,7 +2407,8 @@
     "dex": {
       "kanto": 116,
       "johto": 186,
-      "hoenn": 184
+      "hoenn": 184,
+      "hgss": 190
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/116.png",
@@ -2254,7 +2428,8 @@
     "dex": {
       "kanto": 117,
       "johto": 187,
-      "hoenn": 185
+      "hoenn": 185,
+      "hgss": 191
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/117.png",
@@ -2274,7 +2449,10 @@
     "dex": {
       "kanto": 118,
       "johto": 78,
-      "hoenn": 50
+      "hoenn": 50,
+      "sinnoh-dp": 78,
+      "sinnoh-pt": 78,
+      "hgss": 78
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/118.png",
@@ -2294,7 +2472,10 @@
     "dex": {
       "kanto": 119,
       "johto": 79,
-      "hoenn": 51
+      "hoenn": 51,
+      "sinnoh-dp": 79,
+      "sinnoh-pt": 79,
+      "hgss": 79
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/119.png",
@@ -2314,7 +2495,8 @@
     "dex": {
       "kanto": 120,
       "johto": 167,
-      "hoenn": 143
+      "hoenn": 143,
+      "hgss": 169
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/120.png",
@@ -2334,7 +2516,8 @@
     "dex": {
       "kanto": 121,
       "johto": 168,
-      "hoenn": 144
+      "hoenn": 144,
+      "hgss": 170
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/121.png",
@@ -2353,7 +2536,10 @@
     },
     "dex": {
       "kanto": 122,
-      "johto": 156
+      "johto": 156,
+      "sinnoh-dp": 95,
+      "sinnoh-pt": 95,
+      "hgss": 158
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/122.png",
@@ -2372,7 +2558,9 @@
     },
     "dex": {
       "kanto": 123,
-      "johto": 110
+      "johto": 110,
+      "sinnoh-pt": 195,
+      "hgss": 111
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/123.png",
@@ -2391,7 +2579,8 @@
     },
     "dex": {
       "kanto": 124,
-      "johto": 153
+      "johto": 153,
+      "hgss": 155
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/124.png",
@@ -2410,7 +2599,9 @@
     },
     "dex": {
       "kanto": 125,
-      "johto": 155
+      "johto": 155,
+      "sinnoh-pt": 198,
+      "hgss": 157
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/125.png",
@@ -2429,7 +2620,9 @@
     },
     "dex": {
       "kanto": 126,
-      "johto": 151
+      "johto": 151,
+      "sinnoh-pt": 201,
+      "hgss": 153
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/126.png",
@@ -2449,7 +2642,8 @@
     "dex": {
       "kanto": 127,
       "johto": 112,
-      "hoenn": 167
+      "hoenn": 167,
+      "hgss": 113
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/127.png",
@@ -2468,7 +2662,8 @@
     },
     "dex": {
       "kanto": 128,
-      "johto": 148
+      "johto": 148,
+      "hgss": 150
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/128.png",
@@ -2488,7 +2683,10 @@
     "dex": {
       "kanto": 129,
       "johto": 76,
-      "hoenn": 52
+      "hoenn": 52,
+      "sinnoh-dp": 23,
+      "sinnoh-pt": 23,
+      "hgss": 76
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/129.png",
@@ -2508,7 +2706,10 @@
     "dex": {
       "kanto": 130,
       "johto": 77,
-      "hoenn": 53
+      "hoenn": 53,
+      "sinnoh-dp": 24,
+      "sinnoh-pt": 24,
+      "hgss": 77
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/130.png",
@@ -2527,7 +2728,8 @@
     },
     "dex": {
       "kanto": 131,
-      "johto": 219
+      "johto": 219,
+      "hgss": 224
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/131.png",
@@ -2546,7 +2748,8 @@
     },
     "dex": {
       "kanto": 132,
-      "johto": 92
+      "johto": 92,
+      "hgss": 92
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/132.png",
@@ -2565,7 +2768,9 @@
     },
     "dex": {
       "kanto": 133,
-      "johto": 180
+      "johto": 180,
+      "sinnoh-pt": 163,
+      "hgss": 184
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/133.png",
@@ -2584,7 +2789,9 @@
     },
     "dex": {
       "kanto": 134,
-      "johto": 181
+      "johto": 181,
+      "sinnoh-pt": 164,
+      "hgss": 185
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/134.png",
@@ -2603,7 +2810,9 @@
     },
     "dex": {
       "kanto": 135,
-      "johto": 182
+      "johto": 182,
+      "sinnoh-pt": 165,
+      "hgss": 186
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/135.png",
@@ -2622,7 +2831,9 @@
     },
     "dex": {
       "kanto": 136,
-      "johto": 183
+      "johto": 183,
+      "sinnoh-pt": 166,
+      "hgss": 187
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/136.png",
@@ -2641,7 +2852,9 @@
     },
     "dex": {
       "kanto": 137,
-      "johto": 215
+      "johto": 215,
+      "sinnoh-pt": 192,
+      "hgss": 220
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/137.png",
@@ -2660,7 +2873,8 @@
     },
     "dex": {
       "kanto": 138,
-      "johto": 220
+      "johto": 220,
+      "hgss": 225
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/138.png",
@@ -2679,7 +2893,8 @@
     },
     "dex": {
       "kanto": 139,
-      "johto": 221
+      "johto": 221,
+      "hgss": 226
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/139.png",
@@ -2698,7 +2913,8 @@
     },
     "dex": {
       "kanto": 140,
-      "johto": 222
+      "johto": 222,
+      "hgss": 227
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/140.png",
@@ -2717,7 +2933,8 @@
     },
     "dex": {
       "kanto": 141,
-      "johto": 223
+      "johto": 223,
+      "hgss": 228
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/141.png",
@@ -2736,7 +2953,8 @@
     },
     "dex": {
       "kanto": 142,
-      "johto": 224
+      "johto": 224,
+      "hgss": 229
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/142.png",
@@ -2755,7 +2973,10 @@
     },
     "dex": {
       "kanto": 143,
-      "johto": 225
+      "johto": 225,
+      "sinnoh-dp": 113,
+      "sinnoh-pt": 113,
+      "hgss": 230
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/143.png",
@@ -2774,7 +2995,8 @@
     },
     "dex": {
       "kanto": 144,
-      "johto": 235
+      "johto": 235,
+      "hgss": 240
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/144.png",
@@ -2793,7 +3015,8 @@
     },
     "dex": {
       "kanto": 145,
-      "johto": 236
+      "johto": 236,
+      "hgss": 241
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/145.png",
@@ -2812,7 +3035,8 @@
     },
     "dex": {
       "kanto": 146,
-      "johto": 237
+      "johto": 237,
+      "hgss": 242
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/146.png",
@@ -2831,7 +3055,8 @@
     },
     "dex": {
       "kanto": 147,
-      "johto": 241
+      "johto": 241,
+      "hgss": 246
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/147.png",
@@ -2850,7 +3075,8 @@
     },
     "dex": {
       "kanto": 148,
-      "johto": 242
+      "johto": 242,
+      "hgss": 247
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/148.png",
@@ -2869,7 +3095,8 @@
     },
     "dex": {
       "kanto": 149,
-      "johto": 243
+      "johto": 243,
+      "hgss": 248
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/149.png",
@@ -2888,7 +3115,8 @@
     },
     "dex": {
       "kanto": 150,
-      "johto": 249
+      "johto": 249,
+      "hgss": 254
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/150.png",
@@ -2907,7 +3135,8 @@
     },
     "dex": {
       "kanto": 151,
-      "johto": 250
+      "johto": 250,
+      "hgss": 255
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/151.png",
@@ -2924,7 +3153,8 @@
       "4": "assets/sprites/gen4/152.png"
     },
     "dex": {
-      "johto": 1
+      "johto": 1,
+      "hgss": 1
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/152.png",
@@ -2941,7 +3171,8 @@
       "4": "assets/sprites/gen4/153.png"
     },
     "dex": {
-      "johto": 2
+      "johto": 2,
+      "hgss": 2
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/153.png",
@@ -2958,7 +3189,8 @@
       "4": "assets/sprites/gen4/154.png"
     },
     "dex": {
-      "johto": 3
+      "johto": 3,
+      "hgss": 3
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/154.png",
@@ -2975,7 +3207,8 @@
       "4": "assets/sprites/gen4/155.png"
     },
     "dex": {
-      "johto": 4
+      "johto": 4,
+      "hgss": 4
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/155.png",
@@ -2992,7 +3225,8 @@
       "4": "assets/sprites/gen4/156.png"
     },
     "dex": {
-      "johto": 5
+      "johto": 5,
+      "hgss": 5
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/156.png",
@@ -3009,7 +3243,8 @@
       "4": "assets/sprites/gen4/157.png"
     },
     "dex": {
-      "johto": 6
+      "johto": 6,
+      "hgss": 6
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/157.png",
@@ -3026,7 +3261,8 @@
       "4": "assets/sprites/gen4/158.png"
     },
     "dex": {
-      "johto": 7
+      "johto": 7,
+      "hgss": 7
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/158.png",
@@ -3043,7 +3279,8 @@
       "4": "assets/sprites/gen4/159.png"
     },
     "dex": {
-      "johto": 8
+      "johto": 8,
+      "hgss": 8
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/159.png",
@@ -3060,7 +3297,8 @@
       "4": "assets/sprites/gen4/160.png"
     },
     "dex": {
-      "johto": 9
+      "johto": 9,
+      "hgss": 9
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/160.png",
@@ -3077,7 +3315,8 @@
       "4": "assets/sprites/gen4/161.png"
     },
     "dex": {
-      "johto": 19
+      "johto": 19,
+      "hgss": 19
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/161.png",
@@ -3094,7 +3333,8 @@
       "4": "assets/sprites/gen4/162.png"
     },
     "dex": {
-      "johto": 20
+      "johto": 20,
+      "hgss": 20
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/162.png",
@@ -3111,7 +3351,10 @@
       "4": "assets/sprites/gen4/163.png"
     },
     "dex": {
-      "johto": 15
+      "johto": 15,
+      "sinnoh-dp": 106,
+      "sinnoh-pt": 106,
+      "hgss": 15
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/163.png",
@@ -3128,7 +3371,10 @@
       "4": "assets/sprites/gen4/164.png"
     },
     "dex": {
-      "johto": 16
+      "johto": 16,
+      "sinnoh-dp": 107,
+      "sinnoh-pt": 107,
+      "hgss": 16
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/164.png",
@@ -3145,7 +3391,8 @@
       "4": "assets/sprites/gen4/165.png"
     },
     "dex": {
-      "johto": 30
+      "johto": 30,
+      "hgss": 30
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/165.png",
@@ -3162,7 +3409,8 @@
       "4": "assets/sprites/gen4/166.png"
     },
     "dex": {
-      "johto": 31
+      "johto": 31,
+      "hgss": 31
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/166.png",
@@ -3179,7 +3427,8 @@
       "4": "assets/sprites/gen4/167.png"
     },
     "dex": {
-      "johto": 32
+      "johto": 32,
+      "hgss": 32
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/167.png",
@@ -3196,7 +3445,8 @@
       "4": "assets/sprites/gen4/168.png"
     },
     "dex": {
-      "johto": 33
+      "johto": 33,
+      "hgss": 33
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/168.png",
@@ -3214,7 +3464,10 @@
     },
     "dex": {
       "johto": 39,
-      "hoenn": 65
+      "hoenn": 65,
+      "sinnoh-dp": 30,
+      "sinnoh-pt": 30,
+      "hgss": 39
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/169.png",
@@ -3232,7 +3485,8 @@
     },
     "dex": {
       "johto": 174,
-      "hoenn": 181
+      "hoenn": 181,
+      "hgss": 176
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/170.png",
@@ -3250,7 +3504,8 @@
     },
     "dex": {
       "johto": 175,
-      "hoenn": 182
+      "hoenn": 182,
+      "hgss": 177
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/171.png",
@@ -3268,7 +3523,10 @@
     },
     "dex": {
       "johto": 21,
-      "hoenn": 155
+      "hoenn": 155,
+      "sinnoh-dp": 103,
+      "sinnoh-pt": 103,
+      "hgss": 21
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/172.png",
@@ -3285,7 +3543,10 @@
       "4": "assets/sprites/gen4/173.png"
     },
     "dex": {
-      "johto": 40
+      "johto": 40,
+      "sinnoh-dp": 99,
+      "sinnoh-pt": 99,
+      "hgss": 40
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/173.png",
@@ -3303,7 +3564,8 @@
     },
     "dex": {
       "johto": 43,
-      "hoenn": 137
+      "hoenn": 137,
+      "hgss": 43
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/174.png",
@@ -3320,7 +3582,9 @@
       "4": "assets/sprites/gen4/175.png"
     },
     "dex": {
-      "johto": 46
+      "johto": 46,
+      "sinnoh-pt": 173,
+      "hgss": 46
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/175.png",
@@ -3337,7 +3601,9 @@
       "4": "assets/sprites/gen4/176.png"
     },
     "dex": {
-      "johto": 47
+      "johto": 47,
+      "sinnoh-pt": 174,
+      "hgss": 47
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/176.png",
@@ -3355,7 +3621,8 @@
     },
     "dex": {
       "johto": 159,
-      "hoenn": 162
+      "hoenn": 162,
+      "hgss": 161
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/177.png",
@@ -3373,7 +3640,8 @@
     },
     "dex": {
       "johto": 160,
-      "hoenn": 163
+      "hoenn": 163,
+      "hgss": 162
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/178.png",
@@ -3390,7 +3658,8 @@
       "4": "assets/sprites/gen4/179.png"
     },
     "dex": {
-      "johto": 53
+      "johto": 53,
+      "hgss": 53
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/179.png",
@@ -3407,7 +3676,8 @@
       "4": "assets/sprites/gen4/180.png"
     },
     "dex": {
-      "johto": 54
+      "johto": 54,
+      "hgss": 54
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/180.png",
@@ -3424,7 +3694,8 @@
       "4": "assets/sprites/gen4/181.png"
     },
     "dex": {
-      "johto": 55
+      "johto": 55,
+      "hgss": 55
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/181.png",
@@ -3442,7 +3713,8 @@
     },
     "dex": {
       "johto": 86,
-      "hoenn": 91
+      "hoenn": 91,
+      "hgss": 86
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/182.png",
@@ -3460,7 +3732,10 @@
     },
     "dex": {
       "johto": 130,
-      "hoenn": 55
+      "hoenn": 55,
+      "sinnoh-dp": 125,
+      "sinnoh-pt": 125,
+      "hgss": 132
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/183.png",
@@ -3478,7 +3753,10 @@
     },
     "dex": {
       "johto": 131,
-      "hoenn": 56
+      "hoenn": 56,
+      "sinnoh-dp": 126,
+      "sinnoh-pt": 126,
+      "hgss": 133
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/184.png",
@@ -3495,7 +3773,10 @@
       "4": "assets/sprites/gen4/185.png"
     },
     "dex": {
-      "johto": 106
+      "johto": 106,
+      "sinnoh-dp": 93,
+      "sinnoh-pt": 93,
+      "hgss": 107
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/185.png",
@@ -3512,7 +3793,8 @@
       "4": "assets/sprites/gen4/186.png"
     },
     "dex": {
-      "johto": 75
+      "johto": 75,
+      "hgss": 75
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/186.png",
@@ -3529,7 +3811,8 @@
       "4": "assets/sprites/gen4/187.png"
     },
     "dex": {
-      "johto": 67
+      "johto": 67,
+      "hgss": 67
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/187.png",
@@ -3546,7 +3829,8 @@
       "4": "assets/sprites/gen4/188.png"
     },
     "dex": {
-      "johto": 68
+      "johto": 68,
+      "hgss": 68
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/188.png",
@@ -3563,7 +3847,8 @@
       "4": "assets/sprites/gen4/189.png"
     },
     "dex": {
-      "johto": 69
+      "johto": 69,
+      "hgss": 69
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/189.png",
@@ -3580,7 +3865,10 @@
       "4": "assets/sprites/gen4/190.png"
     },
     "dex": {
-      "johto": 122
+      "johto": 122,
+      "sinnoh-dp": 63,
+      "sinnoh-pt": 63,
+      "hgss": 123
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/190.png",
@@ -3597,7 +3885,8 @@
       "4": "assets/sprites/gen4/191.png"
     },
     "dex": {
-      "johto": 102
+      "johto": 102,
+      "hgss": 103
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/191.png",
@@ -3614,7 +3903,8 @@
       "4": "assets/sprites/gen4/192.png"
     },
     "dex": {
-      "johto": 103
+      "johto": 103,
+      "hgss": 104
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/192.png",
@@ -3631,7 +3921,9 @@
       "4": "assets/sprites/gen4/193.png"
     },
     "dex": {
-      "johto": 101
+      "johto": 101,
+      "sinnoh-pt": 183,
+      "hgss": 101
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/193.png",
@@ -3648,7 +3940,10 @@
       "4": "assets/sprites/gen4/194.png"
     },
     "dex": {
-      "johto": 56
+      "johto": 56,
+      "sinnoh-dp": 117,
+      "sinnoh-pt": 117,
+      "hgss": 56
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/194.png",
@@ -3665,7 +3960,10 @@
       "4": "assets/sprites/gen4/195.png"
     },
     "dex": {
-      "johto": 57
+      "johto": 57,
+      "sinnoh-dp": 118,
+      "sinnoh-pt": 118,
+      "hgss": 57
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/195.png",
@@ -3682,7 +3980,9 @@
       "4": "assets/sprites/gen4/196.png"
     },
     "dex": {
-      "johto": 184
+      "johto": 184,
+      "sinnoh-pt": 167,
+      "hgss": 188
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/196.png",
@@ -3699,7 +3999,9 @@
       "4": "assets/sprites/gen4/197.png"
     },
     "dex": {
-      "johto": 185
+      "johto": 185,
+      "sinnoh-pt": 168,
+      "hgss": 189
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/197.png",
@@ -3716,7 +4018,10 @@
       "4": "assets/sprites/gen4/198.png"
     },
     "dex": {
-      "johto": 208
+      "johto": 208,
+      "sinnoh-dp": 74,
+      "sinnoh-pt": 74,
+      "hgss": 213
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/198.png",
@@ -3733,7 +4038,8 @@
       "4": "assets/sprites/gen4/199.png"
     },
     "dex": {
-      "johto": 82
+      "johto": 82,
+      "hgss": 82
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/199.png",
@@ -3750,7 +4056,10 @@
       "4": "assets/sprites/gen4/200.png"
     },
     "dex": {
-      "johto": 214
+      "johto": 214,
+      "sinnoh-dp": 72,
+      "sinnoh-pt": 72,
+      "hgss": 219
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/200.png",
@@ -3767,7 +4076,10 @@
       "4": "assets/sprites/gen4/201.png"
     },
     "dex": {
-      "johto": 61
+      "johto": 61,
+      "sinnoh-dp": 114,
+      "sinnoh-pt": 114,
+      "hgss": 61
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/201.png",
@@ -3785,7 +4097,8 @@
     },
     "dex": {
       "johto": 107,
-      "hoenn": 161
+      "hoenn": 161,
+      "hgss": 108
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/202.png",
@@ -3803,7 +4116,10 @@
     },
     "dex": {
       "johto": 147,
-      "hoenn": 164
+      "hoenn": 164,
+      "sinnoh-dp": 121,
+      "sinnoh-pt": 121,
+      "hgss": 149
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/203.png",
@@ -3820,7 +4136,8 @@
       "4": "assets/sprites/gen4/204.png"
     },
     "dex": {
-      "johto": 93
+      "johto": 93,
+      "hgss": 93
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/204.png",
@@ -3837,7 +4154,8 @@
       "4": "assets/sprites/gen4/205.png"
     },
     "dex": {
-      "johto": 94
+      "johto": 94,
+      "hgss": 94
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/205.png",
@@ -3854,7 +4172,8 @@
       "4": "assets/sprites/gen4/206.png"
     },
     "dex": {
-      "johto": 52
+      "johto": 52,
+      "hgss": 52
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/206.png",
@@ -3871,7 +4190,9 @@
       "4": "assets/sprites/gen4/207.png"
     },
     "dex": {
-      "johto": 189
+      "johto": 189,
+      "sinnoh-pt": 153,
+      "hgss": 193
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/207.png",
@@ -3888,7 +4209,10 @@
       "4": "assets/sprites/gen4/208.png"
     },
     "dex": {
-      "johto": 63
+      "johto": 63,
+      "sinnoh-dp": 35,
+      "sinnoh-pt": 35,
+      "hgss": 63
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/208.png",
@@ -3905,7 +4229,8 @@
       "4": "assets/sprites/gen4/209.png"
     },
     "dex": {
-      "johto": 123
+      "johto": 123,
+      "hgss": 125
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/209.png",
@@ -3922,7 +4247,8 @@
       "4": "assets/sprites/gen4/210.png"
     },
     "dex": {
-      "johto": 124
+      "johto": 124,
+      "hgss": 126
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/210.png",
@@ -3939,7 +4265,8 @@
       "4": "assets/sprites/gen4/211.png"
     },
     "dex": {
-      "johto": 161
+      "johto": 161,
+      "hgss": 163
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/211.png",
@@ -3956,7 +4283,9 @@
       "4": "assets/sprites/gen4/212.png"
     },
     "dex": {
-      "johto": 111
+      "johto": 111,
+      "sinnoh-pt": 196,
+      "hgss": 112
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/212.png",
@@ -3973,7 +4302,8 @@
       "4": "assets/sprites/gen4/213.png"
     },
     "dex": {
-      "johto": 166
+      "johto": 166,
+      "hgss": 168
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/213.png",
@@ -3991,7 +4321,10 @@
     },
     "dex": {
       "johto": 113,
-      "hoenn": 168
+      "hoenn": 168,
+      "sinnoh-dp": 62,
+      "sinnoh-pt": 62,
+      "hgss": 114
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/214.png",
@@ -4008,7 +4341,10 @@
       "4": "assets/sprites/gen4/215.png"
     },
     "dex": {
-      "johto": 213
+      "johto": 213,
+      "sinnoh-dp": 144,
+      "sinnoh-pt": 144,
+      "hgss": 218
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/215.png",
@@ -4025,7 +4361,8 @@
       "4": "assets/sprites/gen4/216.png"
     },
     "dex": {
-      "johto": 193
+      "johto": 193,
+      "hgss": 198
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/216.png",
@@ -4042,7 +4379,8 @@
       "4": "assets/sprites/gen4/217.png"
     },
     "dex": {
-      "johto": 194
+      "johto": 194,
+      "hgss": 199
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/217.png",
@@ -4060,7 +4398,8 @@
     },
     "dex": {
       "johto": 211,
-      "hoenn": 103
+      "hoenn": 103,
+      "hgss": 216
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/218.png",
@@ -4078,7 +4417,8 @@
     },
     "dex": {
       "johto": 212,
-      "hoenn": 104
+      "hoenn": 104,
+      "hgss": 217
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/219.png",
@@ -4095,7 +4435,9 @@
       "4": "assets/sprites/gen4/220.png"
     },
     "dex": {
-      "johto": 191
+      "johto": 191,
+      "sinnoh-pt": 203,
+      "hgss": 195
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/220.png",
@@ -4112,7 +4454,9 @@
       "4": "assets/sprites/gen4/221.png"
     },
     "dex": {
-      "johto": 192
+      "johto": 192,
+      "sinnoh-pt": 204,
+      "hgss": 196
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/221.png",
@@ -4130,7 +4474,8 @@
     },
     "dex": {
       "johto": 171,
-      "hoenn": 180
+      "hoenn": 180,
+      "hgss": 173
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/222.png",
@@ -4147,7 +4492,10 @@
       "4": "assets/sprites/gen4/223.png"
     },
     "dex": {
-      "johto": 172
+      "johto": 172,
+      "sinnoh-dp": 132,
+      "sinnoh-pt": 132,
+      "hgss": 174
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/223.png",
@@ -4164,7 +4512,10 @@
       "4": "assets/sprites/gen4/224.png"
     },
     "dex": {
-      "johto": 173
+      "johto": 173,
+      "sinnoh-dp": 133,
+      "sinnoh-pt": 133,
+      "hgss": 175
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/224.png",
@@ -4181,7 +4532,8 @@
       "4": "assets/sprites/gen4/225.png"
     },
     "dex": {
-      "johto": 190
+      "johto": 190,
+      "hgss": 194
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/225.png",
@@ -4198,7 +4550,10 @@
       "4": "assets/sprites/gen4/226.png"
     },
     "dex": {
-      "johto": 197
+      "johto": 197,
+      "sinnoh-dp": 141,
+      "sinnoh-pt": 141,
+      "hgss": 202
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/226.png",
@@ -4216,7 +4571,8 @@
     },
     "dex": {
       "johto": 198,
-      "hoenn": 115
+      "hoenn": 115,
+      "hgss": 203
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/227.png",
@@ -4233,7 +4589,9 @@
       "4": "assets/sprites/gen4/228.png"
     },
     "dex": {
-      "johto": 209
+      "johto": 209,
+      "sinnoh-pt": 176,
+      "hgss": 214
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/228.png",
@@ -4250,7 +4608,9 @@
       "4": "assets/sprites/gen4/229.png"
     },
     "dex": {
-      "johto": 210
+      "johto": 210,
+      "sinnoh-pt": 177,
+      "hgss": 215
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/229.png",
@@ -4268,7 +4628,8 @@
     },
     "dex": {
       "johto": 188,
-      "hoenn": 186
+      "hoenn": 186,
+      "hgss": 192
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/230.png",
@@ -4286,7 +4647,8 @@
     },
     "dex": {
       "johto": 195,
-      "hoenn": 165
+      "hoenn": 165,
+      "hgss": 200
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/231.png",
@@ -4304,7 +4666,8 @@
     },
     "dex": {
       "johto": 196,
-      "hoenn": 166
+      "hoenn": 166,
+      "hgss": 201
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/232.png",
@@ -4321,7 +4684,9 @@
       "4": "assets/sprites/gen4/233.png"
     },
     "dex": {
-      "johto": 216
+      "johto": 216,
+      "sinnoh-pt": 193,
+      "hgss": 221
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/233.png",
@@ -4338,7 +4703,8 @@
       "4": "assets/sprites/gen4/234.png"
     },
     "dex": {
-      "johto": 129
+      "johto": 129,
+      "hgss": 131
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/234.png",
@@ -4355,7 +4721,8 @@
       "4": "assets/sprites/gen4/235.png"
     },
     "dex": {
-      "johto": 157
+      "johto": 157,
+      "hgss": 159
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/235.png",
@@ -4372,7 +4739,8 @@
       "4": "assets/sprites/gen4/236.png"
     },
     "dex": {
-      "johto": 143
+      "johto": 143,
+      "hgss": 145
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/236.png",
@@ -4389,7 +4757,8 @@
       "4": "assets/sprites/gen4/237.png"
     },
     "dex": {
-      "johto": 146
+      "johto": 146,
+      "hgss": 148
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/237.png",
@@ -4406,7 +4775,8 @@
       "4": "assets/sprites/gen4/238.png"
     },
     "dex": {
-      "johto": 152
+      "johto": 152,
+      "hgss": 154
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/238.png",
@@ -4423,7 +4793,9 @@
       "4": "assets/sprites/gen4/239.png"
     },
     "dex": {
-      "johto": 154
+      "johto": 154,
+      "sinnoh-pt": 197,
+      "hgss": 156
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/239.png",
@@ -4440,7 +4812,9 @@
       "4": "assets/sprites/gen4/240.png"
     },
     "dex": {
-      "johto": 150
+      "johto": 150,
+      "sinnoh-pt": 200,
+      "hgss": 152
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/240.png",
@@ -4457,7 +4831,8 @@
       "4": "assets/sprites/gen4/241.png"
     },
     "dex": {
-      "johto": 149
+      "johto": 149,
+      "hgss": 151
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/241.png",
@@ -4474,7 +4849,10 @@
       "4": "assets/sprites/gen4/242.png"
     },
     "dex": {
-      "johto": 218
+      "johto": 218,
+      "sinnoh-dp": 98,
+      "sinnoh-pt": 98,
+      "hgss": 223
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/242.png",
@@ -4491,7 +4869,8 @@
       "4": "assets/sprites/gen4/243.png"
     },
     "dex": {
-      "johto": 238
+      "johto": 238,
+      "hgss": 243
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/243.png",
@@ -4508,7 +4887,8 @@
       "4": "assets/sprites/gen4/244.png"
     },
     "dex": {
-      "johto": 239
+      "johto": 239,
+      "hgss": 244
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/244.png",
@@ -4525,7 +4905,8 @@
       "4": "assets/sprites/gen4/245.png"
     },
     "dex": {
-      "johto": 240
+      "johto": 240,
+      "hgss": 245
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/245.png",
@@ -4542,7 +4923,8 @@
       "4": "assets/sprites/gen4/246.png"
     },
     "dex": {
-      "johto": 244
+      "johto": 244,
+      "hgss": 249
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/246.png",
@@ -4559,7 +4941,8 @@
       "4": "assets/sprites/gen4/247.png"
     },
     "dex": {
-      "johto": 245
+      "johto": 245,
+      "hgss": 250
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/247.png",
@@ -4576,7 +4959,8 @@
       "4": "assets/sprites/gen4/248.png"
     },
     "dex": {
-      "johto": 246
+      "johto": 246,
+      "hgss": 251
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/248.png",
@@ -4593,7 +4977,8 @@
       "4": "assets/sprites/gen4/249.png"
     },
     "dex": {
-      "johto": 247
+      "johto": 247,
+      "hgss": 252
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/249.png",
@@ -4610,7 +4995,8 @@
       "4": "assets/sprites/gen4/250.png"
     },
     "dex": {
-      "johto": 248
+      "johto": 248,
+      "hgss": 253
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/250.png",
@@ -4627,7 +5013,8 @@
       "4": "assets/sprites/gen4/251.png"
     },
     "dex": {
-      "johto": 251
+      "johto": 251,
+      "hgss": 256
     },
     "shinySprites": {
       "2": "assets/sprites/shiny/gen2/251.png",
@@ -4838,7 +5225,9 @@
       "4": "assets/sprites/gen4/265.png"
     },
     "dex": {
-      "hoenn": 14
+      "hoenn": 14,
+      "sinnoh-dp": 48,
+      "sinnoh-pt": 48
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/265.png",
@@ -4853,7 +5242,9 @@
       "4": "assets/sprites/gen4/266.png"
     },
     "dex": {
-      "hoenn": 15
+      "hoenn": 15,
+      "sinnoh-dp": 49,
+      "sinnoh-pt": 49
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/266.png",
@@ -4868,7 +5259,9 @@
       "4": "assets/sprites/gen4/267.png"
     },
     "dex": {
-      "hoenn": 16
+      "hoenn": 16,
+      "sinnoh-dp": 50,
+      "sinnoh-pt": 50
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/267.png",
@@ -4883,7 +5276,9 @@
       "4": "assets/sprites/gen4/268.png"
     },
     "dex": {
-      "hoenn": 17
+      "hoenn": 17,
+      "sinnoh-dp": 51,
+      "sinnoh-pt": 51
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/268.png",
@@ -4898,7 +5293,9 @@
       "4": "assets/sprites/gen4/269.png"
     },
     "dex": {
-      "hoenn": 18
+      "hoenn": 18,
+      "sinnoh-dp": 52,
+      "sinnoh-pt": 52
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/269.png",
@@ -5033,7 +5430,9 @@
       "4": "assets/sprites/gen4/278.png"
     },
     "dex": {
-      "hoenn": 27
+      "hoenn": 27,
+      "sinnoh-dp": 119,
+      "sinnoh-pt": 119
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/278.png",
@@ -5048,7 +5447,9 @@
       "4": "assets/sprites/gen4/279.png"
     },
     "dex": {
-      "hoenn": 28
+      "hoenn": 28,
+      "sinnoh-dp": 120,
+      "sinnoh-pt": 120
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/279.png",
@@ -5063,7 +5464,8 @@
       "4": "assets/sprites/gen4/280.png"
     },
     "dex": {
-      "hoenn": 29
+      "hoenn": 29,
+      "sinnoh-pt": 157
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/280.png",
@@ -5078,7 +5480,8 @@
       "4": "assets/sprites/gen4/281.png"
     },
     "dex": {
-      "hoenn": 30
+      "hoenn": 30,
+      "sinnoh-pt": 158
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/281.png",
@@ -5093,7 +5496,8 @@
       "4": "assets/sprites/gen4/282.png"
     },
     "dex": {
-      "hoenn": 31
+      "hoenn": 31,
+      "sinnoh-pt": 159
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/282.png",
@@ -5333,7 +5737,9 @@
       "4": "assets/sprites/gen4/298.png"
     },
     "dex": {
-      "hoenn": 54
+      "hoenn": 54,
+      "sinnoh-dp": 124,
+      "sinnoh-pt": 124
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/298.png",
@@ -5348,7 +5754,8 @@
       "4": "assets/sprites/gen4/299.png"
     },
     "dex": {
-      "hoenn": 60
+      "hoenn": 60,
+      "sinnoh-pt": 155
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/299.png",
@@ -5468,7 +5875,9 @@
       "4": "assets/sprites/gen4/307.png"
     },
     "dex": {
-      "hoenn": 76
+      "hoenn": 76,
+      "sinnoh-dp": 86,
+      "sinnoh-pt": 86
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/307.png",
@@ -5483,7 +5892,9 @@
       "4": "assets/sprites/gen4/308.png"
     },
     "dex": {
-      "hoenn": 77
+      "hoenn": 77,
+      "sinnoh-dp": 87,
+      "sinnoh-pt": 87
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/308.png",
@@ -5588,7 +5999,9 @@
       "4": "assets/sprites/gen4/315.png"
     },
     "dex": {
-      "hoenn": 94
+      "hoenn": 94,
+      "sinnoh-dp": 26,
+      "sinnoh-pt": 26
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/315.png",
@@ -5858,7 +6271,8 @@
       "4": "assets/sprites/gen4/333.png"
     },
     "dex": {
-      "hoenn": 121
+      "hoenn": 121,
+      "sinnoh-pt": 171
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/333.png",
@@ -5873,7 +6287,8 @@
       "4": "assets/sprites/gen4/334.png"
     },
     "dex": {
-      "hoenn": 122
+      "hoenn": 122,
+      "sinnoh-pt": 172
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/334.png",
@@ -5948,7 +6363,9 @@
       "4": "assets/sprites/gen4/339.png"
     },
     "dex": {
-      "hoenn": 127
+      "hoenn": 127,
+      "sinnoh-dp": 80,
+      "sinnoh-pt": 80
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/339.png",
@@ -5963,7 +6380,9 @@
       "4": "assets/sprites/gen4/340.png"
     },
     "dex": {
-      "hoenn": 128
+      "hoenn": 128,
+      "sinnoh-dp": 81,
+      "sinnoh-pt": 81
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/340.png",
@@ -6098,7 +6517,9 @@
       "4": "assets/sprites/gen4/349.png"
     },
     "dex": {
-      "hoenn": 140
+      "hoenn": 140,
+      "sinnoh-dp": 138,
+      "sinnoh-pt": 138
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/349.png",
@@ -6113,7 +6534,9 @@
       "4": "assets/sprites/gen4/350.png"
     },
     "dex": {
-      "hoenn": 141
+      "hoenn": 141,
+      "sinnoh-dp": 139,
+      "sinnoh-pt": 139
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/350.png",
@@ -6188,7 +6611,8 @@
       "4": "assets/sprites/gen4/355.png"
     },
     "dex": {
-      "hoenn": 148
+      "hoenn": 148,
+      "sinnoh-pt": 189
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/355.png",
@@ -6203,7 +6627,8 @@
       "4": "assets/sprites/gen4/356.png"
     },
     "dex": {
-      "hoenn": 149
+      "hoenn": 149,
+      "sinnoh-pt": 190
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/356.png",
@@ -6218,7 +6643,8 @@
       "4": "assets/sprites/gen4/357.png"
     },
     "dex": {
-      "hoenn": 150
+      "hoenn": 150,
+      "sinnoh-pt": 185
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/357.png",
@@ -6233,7 +6659,9 @@
       "4": "assets/sprites/gen4/358.png"
     },
     "dex": {
-      "hoenn": 151
+      "hoenn": 151,
+      "sinnoh-dp": 83,
+      "sinnoh-pt": 83
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/358.png",
@@ -6248,7 +6676,8 @@
       "4": "assets/sprites/gen4/359.png"
     },
     "dex": {
-      "hoenn": 152
+      "hoenn": 152,
+      "sinnoh-pt": 209
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/359.png",
@@ -6278,7 +6707,8 @@
       "4": "assets/sprites/gen4/361.png"
     },
     "dex": {
-      "hoenn": 171
+      "hoenn": 171,
+      "sinnoh-pt": 206
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/361.png",
@@ -6293,7 +6723,8 @@
       "4": "assets/sprites/gen4/362.png"
     },
     "dex": {
-      "hoenn": 172
+      "hoenn": 172,
+      "sinnoh-pt": 207
     },
     "shinySprites": {
       "3": "assets/sprites/shiny/gen3/362.png",
@@ -6668,6 +7099,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/387.png"
+    },
+    "dex": {
+      "sinnoh-dp": 1,
+      "sinnoh-pt": 1
     }
   },
   {
@@ -6678,6 +7113,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/388.png"
+    },
+    "dex": {
+      "sinnoh-dp": 2,
+      "sinnoh-pt": 2
     }
   },
   {
@@ -6688,6 +7127,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/389.png"
+    },
+    "dex": {
+      "sinnoh-dp": 3,
+      "sinnoh-pt": 3
     }
   },
   {
@@ -6698,6 +7141,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/390.png"
+    },
+    "dex": {
+      "sinnoh-dp": 4,
+      "sinnoh-pt": 4
     }
   },
   {
@@ -6708,6 +7155,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/391.png"
+    },
+    "dex": {
+      "sinnoh-dp": 5,
+      "sinnoh-pt": 5
     }
   },
   {
@@ -6718,6 +7169,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/392.png"
+    },
+    "dex": {
+      "sinnoh-dp": 6,
+      "sinnoh-pt": 6
     }
   },
   {
@@ -6728,6 +7183,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/393.png"
+    },
+    "dex": {
+      "sinnoh-dp": 7,
+      "sinnoh-pt": 7
     }
   },
   {
@@ -6738,6 +7197,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/394.png"
+    },
+    "dex": {
+      "sinnoh-dp": 8,
+      "sinnoh-pt": 8
     }
   },
   {
@@ -6748,6 +7211,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/395.png"
+    },
+    "dex": {
+      "sinnoh-dp": 9,
+      "sinnoh-pt": 9
     }
   },
   {
@@ -6758,6 +7225,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/396.png"
+    },
+    "dex": {
+      "sinnoh-dp": 10,
+      "sinnoh-pt": 10
     }
   },
   {
@@ -6768,6 +7239,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/397.png"
+    },
+    "dex": {
+      "sinnoh-dp": 11,
+      "sinnoh-pt": 11
     }
   },
   {
@@ -6778,6 +7253,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/398.png"
+    },
+    "dex": {
+      "sinnoh-dp": 12,
+      "sinnoh-pt": 12
     }
   },
   {
@@ -6788,6 +7267,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/399.png"
+    },
+    "dex": {
+      "sinnoh-dp": 13,
+      "sinnoh-pt": 13
     }
   },
   {
@@ -6798,6 +7281,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/400.png"
+    },
+    "dex": {
+      "sinnoh-dp": 14,
+      "sinnoh-pt": 14
     }
   },
   {
@@ -6808,6 +7295,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/401.png"
+    },
+    "dex": {
+      "sinnoh-dp": 15,
+      "sinnoh-pt": 15
     }
   },
   {
@@ -6818,6 +7309,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/402.png"
+    },
+    "dex": {
+      "sinnoh-dp": 16,
+      "sinnoh-pt": 16
     }
   },
   {
@@ -6828,6 +7323,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/403.png"
+    },
+    "dex": {
+      "sinnoh-dp": 17,
+      "sinnoh-pt": 17
     }
   },
   {
@@ -6838,6 +7337,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/404.png"
+    },
+    "dex": {
+      "sinnoh-dp": 18,
+      "sinnoh-pt": 18
     }
   },
   {
@@ -6848,6 +7351,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/405.png"
+    },
+    "dex": {
+      "sinnoh-dp": 19,
+      "sinnoh-pt": 19
     }
   },
   {
@@ -6858,6 +7365,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/406.png"
+    },
+    "dex": {
+      "sinnoh-dp": 25,
+      "sinnoh-pt": 25
     }
   },
   {
@@ -6868,6 +7379,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/407.png"
+    },
+    "dex": {
+      "sinnoh-dp": 27,
+      "sinnoh-pt": 27
     }
   },
   {
@@ -6878,6 +7393,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/408.png"
+    },
+    "dex": {
+      "sinnoh-dp": 36,
+      "sinnoh-pt": 36
     }
   },
   {
@@ -6888,6 +7407,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/409.png"
+    },
+    "dex": {
+      "sinnoh-dp": 37,
+      "sinnoh-pt": 37
     }
   },
   {
@@ -6898,6 +7421,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/410.png"
+    },
+    "dex": {
+      "sinnoh-dp": 38,
+      "sinnoh-pt": 38
     }
   },
   {
@@ -6908,6 +7435,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/411.png"
+    },
+    "dex": {
+      "sinnoh-dp": 39,
+      "sinnoh-pt": 39
     }
   },
   {
@@ -6918,6 +7449,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/412.png"
+    },
+    "dex": {
+      "sinnoh-dp": 45,
+      "sinnoh-pt": 45
     }
   },
   {
@@ -6928,6 +7463,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/413.png"
+    },
+    "dex": {
+      "sinnoh-dp": 46,
+      "sinnoh-pt": 46
     }
   },
   {
@@ -6938,6 +7477,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/414.png"
+    },
+    "dex": {
+      "sinnoh-dp": 47,
+      "sinnoh-pt": 47
     }
   },
   {
@@ -6948,6 +7491,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/415.png"
+    },
+    "dex": {
+      "sinnoh-dp": 53,
+      "sinnoh-pt": 53
     }
   },
   {
@@ -6958,6 +7505,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/416.png"
+    },
+    "dex": {
+      "sinnoh-dp": 54,
+      "sinnoh-pt": 54
     }
   },
   {
@@ -6968,6 +7519,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/417.png"
+    },
+    "dex": {
+      "sinnoh-dp": 55,
+      "sinnoh-pt": 55
     }
   },
   {
@@ -6978,6 +7533,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/418.png"
+    },
+    "dex": {
+      "sinnoh-dp": 56,
+      "sinnoh-pt": 56
     }
   },
   {
@@ -6988,6 +7547,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/419.png"
+    },
+    "dex": {
+      "sinnoh-dp": 57,
+      "sinnoh-pt": 57
     }
   },
   {
@@ -6998,6 +7561,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/420.png"
+    },
+    "dex": {
+      "sinnoh-dp": 58,
+      "sinnoh-pt": 58
     }
   },
   {
@@ -7008,6 +7575,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/421.png"
+    },
+    "dex": {
+      "sinnoh-dp": 59,
+      "sinnoh-pt": 59
     }
   },
   {
@@ -7018,6 +7589,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/422.png"
+    },
+    "dex": {
+      "sinnoh-dp": 60,
+      "sinnoh-pt": 60
     }
   },
   {
@@ -7028,6 +7603,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/423.png"
+    },
+    "dex": {
+      "sinnoh-dp": 61,
+      "sinnoh-pt": 61
     }
   },
   {
@@ -7038,6 +7617,11 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/424.png"
+    },
+    "dex": {
+      "sinnoh-dp": 64,
+      "sinnoh-pt": 64,
+      "hgss": 124
     }
   },
   {
@@ -7048,6 +7632,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/425.png"
+    },
+    "dex": {
+      "sinnoh-dp": 65,
+      "sinnoh-pt": 65
     }
   },
   {
@@ -7058,6 +7646,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/426.png"
+    },
+    "dex": {
+      "sinnoh-dp": 66,
+      "sinnoh-pt": 66
     }
   },
   {
@@ -7068,6 +7660,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/427.png"
+    },
+    "dex": {
+      "sinnoh-dp": 67,
+      "sinnoh-pt": 67
     }
   },
   {
@@ -7078,6 +7674,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/428.png"
+    },
+    "dex": {
+      "sinnoh-dp": 68,
+      "sinnoh-pt": 68
     }
   },
   {
@@ -7088,6 +7688,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/429.png"
+    },
+    "dex": {
+      "sinnoh-dp": 73,
+      "sinnoh-pt": 73
     }
   },
   {
@@ -7098,6 +7702,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/430.png"
+    },
+    "dex": {
+      "sinnoh-dp": 75,
+      "sinnoh-pt": 75
     }
   },
   {
@@ -7108,6 +7716,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/431.png"
+    },
+    "dex": {
+      "sinnoh-dp": 76,
+      "sinnoh-pt": 76
     }
   },
   {
@@ -7118,6 +7730,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/432.png"
+    },
+    "dex": {
+      "sinnoh-dp": 77,
+      "sinnoh-pt": 77
     }
   },
   {
@@ -7128,6 +7744,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/433.png"
+    },
+    "dex": {
+      "sinnoh-dp": 82,
+      "sinnoh-pt": 82
     }
   },
   {
@@ -7138,6 +7758,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/434.png"
+    },
+    "dex": {
+      "sinnoh-dp": 84,
+      "sinnoh-pt": 84
     }
   },
   {
@@ -7148,6 +7772,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/435.png"
+    },
+    "dex": {
+      "sinnoh-dp": 85,
+      "sinnoh-pt": 85
     }
   },
   {
@@ -7158,6 +7786,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/436.png"
+    },
+    "dex": {
+      "sinnoh-dp": 88,
+      "sinnoh-pt": 88
     }
   },
   {
@@ -7168,6 +7800,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/437.png"
+    },
+    "dex": {
+      "sinnoh-dp": 89,
+      "sinnoh-pt": 89
     }
   },
   {
@@ -7178,6 +7814,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/438.png"
+    },
+    "dex": {
+      "sinnoh-dp": 92,
+      "sinnoh-pt": 92
     }
   },
   {
@@ -7188,6 +7828,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/439.png"
+    },
+    "dex": {
+      "sinnoh-dp": 94,
+      "sinnoh-pt": 94
     }
   },
   {
@@ -7198,6 +7842,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/440.png"
+    },
+    "dex": {
+      "sinnoh-dp": 96,
+      "sinnoh-pt": 96
     }
   },
   {
@@ -7208,6 +7856,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/441.png"
+    },
+    "dex": {
+      "sinnoh-dp": 102,
+      "sinnoh-pt": 102
     }
   },
   {
@@ -7218,6 +7870,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/442.png"
+    },
+    "dex": {
+      "sinnoh-dp": 108,
+      "sinnoh-pt": 108
     }
   },
   {
@@ -7228,6 +7884,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/443.png"
+    },
+    "dex": {
+      "sinnoh-dp": 109,
+      "sinnoh-pt": 109
     }
   },
   {
@@ -7238,6 +7898,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/444.png"
+    },
+    "dex": {
+      "sinnoh-dp": 110,
+      "sinnoh-pt": 110
     }
   },
   {
@@ -7248,6 +7912,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/445.png"
+    },
+    "dex": {
+      "sinnoh-dp": 111,
+      "sinnoh-pt": 111
     }
   },
   {
@@ -7258,6 +7926,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/446.png"
+    },
+    "dex": {
+      "sinnoh-dp": 112,
+      "sinnoh-pt": 112
     }
   },
   {
@@ -7268,6 +7940,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/447.png"
+    },
+    "dex": {
+      "sinnoh-dp": 115,
+      "sinnoh-pt": 115
     }
   },
   {
@@ -7278,6 +7954,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/448.png"
+    },
+    "dex": {
+      "sinnoh-dp": 116,
+      "sinnoh-pt": 116
     }
   },
   {
@@ -7288,6 +7968,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/449.png"
+    },
+    "dex": {
+      "sinnoh-dp": 122,
+      "sinnoh-pt": 122
     }
   },
   {
@@ -7298,6 +7982,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/450.png"
+    },
+    "dex": {
+      "sinnoh-dp": 123,
+      "sinnoh-pt": 123
     }
   },
   {
@@ -7308,6 +7996,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/451.png"
+    },
+    "dex": {
+      "sinnoh-dp": 127,
+      "sinnoh-pt": 127
     }
   },
   {
@@ -7318,6 +8010,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/452.png"
+    },
+    "dex": {
+      "sinnoh-dp": 128,
+      "sinnoh-pt": 128
     }
   },
   {
@@ -7328,6 +8024,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/453.png"
+    },
+    "dex": {
+      "sinnoh-dp": 129,
+      "sinnoh-pt": 129
     }
   },
   {
@@ -7338,6 +8038,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/454.png"
+    },
+    "dex": {
+      "sinnoh-dp": 130,
+      "sinnoh-pt": 130
     }
   },
   {
@@ -7348,6 +8052,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/455.png"
+    },
+    "dex": {
+      "sinnoh-dp": 131,
+      "sinnoh-pt": 131
     }
   },
   {
@@ -7358,6 +8066,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/456.png"
+    },
+    "dex": {
+      "sinnoh-dp": 134,
+      "sinnoh-pt": 134
     }
   },
   {
@@ -7368,6 +8080,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/457.png"
+    },
+    "dex": {
+      "sinnoh-dp": 135,
+      "sinnoh-pt": 135
     }
   },
   {
@@ -7378,6 +8094,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/458.png"
+    },
+    "dex": {
+      "sinnoh-dp": 140,
+      "sinnoh-pt": 140
     }
   },
   {
@@ -7388,6 +8108,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/459.png"
+    },
+    "dex": {
+      "sinnoh-dp": 142,
+      "sinnoh-pt": 142
     }
   },
   {
@@ -7398,6 +8122,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/460.png"
+    },
+    "dex": {
+      "sinnoh-dp": 143,
+      "sinnoh-pt": 143
     }
   },
   {
@@ -7408,6 +8136,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/461.png"
+    },
+    "dex": {
+      "sinnoh-dp": 145,
+      "sinnoh-pt": 145
     }
   },
   {
@@ -7418,6 +8150,9 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/462.png"
+    },
+    "dex": {
+      "sinnoh-pt": 180
     }
   },
   {
@@ -7428,6 +8163,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/463.png"
+    },
+    "dex": {
+      "sinnoh-pt": 162,
+      "hgss": 181
     }
   },
   {
@@ -7438,6 +8177,9 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/464.png"
+    },
+    "dex": {
+      "sinnoh-pt": 188
     }
   },
   {
@@ -7448,6 +8190,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/465.png"
+    },
+    "dex": {
+      "sinnoh-pt": 182,
+      "hgss": 183
     }
   },
   {
@@ -7458,6 +8204,9 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/466.png"
+    },
+    "dex": {
+      "sinnoh-pt": 199
     }
   },
   {
@@ -7468,6 +8217,9 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/467.png"
+    },
+    "dex": {
+      "sinnoh-pt": 202
     }
   },
   {
@@ -7478,6 +8230,9 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/468.png"
+    },
+    "dex": {
+      "sinnoh-pt": 175
     }
   },
   {
@@ -7488,6 +8243,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/469.png"
+    },
+    "dex": {
+      "sinnoh-pt": 184,
+      "hgss": 102
     }
   },
   {
@@ -7498,6 +8257,9 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/470.png"
+    },
+    "dex": {
+      "sinnoh-pt": 169
     }
   },
   {
@@ -7508,6 +8270,9 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/471.png"
+    },
+    "dex": {
+      "sinnoh-pt": 170
     }
   },
   {
@@ -7518,6 +8283,9 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/472.png"
+    },
+    "dex": {
+      "sinnoh-pt": 154
     }
   },
   {
@@ -7528,6 +8296,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/473.png"
+    },
+    "dex": {
+      "sinnoh-pt": 205,
+      "hgss": 197
     }
   },
   {
@@ -7538,6 +8310,9 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/474.png"
+    },
+    "dex": {
+      "sinnoh-pt": 194
     }
   },
   {
@@ -7548,6 +8323,9 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/475.png"
+    },
+    "dex": {
+      "sinnoh-pt": 160
     }
   },
   {
@@ -7558,6 +8336,9 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/476.png"
+    },
+    "dex": {
+      "sinnoh-pt": 156
     }
   },
   {
@@ -7568,6 +8349,9 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/477.png"
+    },
+    "dex": {
+      "sinnoh-pt": 191
     }
   },
   {
@@ -7578,6 +8362,9 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/478.png"
+    },
+    "dex": {
+      "sinnoh-pt": 208
     }
   },
   {
@@ -7588,6 +8375,9 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/479.png"
+    },
+    "dex": {
+      "sinnoh-pt": 152
     }
   },
   {
@@ -7598,6 +8388,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/480.png"
+    },
+    "dex": {
+      "sinnoh-dp": 146,
+      "sinnoh-pt": 146
     }
   },
   {
@@ -7608,6 +8402,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/481.png"
+    },
+    "dex": {
+      "sinnoh-dp": 147,
+      "sinnoh-pt": 147
     }
   },
   {
@@ -7618,6 +8416,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/482.png"
+    },
+    "dex": {
+      "sinnoh-dp": 148,
+      "sinnoh-pt": 148
     }
   },
   {
@@ -7628,6 +8430,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/483.png"
+    },
+    "dex": {
+      "sinnoh-dp": 149,
+      "sinnoh-pt": 149
     }
   },
   {
@@ -7638,6 +8444,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/484.png"
+    },
+    "dex": {
+      "sinnoh-dp": 150,
+      "sinnoh-pt": 150
     }
   },
   {
@@ -7668,6 +8478,9 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/487.png"
+    },
+    "dex": {
+      "sinnoh-pt": 210
     }
   },
   {
@@ -7698,6 +8511,10 @@
     },
     "shinySprites": {
       "4": "assets/sprites/shiny/gen4/490.png"
+    },
+    "dex": {
+      "sinnoh-dp": 151,
+      "sinnoh-pt": 151
     }
   },
   {

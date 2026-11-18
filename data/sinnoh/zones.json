@@ -147,11 +147,10 @@
   "name": "Great Marsh",
   "shapes": [
    {
-    "type": "rect",
-    "x": 687,
-    "y": 697,
-    "w": 35,
-    "h": 36
+    "type": "circle",
+    "cx": 705,
+    "cy": 715,
+    "r": 14
    }
   ]
  },
@@ -528,11 +527,10 @@
   "name": "Oreburgh Mine",
   "shapes": [
    {
-    "type": "rect",
-    "x": 329,
-    "y": 662,
-    "w": 36,
-    "h": 35
+    "type": "circle",
+    "cx": 347,
+    "cy": 679,
+    "r": 14
    }
   ]
  },
@@ -540,11 +538,10 @@
   "name": "Oreburgh Mining Museum",
   "shapes": [
    {
-    "type": "rect",
-    "x": 329,
-    "y": 626,
-    "w": 36,
-    "h": 36
+    "type": "circle",
+    "cx": 347,
+    "cy": 644,
+    "r": 14
    }
   ]
  },
@@ -564,11 +561,10 @@
   "name": "Snowpoint Temple",
   "shapes": [
    {
-    "type": "rect",
-    "x": 401,
-    "y": 20,
-    "w": 36,
-    "h": 36
+    "type": "circle",
+    "cx": 419,
+    "cy": 38,
+    "r": 14
    }
   ]
  },
@@ -797,7 +793,7 @@
     "type": "rect",
     "x": 258,
     "y": 804,
-    "w": 107,
+    "w": 71,
     "h": 36
    }
   ]

@@ -140,7 +140,13 @@
    857
   ],
   "zones": "data/sinnoh/zones.json",
-  "encounters": "data/sinnoh/encounters.json"
+  "encounters": "data/sinnoh/encounters.json",
+  "dexKey": "sinnoh-pt",
+  "dexByGame": {
+   "diamond": "sinnoh-dp",
+   "pearl": "sinnoh-dp",
+   "platinum": "sinnoh-pt"
+  }
  },
  {
   "id": "johto-hgss",
@@ -156,6 +162,7 @@
    857
   ],
   "zones": "data/johto-hgss/zones.json",
-  "encounters": "data/johto-hgss/encounters.json"
+  "encounters": "data/johto-hgss/encounters.json",
+  "dexKey": "hgss"
  }
 ]

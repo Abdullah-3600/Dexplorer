@@ -4,11 +4,18 @@
 
 - **Encounter heatmap:** pick a Pokémon and see where to find it on the map, from blue (lowest encounter rate) to green (highest).
 - **Encounter details:** hover over a highlighted area to see how to catch it (walking, surfing, fishing, gift or static), the level range and the encounter rate.
-- **Game switcher:** 
-- **Generation selector:** 
-- **Pokémon picker:**
-- **Comfortable to use:**
+- **Game switcher:** switch between Red, Blue and Yellow (Generation I), Gold, Silver and Crystal (Generation II), or Ruby, Sapphire and Emerald (Generation III, Hoenn) or FireRed and LeafGreen (Generation III, Kanto) to see each game's own encounters, including version exclusives and time-of-day differences.
+- **Generation selector:** the game list follows the generation you choose.
+- **Region selector:** generations with more than one region (Generation III: Hoenn for Ruby, Sapphire and Emerald, Kanto for FireRed and LeafGreen; Generation IV: Sinnoh for Diamond, Pearl and Platinum, Johto for HeartGold and SoulSilver) get a region dropdown under the generation selector, and the game list follows the region. It stays hidden for single-region generations.
+- **Gifts, statics, trades and roaming:** Hoenn includes starters, legendaries, Devon Scope Kecleon, NPC trades and the roaming Latias/Latios. Event-only Pokémon and places with no spot on the map (for example Birth Island and Navel Rock) are mentioned in text, without a map location.
+- **Pokémon picker:** browse Generation I (151), Generation II (251), Generation III (386) and Generation IV (493) Pokémon, each with sprites from its own generation's games, and search by name or number.
+- **Comfortable to use:** light and dark mode, smooth animations, and full keyboard support.
 
+## Roadmap
+
+- Pokémon stat viewer
+- Pokédex page
+- Generation IV onwards
 
 # DexCheck
 

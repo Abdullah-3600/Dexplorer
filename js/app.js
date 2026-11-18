@@ -12,8 +12,7 @@ const seg = $("seg"), gb = $("gb"), gm = $("gm"), rw = $("rw"), rb = $("rb"), rm
 /* A generation is either single-region ({region, games}) or multi-region ({regions: [{id, name, region, games}]}). */
 const optsOf = g => g.regions || [{ id: g.region, name: null, region: g.region, games: g.games }];
 const optOk = o => !!o.region && state.regions.some(r => r.id === o.region && !r.pending);
-const GAME_SPRITES = { diamond: "gen4dp", pearl: "gen4dp", heartgold: "gen4hgss", soulsilver: "gen4hgss" }; // Platinum keeps the plain gen4 folder
-const spriteSrc = m => { const f = state.gen.id === 4 && GAME_SPRITES[state.game]; return f ? `assets/sprites/${f}/${m.id}.png` : (m.sprites[state.gen.id] || Object.values(m.sprites).pop()) };
+const spriteSrc = m => m.sprites[state.gen.id] || Object.values(m.sprites).pop();
 const gameName = id => (state.games.find(g => g.id === id) || {}).name || id;
 const vlab = games => games.length === state.games.length ? "" : " · " + games.map(gameName).join("/");
 const heat = r => r.rate == null ? 100 : r.rate;
@@ -37,6 +36,7 @@ function find(id) {
   for (const r of state.rows) if (r.pokemon === id && r.games.includes(state.game) && state.zones[r.zone]) (m[r.zone] = m[r.zone] || []).push(r);
   return Object.entries(m).map(([k, rows]) => ({ k, z: state.zones[k], rows, peak: Math.max(...rows.map(heat)) }));
 }
+const dkey = () => (state.region.dexByGame && state.region.dexByGame[state.game]) || state.region.dexKey; // Sinnoh: Diamond/Pearl and Platinum have different regional dexes
 const offMap = id => state.rows.filter(r => r.pokemon === id && !r.zone && r.games.includes(state.game));
 function draw() {
   $("tipbox").hidden = true;
@@ -44,7 +44,7 @@ function draw() {
   state.maps.forEach(m => { m.heat.replaceChildren(); m.hits.replaceChildren() }); L.replaceChildren();
   const sel = state.sel;
   if (!sel) { $("t").textContent = "Select a Pokémon"; L.innerHTML = '<p class="empty">Pick a Pokémon to see where it appears.</p>'; return }
-  const rn = state.region.dexKey && sel.dex && sel.dex[state.region.dexKey];
+  const rn = dkey() && sel.dex && sel.dex[dkey()];
   $("t").textContent = "#" + pad(sel.id) + (rn && rn !== sel.id ? " · #" + pad(rn) : "") + " " + sel.name + " · " + gameName(state.game);
   $("t").classList.remove("pop"); void $("t").offsetWidth; $("t").classList.add("pop");
   const res = find(sel.id).sort((a, b) => b.peak - a.peak);
@@ -89,7 +89,7 @@ function tip(cx, cy, x) {
 /* ---------- Pokémon grid ---------- */
 function list(f = "") {
   const u = $("dex"); u.replaceChildren(); f = f.toLowerCase();
-  const [lo, hi] = state.region.dex, k = state.region.dexKey;
+  const [lo, hi] = state.region.dex, k = dkey();
   const reg = m => (k && m.dex && m.dex[k]) || null;
   state.mons.filter(m => m.id >= lo && m.id <= hi && (m.name.toLowerCase().includes(f) || String(m.id).includes(f) || String(reg(m) || "").includes(f)))
     .sort((a, b) => k ? (reg(a) || 1e3 + a.id) - (reg(b) || 1e3 + b.id) : a.id - b.id).forEach(m => {
@@ -114,7 +114,7 @@ function buildGames() {
   const t = document.createElement("i"); t.className = "thumb"; seg.appendChild(t);
   state.games.forEach(g => {
     const b = document.createElement("button"); b.textContent = g.name; b.setAttribute("aria-pressed", g.id === state.game);
-    b.onclick = () => { state.game = g.id; setColor(); seg.querySelectorAll("button").forEach(c => c.setAttribute("aria-pressed", c === b)); thumb(true); draw() };
+    b.onclick = () => { state.game = g.id; setColor(); seg.querySelectorAll("button").forEach(c => c.setAttribute("aria-pressed", c === b)); thumb(true); if (state.region.dexByGame) list($("q").value); draw() };
     seg.appendChild(b);
   });
   thumb(false); requestAnimationFrame(() => thumb(true));
