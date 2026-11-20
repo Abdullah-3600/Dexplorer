@@ -154,15 +154,34 @@ const SaveReader = (() => {
     return { species, version: (u16(b, 0x46) >> 7) & 0xF, egg: ((iv >>> 30) & 1) === 1, x };
   }
   /** Gen 4/5: 136-byte format (party/daycare slots are longer; only the first 136 bytes matter). */
-  function pk45(d, off, gen5) {
-    const b = d.slice(off, off + 136);
+  // Gen 4 text: 16-bit glyph ids (International table, see PKHeX StringConverter4Util). Only Latin glyphs are decoded; others show as "?".
+  const L4 = "ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ?ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö?øùúûüýþÿŒœŞşªº???$¡¿!?,.?･/‘'“”„«»()♂♀+-*#=&~:;";
+  function ch4(v) {
+    if (v >= 0x121 && v <= 0x12A) return String.fromCharCode(48 + v - 0x121);
+    if (v >= 0x12B && v <= 0x144) return String.fromCharCode(65 + v - 0x12B);
+    if (v >= 0x145 && v <= 0x15E) return String.fromCharCode(97 + v - 0x145);
+    if (v >= 0x15F && v < 0x15F + L4.length) return L4[v - 0x15F];
+    return v === 0x1DE ? " " : v === 0x1D0 ? "@" : v === 0x1D2 ? "%" : "?";
+  }
+  function text4(b, off, n) { let t = ""; for (let i = 0; i < n; i++) { const v = u16(b, off + i * 2); if (v === 0xFFFF) break; t += ch4(v) } return t }
+  function pk45(d, off, gen5, party) {
+    const b = d.slice(off, off + (party && !gen5 ? 236 : 136));
     if (b.length < 136 || allZero(b, 0, 136)) return null;
     const chk = u16(b, 6), sv = (u32(b, 0) >>> 13) & 31;
     cryptWords(b, 8, 136, chk); unshuffle(b, 8, 32, sv);
     if (sum16(b, 8, 136) !== chk) return null;
     const species = u16(b, 8);
     if (!species) return null;
-    return { species, version: b[0x5F], egg: ((u32(b, 0x38) >>> 30) & 1) === 1, x: { ab: b[0x15], sh: ((u16(b, 0x0C) ^ u16(b, 0x0E) ^ (u32(b, 0) >>> 16) ^ (u32(b, 0) & 0xFFFF)) < 8) ? 1 : 0, ...(gen5 ? { nn: utf16(b, 0x48, 11) } : {}) } };
+    const x = { ab: b[0x15], sh: ((u16(b, 0x0C) ^ u16(b, 0x0E) ^ (u32(b, 0) >>> 16) ^ (u32(b, 0) & 0xFFFF)) < 8) ? 1 : 0 };
+    if (gen5) x.nn = utf16(b, 0x48, 11);
+    else { // Gen 4 (DP / Pt / HGSS): nickname, moves, EVs/IVs, item, met data. Offsets from PKHeX PK4.
+      const iv = u32(b, 0x38), nib = i => (iv >>> (5 * i)) & 31, ball = b[0x83] >= 1 && b[0x83] <= 12 ? b[0x83] : (b[0x86] >= 1 && b[0x86] <= 12 ? b[0x86] : 0);
+      Object.assign(x, { nn: ((iv >>> 31) & 1) ? text4(b, 0x48, 11) : "", fr: b[0x14], bl: ball, pid: u32(b, 0) >>> 0, exp: u32(b, 0x10), it: u16(b, 0x0A),
+        mv: [0x28, 0x2A, 0x2C, 0x2E].map(o => u16(b, o)), ev: [0x18, 0x19, 0x1A, 0x1C, 0x1D, 0x1B].map(o => b[o]), iv: [0, 1, 2, 4, 5, 3].map(nib),
+        loc: u16(b, 0x46) || u16(b, 0x80), mlv: b[0x84] & 0x7F });
+      if (party && b.length >= 236) { cryptWords(b, 136, 236, u32(b, 0)); if (b[0x8C] > 0 && b[0x8C] <= 100) x.lv = b[0x8C] }
+    }
+    return { species, version: b[0x5F], egg: ((u32(b, 0x38) >>> 30) & 1) === 1, x };
   }
   /** Gen 6/7: 232-byte format. */
   function pk67(d, off) {
@@ -325,7 +344,7 @@ const SaveReader = (() => {
     const gBase = g4Newest(d, o.gSize - 0x14) ? 0x40000 : 0;
     const sBase = (g4Newest(d, o.sStart + o.sSize - 0x14) ? 0x40000 : 0) + o.sStart;
     const r = collector(), n = Math.min(d[gBase + o.party - 4], 6);
-    for (let i = 0; i < n; i++) r.add(pk45(d, gBase + o.party + i * 236), "p");
+    for (let i = 0; i < n; i++) r.add(pk45(d, gBase + o.party + i * 236, false, true), "p");
     for (let i = 0; i < 2; i++) r.add(pk45(d, gBase + o.dc + i * 236), "d");
     for (let b = 0; b < 18; b++) for (let s = 0; s < 30; s++) r.add(pk45(d, sBase + o.boxBase + b * o.boxStep + s * 136), "b");
     return { gen: 4, game: null, label: o.label, mons: r.mons, eggs: r.eggs };

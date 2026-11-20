@@ -26,12 +26,12 @@ Add your Pokémon saves and DexCheck shows what you've caught, what's missing, a
 ## Add all your saves at once
 - One **Add Save Files** button, or drop files anywhere on the page.
 - Mix games and generations in a single dex.
-- Reads Red, Blue, Yellow, Gold, Silver, Crystal, Ruby, Sapphire, Emerald, FireRed, LeafGreen.
-    [upcoming: Diamond, Pearl, Platinum, HeartGold, SoulSilver, Black, White, Black 2, White 2, X, Y, Omega Ruby, Alpha Sapphire, Sun, Moon, Ultra Sun, Ultra Moon, Sword, Shield, Scarlet and Violet.]
+- Reads Red, Blue, Yellow, Gold, Silver, Crystal, Ruby, Sapphire, Emerald, FireRed, LeafGreen, Diamond, Pearl, Platinum, HeartGold, SoulSilver.
+    [upcoming: Black, White, Black 2, White 2, X, Y, Omega Ruby, Alpha Sapphire, Sun, Moon, Ultra Sun, Ultra Moon, Sword, Shield, Scarlet and Violet.]
 - Your saves stay loaded after a refresh.
 
 ## A living dex you can read at a glance
-- A grid of all 386 Pokémon from Generations I to III.
+- A grid of all 493 Pokémon from Generations I to IV.
 - Live progress count and bar.
 - Sort by **National Dex**, **Region** or **Generation**.
 - Search by name or number, and switch between **All**, **Caught** and **Missing**.
@@ -46,7 +46,7 @@ Add your Pokémon saves and DexCheck shows what you've caught, what's missing, a
 - National and regional dex numbers.
 - A stats chart 
 - A type matchup chart: weak to, resists and immune to, for that game's generation.
-- Its four moves with type, power and accuracy as in that game.
+- Its four moves with type, power and accuracy as in that game (Generation IV games included).
 - Moveset: level-up moves, egg moves and TM/HM/tutor moves.
 
 ## Find the ones you're missing
