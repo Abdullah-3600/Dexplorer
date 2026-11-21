@@ -27,13 +27,12 @@ body{background:var(--bg);color:var(--tx);font:16px/1.4 -apple-system,BlinkMacSy
 .mb,.gb{transition:background .15s,border-color .2s,transform .15s var(--ease)}.mb:active,.gb:active{transform:scale(.98)}
 .mn button{transition:background .12s}.mn{animation:mnin .2s var(--ease)}.mn.out{animation:mnout .12s ease-in forwards}@keyframes mnout{to{opacity:0;transform:scale(.97)}}
 .hit{transition:fill .15s,stroke .15s;animation:hitin .5s ease both}@keyframes hitin{from{stroke-opacity:0}}
-#heat>*{transform-box:fill-box;transform-origin:center;animation:heatin .6s var(--ease) both}@keyframes heatin{from{opacity:0;transform:scale(.88)}}
-#heat>*:nth-child(2){animation-delay:.05s}#heat>*:nth-child(3){animation-delay:.1s}#heat>*:nth-child(4){animation-delay:.15s}#heat>*:nth-child(5){animation-delay:.2s}#heat>*:nth-child(6){animation-delay:.25s}#heat>*:nth-child(n+7){animation-delay:.3s}
+
 .row{animation:rowin .35s var(--ease) both}.row:nth-child(2){animation-delay:.04s}.row:nth-child(3){animation-delay:.08s}.row:nth-child(4){animation-delay:.12s}.row:nth-child(5){animation-delay:.16s}.row:nth-child(n+6){animation-delay:.2s}
 .tipbox:not([hidden]){animation:rowin .35s var(--ease) both}@keyframes rowin{from{opacity:0;transform:translateY(6px)}}
 .pop{animation:titlein .35s var(--ease)}@keyframes titlein{from{opacity:0;transform:translateY(4px)}}
 .tip{animation:tipin .14s ease-out}@keyframes tipin{from{opacity:0;transform:scale(.96)}}
-.map{animation:fadein .6s ease both}@keyframes fadein{from{opacity:0}}
+.map{animation:fadein .3s ease both}@keyframes fadein{from{opacity:0}}
 #dex,main,.list{scroll-behavior:smooth}
 input{transition:border-color .2s}input:focus-visible{outline:none;border-color:var(--mu)}
 .gb:focus-visible,.gb[aria-expanded=true]{outline:none;border-color:var(--mu)}

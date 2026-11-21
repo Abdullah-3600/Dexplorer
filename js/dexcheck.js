@@ -106,12 +106,12 @@ function buildGrid() {
   if (io) { io.disconnect(); vis.clear() }
   if (!grid.__bound) { grid.__bound = true; grid.addEventListener("click", e => { const b = e.target.closest(".cell"); if (b) guard(() => detail(dex.find(p => p.id === +b.dataset.n))) }) }
   if ("IntersectionObserver" in window) {
-    io = new IntersectionObserver(es => es.forEach(e => { const c = e.target.__c; if (e.isIntersecting) { vis.add(c); preload(c) } else vis.delete(c) }), { rootMargin: "100px" });
+    io = new IntersectionObserver(es => es.forEach(e => { const c = e.target.__c; if (e.isIntersecting) vis.add(c); else vis.delete(c) }), { rootMargin: "100px" });
     cells.forEach(c => { c.b.__c = c; io.observe(c.b) });
   }
 }
 var io; const vis = new Set(); const pre = new Set();
-function preload(c) { for (const s of Object.values(c.p.sprites)) if (!pre.has(s)) { pre.add(s); new Image().src = s } }
+function warm(c) { const f = c.frames[(c.i + 1) % c.frames.length]; if (f && !pre.has(f.src)) { pre.add(f.src); new Image().src = f.src } } // only the next frame, not every generation
 
 function update() {
   reindex();
@@ -175,7 +175,7 @@ let lastInput = Date.now();
 ["pointermove", "pointerdown", "keydown", "wheel", "touchstart", "scroll"].forEach(t => addEventListener(t, () => { lastInput = Date.now() }, { passive: true, capture: true }));
 function cycle() {
   if (reduce || document.hidden || !document.hasFocus() || $("dlg").open || Date.now() - lastInput > 60000) return; tick++;
-  for (const c of vis) if (c.frames.length > 1) setTimeout(() => { c.i = (c.i + 1) % c.frames.length; paint(c, c.frames[c.i], true) }, (c.p.id % 6) * 70); // a gentle wave instead of every sprite changing at once
+  for (const c of vis) if (c.frames.length > 1) setTimeout(() => { c.i = (c.i + 1) % c.frames.length; paint(c, c.frames[c.i], true); warm(c) }, (c.p.id % 6) * 70); // a gentle wave instead of every sprite changing at once
 }
 setInterval(cycle, 2400);
 

@@ -95,7 +95,7 @@ function list(f = "") {
     .sort((a, b) => k ? (reg(a) || 1e3 + a.id) - (reg(b) || 1e3 + b.id) : a.id - b.id).forEach(m => {
     const b = document.createElement("button"), r = reg(m);
     b.className = "cell"; b.setAttribute("aria-pressed", !!state.sel && state.sel.id === m.id); b.setAttribute("aria-label", m.name);
-    b.innerHTML = `<img alt="" src="${spriteSrc(m)}"><small>#${pad(m.id)}${r && r !== m.id ? " · #" + pad(r) : ""}</small><span>${m.name}</span>`;
+    b.innerHTML = `<img alt="" src="${spriteSrc(m)}" width="72" height="72" loading="lazy" decoding="async"><small>#${pad(m.id)}${r && r !== m.id ? " · #" + pad(r) : ""}</small><span>${m.name}</span>`;
     b.onclick = () => { state.sel = m; u.querySelectorAll(".cell").forEach(c => c.setAttribute("aria-pressed", c === b)); draw() };
     u.appendChild(b);
   });
@@ -223,7 +223,8 @@ async function deepLink() {
   const q = new URLSearchParams(location.search), gid = q.get("game"), pid = parseInt(q.get("pokemon"), 10);
   if (!gid) return;
   for (const g of state.gens) for (const o of optsOf(g)) if (optOk(o) && o.games.some(x => x.id === gid)) {
-    await setGeneration(g, o); state.game = gid; setColor(); buildGames();
+    if (state.gen !== g || state.opt.id !== o.id) await setGeneration(g, o);
+    state.game = gid; setColor(); buildGames();
     const m = state.mons.find(m => m.id === pid);
     if (m) { state.sel = m; list($("q").value); draw(); const c = $("list").querySelector('.cell[aria-pressed="true"]'); if (c) c.scrollIntoView({ block: "center" }) }
     return;
@@ -232,7 +233,10 @@ async function deepLink() {
 (async () => {
   try {
     [state.gens, state.regions, state.mons] = await Promise.all([getJSON("data/generations.json"), getJSON("data/regions.json"), getJSON("data/pokemon.json")]);
-    await setGeneration(state.gens.find(g => g.ready));
+    const gid = new URLSearchParams(location.search).get("game");
+    let first = [state.gens.find(g => g.ready)];   // a deep link opens its own game straight away, so Gen 1 is not loaded first
+    if (gid) for (const g of state.gens) for (const o of optsOf(g)) if (first.length < 2 && optOk(o) && o.games.some(x => x.id === gid)) first = [g, o];
+    await setGeneration(...first);
     await deepLink();
   } catch (err) {
     console.error(err);
