@@ -62,7 +62,7 @@ let outdated = 0;
 function restore() {
   try {
     const o = JSON.parse(localStorage.getItem(KEY) || "null"); if (!o) return;
-    const cur = x => x && x.fmt === 2; // older saves were stored without friendship, ball and shiny data
+    const cur = x => x && x.fmt === 3; // older saves were stored without friendship, ball and shiny data
     outdated = (o.saves || []).filter(x => !cur(x)).length;
     saves = (o.saves || []).filter(cur); dupes = (o.dupes || []).filter(cur); sel = new Set(o.sel || []);
   } catch (e) { saves = []; sel = new Set() }
@@ -85,7 +85,7 @@ const gameRank = g => GAMES.findIndex(x => x.id === g);
 /* ---------- grid ---------- */
 function makeGroups() {
   const by = (title, list, key) => ({ title, items: list.map(p => ({ p, no: key ? p.dex[key] : p.id })).sort((x, y) => x.no - y.no) });
-  if (order === "region") return [["Kanto", "kanto"], ["Johto", "johto"], ["Hoenn", "hoenn"]].map(([n, k]) => by(n + " Dex", dex.filter(p => p.dex && p.dex[k]), k));
+  if (order === "region") return [["Kanto Dex", "kanto"], ["Johto Dex", "hgss"], ["Hoenn Dex", "hoenn"], ["Sinnoh Dex", "sinnoh-pt"]].map(([n, k]) => by(n, dex.filter(p => p.dex && p.dex[k]), k));
   if (order === "generation") return REGIONS.map(r => by("Generation " + r.gen + " · " + r.name, dex.filter(p => p.id >= r.from && p.id <= r.to)));
   return [by("National Dex", dex)];
 }
@@ -96,9 +96,10 @@ function buildGrid() {
     const gr = el("div", "gr"); gr.setAttribute("role", "list");
     for (const { p, no } of r.items) {
       const b = el("button", "cell"); b.type = "button"; b.setAttribute("role", "listitem"); b.dataset.n = p.id;
-      const art = el("span", "art"), img = el("img"); img.alt = ""; img.decoding = "async"; art.appendChild(img);
-      b.append(art, el("small", "no", "#" + pad(no)), el("span", "nm", p.name), el("span", "dots"), el("i", "gen"));
-      gr.appendChild(b); cells.push({ p, b, img, r, head, count: c, grid: gr, cyc: Object.keys(p.sprites).map(Number).sort(), off: p.id % 3 });
+      const art = el("span", "art"), imgs = [el("img"), el("img")]; imgs.forEach(i => { i.alt = ""; i.decoding = "async"; i.draggable = false; art.appendChild(i) });
+      b.append(art, el("small", "no", "#" + pad(no)), el("span", "nm", p.name), el("span", "dots"));
+      { const sb = el("i", "shn", "✦"); sb.setAttribute("aria-hidden", "true"); b.appendChild(sb) }
+      gr.appendChild(b); cells.push({ p, b, imgs, front: -1, src: null, frames: [], i: 0, key: "", r, head, count: c, grid: gr, cyc: Object.keys(p.sprites).map(Number).sort(), off: p.id % 3 });
     }
     grid.append(head, gr);
   }
@@ -120,23 +121,23 @@ function update() {
   for (const c of cells) {
     const es = entriesOf(c.p.id), ok = es.length > 0, b = c.b;
     b.classList.toggle("ok", ok); b.classList.toggle("miss", !ok); c.ok = ok;
-    const dots = b.querySelector(".dots"), gen = b.querySelector(".gen"), old = b.querySelector(".cp"); if (old) old.remove();
+    const dots = b.querySelector(".dots"), old = b.querySelector(".cp"); if (old) old.remove();
     dots.replaceChildren();
     if (ok) {
       per[groups.indexOf(c.r)]++; now.add(c.p.id);
       const sorted = es.sort((a, z) => gameRank(a[0]) - gameRank(z[0])), best = sorted.reduce((a, z) => spriteGen(G[z[0]]) >= spriteGen(G[a[0]]) ? z : a);
-      const sp = spriteFor(c.p, best[0]); c.img.src = sp.src; b.style.setProperty("--gc", G[best[0]].c[0]);
-      const oldS = b.querySelector(".shn"); if (oldS) oldS.remove();
-      const shEs = es.filter(([g, e]) => e.sh > 0 && G[g].gen !== 1 && c.p.shinySprites && c.p.shinySprites[spriteGen(G[g])]); // a shiny copy: show the shiny sprite
-      if (shEs.length) { const sb = shEs.reduce((a, z) => spriteGen(G[z[0]]) >= spriteGen(G[a[0]]) ? z : a); c.img.src = c.p.shinySprites[spriteGen(G[sb[0]])]; const bd = el("i", "shn", "✦"); bd.setAttribute("aria-hidden", "true"); b.appendChild(bd) }
-      c.shiny = shEs.length > 0;
+      b.style.setProperty("--gc", G[best[0]].c[0]);
+      // one frame per generation it was caught in (shiny sprite where that copy is shiny); several frames cycle
+      const frames = [];
+      for (const [g, e] of sorted) { const sg = spriteGen(G[g]), shiny = e.sh > 0 && G[g].gen !== 1 && c.p.shinySprites && c.p.shinySprites[sg], src = shiny ? c.p.shinySprites[sg] : spriteFor(c.p, g).src; if (!frames.some(f => f.src === src)) frames.push({ src, shiny: !!shiny }) }
+      c.shiny = frames.some(f => f.shiny); setFrames(c, frames, frames.length - 1);
       sorted.slice(0, 4).forEach(([g]) => dots.appendChild(dot(G[g]))); if (sorted.length > 4) dots.appendChild(el("small", "", "+" + (sorted.length - 4)));
-      gen.hidden = true; const copies = es.reduce((n, [, e]) => n + e.p + e.b + e.d, 0);
+      const copies = es.reduce((n, [, e]) => n + e.p + e.b + e.d, 0);
       if (copies > 1) { const cp = el("i", "cp", "×" + copies); cp.setAttribute("aria-hidden", "true"); b.appendChild(cp) }
       b.setAttribute("aria-label", c.p.name + ", number " + c.p.id + (c.shiny ? ", shiny" : "") + ", caught in " + sorted.map(([g]) => G[g].name).join(", "));
       if (!seen.has(c.p.id)) fresh.push(c);
     } else {
-      { const oldS = b.querySelector(".shn"); if (oldS) oldS.remove() } showCycle(c); b.setAttribute("aria-label", c.p.name + ", number " + c.p.id + ", not caught");
+      c.shiny = false; setFrames(c, c.cyc.map(g => ({ src: c.p.sprites[g], shiny: false })), reduce ? c.cyc.length - 1 : c.off % c.cyc.length); b.setAttribute("aria-label", c.p.name + ", number " + c.p.id + ", not caught");
     }
     const name = c.p.name.toLowerCase(), hit = !q || (qn != null ? c.p.id === qn : name.includes(q));
     b.hidden = !hit || (status === "caught" && !ok) || (status === "missing" && ok);
@@ -156,17 +157,25 @@ function update() {
   $("stat").textContent = saves.length ? Math.round(caught / MAX * 1000) / 10 + "% complete · " + total2.toLocaleString("en-US") + " Pokémon in " + saves.length + (saves.length === 1 ? " save" : " saves") + (sel.size ? " · filtered by game" : "") : "Add a save file to start filling your dex.";
   renderSaves(); renderGames();
 }
-// Missing Pokémon cycle through the sprite of every generation they have.
-function showCycle(c) {
-  const s = c.cyc, i = (tick + c.off) % s.length; c.img.src = c.p.sprites[s[reduce ? s.length - 1 : i]];
-  const g = c.b.querySelector(".gen"); g.textContent = ROMAN[s[reduce ? s.length - 1 : i]]; g.hidden = s.length < 2;
+// Sprites change with a short crossfade between two stacked layers: the new image is decoded first, so it never flashes or pops.
+function paint(c, f, animate) {
+  if (c.src === f.src) { c.b.classList.toggle("is-shiny", f.shiny); return }
+  c.src = f.src; const tok = c.tok = (c.tok || 0) + 1, back = c.imgs[c.front === 0 ? 1 : 0], front = c.imgs[c.front === 0 ? 0 : 1];
+  const show = () => { if (c.tok !== tok) return; back.classList.add("on"); if (c.front >= 0) front.classList.remove("on"); c.front = c.front === 0 ? 1 : 0; c.b.classList.toggle("is-shiny", f.shiny) };
+  if (c.front < 0) { c.front = 0; c.imgs[0].src = f.src; c.imgs[0].classList.add("on"); c.b.classList.toggle("is-shiny", f.shiny); return } // first paint: no transition
+  back.src = f.src; if (!animate || reduce) show(); else (back.decode ? back.decode().catch(() => { }) : Promise.resolve()).then(() => requestAnimationFrame(show));
+}
+function setFrames(c, frames, start) {
+  const key = frames.map(f => f.src).join("|");
+  if (key !== c.key) { c.key = key; c.frames = frames; c.i = Math.max(0, Math.min(start, frames.length - 1)) }
+  paint(c, c.frames[c.i], c.front >= 0);
 }
 // Cycling only runs while the tab is visible and focused, no dialog is open, and the person has touched the page in the last minute.
 let lastInput = Date.now();
 ["pointermove", "pointerdown", "keydown", "wheel", "touchstart", "scroll"].forEach(t => addEventListener(t, () => { lastInput = Date.now() }, { passive: true, capture: true }));
 function cycle() {
   if (reduce || document.hidden || !document.hasFocus() || $("dlg").open || Date.now() - lastInput > 60000) return; tick++;
-  for (const c of vis) if (!c.ok && c.cyc.length > 1) showCycle(c);
+  for (const c of vis) if (c.frames.length > 1) setTimeout(() => { c.i = (c.i + 1) % c.frames.length; paint(c, c.frames[c.i], true) }, (c.p.id % 6) * 70); // a gentle wave instead of every sprite changing at once
 }
 setInterval(cycle, 2400);
 
@@ -237,15 +246,15 @@ function loadExtra() {
 }
 const VG = { rb: "red-blue", yellow: "yellow", gs: "gold-silver", crystal: "crystal", ruby: "ruby-sapphire", sapphire: "ruby-sapphire", emerald: "emerald", firered: "firered-leafgreen", leafgreen: "firered-leafgreen", diamond: "diamond-pearl", pearl: "diamond-pearl", platinum: "platinum", heartgold: "heartgold-soulsilver", soulsilver: "heartgold-soulsilver" };
 const VERS = { rb: ["red", "blue"], gs: ["gold", "silver"] };
-const REGION_NAME = { kanto: "Kanto", johto: "Johto", hoenn: "Hoenn" };
+const REGION_NAME = { kanto: "Kanto", johto: "Johto", hoenn: "Hoenn", "sinnoh-dp": "Sinnoh (D/P)", "sinnoh-pt": "Sinnoh (Pt)", hgss: "Johto (HGSS)" };
 function dexLine(p) { // National number plus each regional number, under the name
   const d = el("div", "dexn"); d.appendChild(el("span", "", "National #" + pad(p.id)));
   for (const [k, n] of Object.entries(p.dex || {})) d.appendChild(el("span", "", (REGION_NAME[k] || title(k)) + " #" + pad(n)));
   return d;
 }
 const nick = (p, m) => m.nn && m.nn.toLowerCase() !== p.name.toLowerCase() ? m.nn : p.name;
-const BALL3 = { 1: "master", 2: "ultra", 3: "great", 4: "poke", 5: "safari", 6: "net", 7: "dive", 8: "nest", 9: "repeat", 10: "timer", 11: "luxury", 12: "premier" };
-const BALL_NAME = { poke: "Poké Ball", great: "Great Ball", ultra: "Ultra Ball", master: "Master Ball", safari: "Safari Ball", net: "Net Ball", dive: "Dive Ball", nest: "Nest Ball", repeat: "Repeat Ball", timer: "Timer Ball", luxury: "Luxury Ball", premier: "Premier Ball" };
+const BALL3 = { 1: "master", 2: "ultra", 3: "great", 4: "poke", 5: "safari", 6: "net", 7: "dive", 8: "nest", 9: "repeat", 10: "timer", 11: "luxury", 12: "premier", 13: "dusk", 14: "heal", 15: "quick", 16: "cherish", 17: "fast", 18: "level", 19: "lure", 20: "heavy", 21: "love", 22: "friend", 23: "moon", 24: "sport", 25: "dream", 26: "beast" };
+const BALL_NAME = { poke: "Poké Ball", great: "Great Ball", ultra: "Ultra Ball", master: "Master Ball", safari: "Safari Ball", net: "Net Ball", dive: "Dive Ball", nest: "Nest Ball", repeat: "Repeat Ball", timer: "Timer Ball", luxury: "Luxury Ball", premier: "Premier Ball", dusk: "Dusk Ball", heal: "Heal Ball", quick: "Quick Ball", cherish: "Cherish Ball", fast: "Fast Ball", level: "Level Ball", lure: "Lure Ball", heavy: "Heavy Ball", love: "Love Ball", friend: "Friend Ball", moon: "Moon Ball", sport: "Sport Ball", dream: "Dream Ball", beast: "Beast Ball" };
 function ballOf(m) { // small icon of the ball it was caught in (recorded from Generation III on)
   const k = BALL3[m.bl]; if (!k) return null; const i = el("img", "ball"); i.alt = BALL_NAME[k]; i.title = "Caught in a " + BALL_NAME[k];
   i.src = typeof BALL_DATA !== "undefined" ? BALL_DATA[k] : "assets/balls/" + k + "-ball.png"; i.width = i.height = 24; return i;
@@ -481,7 +490,7 @@ async function addFiles(list) {
     let r; try { r = SaveReader.parse(await f.arrayBuffer()) } catch (e) { r = { ok: false, reason: "The file could not be read." } }
     if (!r.ok) { issue(f.name, r.reason + " It was not added."); continue }
     const sig = r.label + "|" + r.mons.map(m => m.n + m.g + m.s).join(",");
-    const rec = { fmt: 2, id: Date.now() + "-" + added, sig, name: f.name, label: r.label, gen: r.gen, game: r.game || (r.mons[0] && r.mons[0].g) || "unknown", mons: r.mons, eggs: r.eggs };
+    const rec = { fmt: 3, id: Date.now() + "-" + added, sig, name: f.name, label: r.label, gen: r.gen, game: r.game || (r.mons[0] && r.mons[0].g) || "unknown", mons: r.mons, eggs: r.eggs };
     const twin = saves.find(s => s.sig === sig);
     if (twin) { if (!dupes.some(d => d.sig === sig && d.name === f.name)) dupes.push(rec); store(); issue(f.name, "Same Pokémon as " + twin.name + ", so it is not shown twice. It loads automatically if that save is removed."); continue }
     saves.push(rec);

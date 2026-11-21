@@ -30,12 +30,12 @@ main{padding:0;gap:0;position:relative}
 .rg{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin:22px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--ln)}.rg h2{margin:0;font-size:19px;letter-spacing:-.01em}.rg span{color:var(--mu);font-size:14px;font-variant-numeric:tabular-nums}
 .gr{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:8px}
 .cell{position:relative;border-color:var(--ln);background:var(--sf)}.cell[hidden]{display:none}
-.cell .art{display:grid;place-items:center;width:72px;height:72px}.cell img{width:72px;height:72px;object-fit:contain}
+.cell .art{position:relative;display:block;width:72px;height:72px}.cell .art img{position:absolute;inset:0;width:72px;height:72px;object-fit:contain}
 .cell .no{font-size:12px}.cell .nm{font-size:13px}
-.cell.miss img{filter:grayscale(1) contrast(.9);opacity:.4}.cell.miss .nm{color:var(--mu)}
+.cell.miss img{filter:grayscale(1) contrast(.9)}.cell.miss .nm{color:var(--mu)}
 .cell.ok{border-color:color-mix(in srgb,var(--gc) 45%,var(--ln));background:color-mix(in srgb,var(--gc) 7%,var(--sf))}
 .dots{display:flex;gap:3px;min-height:12px;align-items:center}.dots small{font-size:11px;color:var(--mu)}
-.gen{position:absolute;top:6px;left:6px;min-width:22px;padding:1px 5px;border-radius:8px;background:var(--bg);color:var(--mu);font:600 10px/16px inherit;font-style:normal;text-align:center;letter-spacing:.03em}
+
 .cp{position:absolute;top:6px;right:6px;min-width:20px;padding:0 5px;border-radius:9px;background:var(--tx);color:var(--sf);font:700 11px/18px inherit;text-align:center}
 .cell.in{animation:cin .5s var(--spring) both;animation-delay:var(--d,0s)}@keyframes cin{from{transform:scale(.86);opacity:.2}}
 .none{text-align:center;color:var(--mu);padding:40px 0}
@@ -103,3 +103,10 @@ summary.dis .cnt.act{background:var(--ac);color:var(--ac2)}
 .hero{min-width:140px}
 .ficon{width:18px;height:18px}.sv .np{margin-left:6px}
 .side>*{flex-shrink:0}
+
+/* sprite crossfade: ease-out, short, interruptible; no motion at all when the system asks for less */
+.cell .art img{opacity:0;transform:scale(.94);transition:opacity .45s var(--ease),transform .45s var(--spring)}
+.cell .art img.on{opacity:1;transform:none}.cell.miss .art img.on{opacity:.4}
+.cell:hover .art img.on{transform:translateY(-3px)}
+.cell:not(.is-shiny) .shn{display:none}
+@media(prefers-reduced-motion:reduce){.cell .art img{transition:none;transform:none}.cell:hover .art img.on{transform:none}}
