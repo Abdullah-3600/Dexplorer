@@ -3,7 +3,7 @@
 const $ = id => document.getElementById(id), NS = "http://www.w3.org/2000/svg";
 const getJSON = async u => { const r = await fetch(u); if (!r.ok) throw new Error(u + " (" + r.status + ")"); return r.json() };
 const pad = n => String(n).padStart(3, "0");
-const state = { gens: [], regions: [], mons: [], gen: null, opt: null, region: null, games: [], game: null, sel: null, zones: {}, rows: [], maps: [] };
+const state = { order: "regional", gens: [], regions: [], mons: [], gen: null, opt: null, region: null, games: [], game: null, sel: null, zones: {}, rows: [], maps: [] };
 const regionData = {};
 const mapsEl = $("maps"), insetsEl = $("insets");
 const seg = $("seg"), gb = $("gb"), gm = $("gm"), rw = $("rw"), rb = $("rb"), rm = $("rm"), mb = $("mb"), mn = $("mn");
@@ -14,7 +14,6 @@ const optsOf = g => g.regions || [{ id: g.region, name: null, region: g.region, 
 const optOk = o => !!o.region && state.regions.some(r => r.id === o.region && !r.pending);
 const spriteSrc = m => m.sprites[state.gen.id] || Object.values(m.sprites).pop();
 const gameName = id => (state.games.find(g => g.id === id) || {}).name || id;
-const vlab = games => games.length === state.games.length ? "" : " · " + games.map(gameName).join("/");
 const heat = r => r.rate == null ? 100 : r.rate;
 function mk(t, a) { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); return e }
 const scale = () => state.region ? state.region.mapSize[0] / 1130 : 1;
@@ -25,6 +24,93 @@ function shape(s, a) {
 }
 const TIME = { morning: "Morning", day: "Day", night: "Night" };
 const tlab = r => r.time && r.time.length < 3 ? " · " + r.time.map(t => TIME[t]).join("/") : "";
+
+/* fmt:start ---------- hover card format ----------
+   Every row has the same shape:   Method · detail · time ........ rate
+                                   Lv a–b · place
+                                   short note (only when there is one)
+   Game names are never shown: the game switcher already filters the rows. */
+const DETAIL = { "Safari block": "Safari" };
+function parts(r) {
+  const m = /^(.*?)\s*\((.*)\)$/.exec(r.method);
+  if (!m) return [r.method, ""];
+  const d = m[2].replace(/ tree$/i, "");
+  return [m[1], DETAIL[d] || d.charAt(0).toUpperCase() + d.slice(1)];
+}
+const mlab = r => { const [b, d] = parts(r); return b + (d ? " · " + d : "") };
+const rlab = r => r.rate != null ? r.rate + "%" : "";
+function lvl(r) {
+  const l = String(r.levels == null ? "" : r.levels).trim();
+  if (!l || l === "—") return "";
+  if (/^same as/i.test(l)) return "Lv as traded";
+  return "Lv " + l.replace(/(\d)-(\d)/g, "$1–$2");
+}
+function place(r, zone) {
+  let s = (r.sublocation || "").replace(/^Pal Park: /, "").replace(/\s*\([^)]*\)\s*$/, "").trim();
+  if (zone && s.toLowerCase().startsWith(zone.toLowerCase()) && (s.length === zone.length || /^\s/.test(s.slice(zone.length)))) s = s.slice(zone.length).replace(/^\s*·?\s*/, "");   // the card title already names the zone
+  if (!s) return "";
+  const seg = s.split(" · "), items = seg[seg.length - 1].split(", ");
+  if (items.length > 2) seg[seg.length - 1] = items.length + (items.every(i => /^B?\d+F$/.test(i)) ? " floors" : " areas");
+  return seg.join(" · ");
+}
+const NOTES = [
+  [/^Group ([ABC]) \(([a-z]+)[;)].*$/, "Group $1 · $2"],
+  [/^Transfer from a Gen III game.*rarity score (\d+)$/, "Rarity $1"],
+  [/^Dual-slot: (.+) inserted$/, (_, g) => "Dual-slot: " + (g.split("/").length > 3 ? "any GBA game" : g)],
+  [/^Great Marsh daily rotation \((Before|After) National Dex\): on (\d+) of 32 days$/, "$1 National Dex · $2 of 32 days"],
+  [/^After National Dex: appears when Mr\. Backlot mentions it.*$/, "After National Dex · Mr. Backlot"],
+  [/^Mass outbreak \([a-z]+\)(?:; (.+))?$/, (_, x) => "Mass outbreak" + (x ? " · " + x : "")],
+  [/^Fishing swarm: (.+)$/, "Fishing swarm · $1"],
+  [/^Roams Hoenn after you enter the Hall of Fame.*$/, "After Hall of Fame"],
+  [/^After you become Champion and defeat Team Rocket on Five Island.*started with (\w+)$/, "After Champion · starter $1"],
+  [/^Starts roaming once the legendary beasts escape.*Starts on (Route \d+)\.?.*$/, "After Burned Tower · starts on $1"],
+  [/^Needs the (.+?) \(event item.*$/, "Event item: $1"],
+  [/^.+?, reached with the (.+?) \(event item.*$/, "Event item: $1"],
+  [/^Pokémon Colosseum Bonus Disc.*$/, "Colosseum Bonus Disc"],
+  [/^Unown forms: (.+)$/, (_, l) => l.split(", ").length > 4 ? "Unown: " + l.split(", ").length + " forms" : "Unown: " + l],
+  [/^Trade (?:an? |any )?(.+?)(?:\. The \w+ holds (?:an? )?(.+)|[;.] .*)?$/, (_, g, h) => "Give " + g + (h ? " · holds " + h : "")],
+  [/^Odd Egg \(.*\)$/, "Odd Egg · one of these"],
+  [/^Egg from the old woman.*hatches at (Lv \d+)$/, "Hatches at $1"],
+  [/^Egg given by .*$/, ""],
+  [/^Given by an employee after the Silph Co\. rescue$/, "After the Silph Co. rescue"],
+  [/^Safari Zone: Inactive$/, "Safari Zone inactive"],
+  [/^Safari Zone: .+$/, n => "Safari · " + n.split("; ").map(x => x.replace(/^Safari Zone: /, "")).join(", ")],
+  [/^Sleeps in the road; wake it with the (Poké ?Flute)$/, "Wake with the $1"],
+  [/^Wake it with the (Poké ?Flute)$/, "Wake with the $1"],
+  [/^Blocks the path to Diglett's Cave.*$/, "Wake with the Poké Flute"],
+  [/^Invisible until you use the Devon Scope; (\w+) Kecleon on this route$/, "Needs Devon Scope · $1 Kecleon"],
+  [/^Only on six random water tiles of Route 119.*$/, "Six random water tiles"],
+  [/^Mirage Island appears only on rare days.*$/, "Rare days only"],
+  [/^Marine Cave, a hidden cave.*$/, "Hidden cave · Emerald only"],
+  [/^Terra Cave, a hidden cave.*$/, "Hidden cave · Emerald only"],
+  [/^Needs the Eon Ticket.*$/, "Event item: Eon Ticket"],
+  [/^(Ruby|Sapphire)'s legendary, deepest floor of the Cave of Origin$/, "Cave of Origin, deepest floor"],
+  [/^Top of Sky Pillar, after the Groudon\/Kyogre event$/, "Sky Pillar top, after Groudon/Kyogre"],
+  [/^Given by the Weather Institute scientists.*$/, "Weather Institute scientists"],
+  [/^Reachable after the Network Machine event on One Island$/, "After the Network Machine event"],
+  [/^Reached through Three Isle Path.*$/, "After National Dex"],
+  [/^Kenya the Spearow, from Randy.*$/, "Kenya the Spearow · holds Flower Mail"],
+  [/^Shuckie the Shuckle, from the man in Cianwood City$/, "Shuckie the Shuckle"],
+  [/^Requires the GS Ball event.*$/, "Event: GS Ball"],
+  [/^After solving at least one puzzle.*$/, "After solving a puzzle"],
+  [/^After leaving the Vermilion Pokémon Fan Club with Copycat’s doll$/, "After returning Copycat's doll"],
+  [/^Two Electrode look like item balls inside the Power Plant$/, "Looks like an item ball"],
+  [/^Revive the (\w+ Fossil); Needs (.+) transferred from a Sinnoh game$/, "$1 · from a Sinnoh game"],
+  [/^Requires Odd Keystone; Talked to 32 people underground$/, "Odd Keystone · 32 people underground"],
+  [/^Trade for Medicham.*$/, "Trade for Medicham"],
+  [/^Take the Poké Ball after entering the Hall of Fame$/, "After Hall of Fame"],
+  [/^Egg$/, ""],
+];
+function note(r) {
+  let n = (r.note || "").trim();
+  if (!n) return "";
+  for (const [re, to] of NOTES) if (re.test(n)) { n = typeof to === "function" ? n.replace(re, to) : n.replace(re, to); break }
+  n = n.replace(/^After story event: /, "After: ");
+  if (n.length > 44) n = n.split(/[;.] | \(/)[0];                 // long text: keep the first clause only
+  if (n.length > 44) n = n.slice(0, 41).replace(/[\s,;:.]+\S*$/, "") + "…";
+  return n;
+}
+/* fmt:end */
 function setColor() {
   const g = state.games.find(g => g.id === state.game);
   document.documentElement.style.setProperty("--gc", (g && g.color) || "#e63946");
@@ -60,27 +146,31 @@ function draw() {
     const M = state.maps[x.z.m || 0], zname = x.z.name + (x.z.where ? " · " + x.z.where : "");
     x.z.shapes.forEach(s => {
       M.heat.appendChild(shape(s, { fill: `hsl(${215 - 90 * t} ${85 - 15 * t}% ${50 - 8 * t}%)`, opacity: .45 + .5 * t }));
-      const h = shape(s, { class: "hit", tabindex: 0, stroke: `hsl(${215 - 90 * t} 80% 26%)`, "aria-label": zname + ": " + x.rows.map(r => r.method + " level " + r.levels + (r.rate != null ? " " + r.rate + "%" : "")).join(", ") });
+      const h = shape(s, { class: "hit", tabindex: 0, stroke: `hsl(${215 - 90 * t} 80% 26%)`, "aria-label": zname + ": " + x.rows.map(r => mlab(r) + (lvl(r) ? " " + lvl(r) : "") + (rlab(r) ? " " + rlab(r) : "")).join(", ") });
       h.onmousemove = e => tip(e.clientX, e.clientY, x);
       h.onmouseleave = () => $("tip").style.display = "none";
       h.onfocus = () => { const b = h.getBoundingClientRect(); tip(b.right, b.top, x) };
       h.onblur = h.onmouseleave;
       M.hits.appendChild(h);
     });
-    const bm = {}; x.rows.forEach(r => bm[r.method] = Math.max(bm[r.method] || 0, heat(r)));
+    const bm = {}; x.rows.forEach(r => bm[mlab(r)] = Math.max(bm[mlab(r)] || 0, heat(r)));
     const d = document.createElement("div"); d.className = "row";
     d.innerHTML = "<b>" + zname + "</b><span>" + Object.entries(bm).map(([m, v]) => m + " " + v + "%").join(" · ") + "</span>";
     L.appendChild(d);
   }
   for (const r of ev) {   // events and places with no spot on the map: text only
     const d = document.createElement("div"); d.className = "row";
-    d.innerHTML = "<b>" + r.method + " · not on the map</b><span>" + [r.sublocation, "Lv " + r.levels, r.rate != null && r.rate + "%", r.note].filter(Boolean).join(" · ") + "</span>";
+    d.innerHTML = "<b>" + mlab(r) + " · not on the map</b><span>" + [place(r, ""), lvl(r), rlab(r), note(r)].filter(Boolean).join(" · ") + "</span>";
     L.appendChild(d);
   }
 }
 function tip(cx, cy, x) {
   const e = $("tip");
-  e.innerHTML = "<b>" + x.z.name + (x.z.where ? " · " + x.z.where : "") + "</b>" + x.rows.map(r => `<div class="it"><div><span>${r.sublocation ? r.sublocation + " · " : ""}${r.method}${tlab(r)}${vlab(r.games)}</span><span>${r.rate != null ? r.rate + "%" : ""}</span></div><small>Lv ${r.levels}${r.note ? " · " + r.note : ""}</small></div>`).join("");
+  const zn = x.z.name;
+  e.innerHTML = "<b>" + zn + (x.z.where ? " · " + x.z.where : "") + "</b>" + x.rows.map(r => {
+    const sm = [lvl(r), place(r, zn), note(r)].filter(Boolean).join(" · ");   // same shape as before: name and rate on the left, small detail text on the right
+    return `<div class="it"><div><span>${mlab(r)}${tlab(r)}</span><span>${rlab(r)}</span></div>${sm ? "<small>" + sm + "</small>" : ""}</div>`;
+  }).join("");
   e.style.display = "block";
   e.style.left = Math.max(8, Math.min(cx + 14, innerWidth - e.offsetWidth - 8)) + "px";
   e.style.top = Math.max(8, Math.min(cy + 14, innerHeight - e.offsetHeight - 8)) + "px";
@@ -91,8 +181,11 @@ function list(f = "") {
   const u = $("dex"); u.replaceChildren(); f = f.toLowerCase();
   const [lo, hi] = state.region.dex, k = dkey();
   const reg = m => (k && m.dex && m.dex[k]) || null;
-  state.mons.filter(m => m.id >= lo && m.id <= hi && (m.name.toLowerCase().includes(f) || String(m.id).includes(f) || String(reg(m) || "").includes(f)))
-    .sort((a, b) => k ? (reg(a) || 1e3 + a.id) - (reg(b) || 1e3 + b.id) : a.id - b.id).forEach(m => {
+  const inRange = state.mons.filter(m => m.id >= lo && m.id <= hi), split = !!k && inRange.some(m => reg(m) && reg(m) !== m.id);   // the sort button only matters when the regional dex differs from the national one
+  sortUI(split);
+  const byRegion = split && state.order === "regional";
+  inRange.filter(m => m.name.toLowerCase().includes(f) || String(m.id).includes(f) || String(reg(m) || "").includes(f))
+    .sort((a, b) => byRegion ? (reg(a) || 1e3 + a.id) - (reg(b) || 1e3 + b.id) : a.id - b.id).forEach(m => {
     const b = document.createElement("button"), r = reg(m);
     b.className = "cell"; b.setAttribute("aria-pressed", !!state.sel && state.sel.id === m.id); b.setAttribute("aria-label", m.name);
     b.innerHTML = `<img alt="" src="${spriteSrc(m)}" width="72" height="72" loading="lazy" decoding="async"><small>#${pad(m.id)}${r && r !== m.id ? " · #" + pad(r) : ""}</small><span>${m.name}</span>`;
@@ -100,6 +193,21 @@ function list(f = "") {
     u.appendChild(b);
   });
 }
+
+/* ---------- dex order toggle: text only, National <-> Regional ---------- */
+const srt = $("srt");
+function sortUI(show) {
+  $("srtbar").hidden = !show;
+  const cur = state.order === "regional" ? "Regional" : "National", next = cur === "Regional" ? "national" : "regional";
+  srt.textContent = cur;
+  srt.setAttribute("aria-label", "Dex order: " + cur.toLowerCase() + ". Switch to " + next);
+}
+srt.onclick = () => {
+  state.order = state.order === "regional" ? "national" : "regional";
+  list($("q").value);
+  const sel = $("dex").querySelector('.cell[aria-pressed="true"]');
+  if (sel) sel.scrollIntoView({ block: "center" }); else $("dex").scrollTop = 0;
+};
 
 /* ---------- game switcher ---------- */
 function thumb(anim) {
