@@ -165,7 +165,7 @@ const SaveReader = (() => {
   }
   function text4(b, off, n) { let t = ""; for (let i = 0; i < n; i++) { const v = u16(b, off + i * 2); if (v === 0xFFFF) break; t += ch4(v) } return t }
   function pk45(d, off, gen5, party) {
-    const b = d.slice(off, off + (party && !gen5 ? 236 : 136));
+    const b = d.slice(off, off + (party ? (gen5 ? 220 : 236) : 136));
     if (b.length < 136 || allZero(b, 0, 136)) return null;
     const chk = u16(b, 6), sv = (u32(b, 0) >>> 13) & 31;
     cryptWords(b, 8, 136, chk); unshuffle(b, 8, 32, sv);
@@ -173,8 +173,13 @@ const SaveReader = (() => {
     const species = u16(b, 8);
     if (!species) return null;
     const x = { ab: b[0x15], sh: ((u16(b, 0x0C) ^ u16(b, 0x0E) ^ (u32(b, 0) >>> 16) ^ (u32(b, 0) & 0xFFFF)) < 8) ? 1 : 0 };
-    if (gen5) x.nn = utf16(b, 0x48, 11);
-    else { // Gen 4 (DP / Pt / HGSS): nickname, moves, EVs/IVs, item, met data. Offsets from PKHeX PK4.
+    if (gen5) { // Gen 5 (B/W, B2/W2): UTF-16 nickname, moves, EVs/IVs, item, nature, gender, hidden-ability flag, met data. Offsets from PKHeX PK5.
+      const iv = u32(b, 0x38), nib = i => (iv >>> (5 * i)) & 31, ball = b[0x83] >= 1 && b[0x83] <= 25 ? b[0x83] : 0;
+      Object.assign(x, { nn: ((iv >>> 31) & 1) ? utf16(b, 0x48, 11) : "", fr: b[0x14], bl: ball, pid: u32(b, 0) >>> 0, exp: u32(b, 0x10), it: u16(b, 0x0A),
+        mv: [0x28, 0x2A, 0x2C, 0x2E].map(o => u16(b, o)), ev: [0x18, 0x19, 0x1A, 0x1C, 0x1D, 0x1B].map(o => b[o]), iv: [0, 1, 2, 4, 5, 3].map(nib),
+        loc: u16(b, 0x80), mlv: b[0x84] & 0x7F, nat: b[0x41], gd: (b[0x40] >> 1) & 3, abn: (b[0x42] & 1) ? 4 : 1 });
+      if (party && b.length >= 220) { cryptWords(b, 136, 220, u32(b, 0)); if (b[0x8C] > 0 && b[0x8C] <= 100) x.lv = b[0x8C] }
+    } else { // Gen 4 (DP / Pt / HGSS): nickname, moves, EVs/IVs, item, met data. Offsets from PKHeX PK4.
       const iv = u32(b, 0x38), nib = i => (iv >>> (5 * i)) & 31, ball = b[0x83] >= 1 && b[0x83] <= 12 ? b[0x83] : (b[0x86] >= 1 && b[0x86] <= 12 ? b[0x86] : 0);
       Object.assign(x, { nn: ((iv >>> 31) & 1) ? text4(b, 0x48, 11) : "", fr: b[0x14], bl: ball, pid: u32(b, 0) >>> 0, exp: u32(b, 0x10), it: u16(b, 0x0A),
         mv: [0x28, 0x2A, 0x2C, 0x2E].map(o => u16(b, o)), ev: [0x18, 0x19, 0x1A, 0x1C, 0x1D, 0x1B].map(o => b[o]), iv: [0, 1, 2, 4, 5, 3].map(nib),
@@ -371,7 +376,7 @@ const SaveReader = (() => {
     });
     if (!o) return null;
     const r = collector(), n = Math.min(d[0x18E00 + 4], 6);
-    for (let i = 0; i < n; i++) r.add(pk45(d, 0x18E00 + 8 + i * 220, 1), "p");
+    for (let i = 0; i < n; i++) r.add(pk45(d, 0x18E00 + 8 + i * 220, 1, true), "p");
     for (let i = 0; i < 2; i++) if (u32(d, o.dc + i * 228) === 1) r.add(pk45(d, o.dc + i * 228 + 4, 1), "d");
     for (let b = 0; b < 24; b++) for (let s = 0; s < 30; s++) r.add(pk45(d, 0x400 + b * 0x1000 + s * 136, 1), "b");
     return { gen: 5, game: null, label: o.label, mons: r.mons, eggs: r.eggs };

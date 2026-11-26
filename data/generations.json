@@ -140,24 +140,41 @@
  {
   "id": 5,
   "name": "Generation V",
-  "ready": false,
-  "region": null,
-  "games": [
+  "ready": true,
+  "regions": [
    {
-    "id": "black",
-    "name": "Black"
+    "id": "unova",
+    "name": "Unova (Black/White)",
+    "region": "unova-bw",
+    "games": [
+     {
+      "id": "black",
+      "name": "Black",
+      "color": "#4a4a52"
+     },
+     {
+      "id": "white",
+      "name": "White",
+      "color": "#b9bdc9"
+     }
+    ]
    },
    {
-    "id": "white",
-    "name": "White"
-   },
-   {
-    "id": "black2",
-    "name": "Black 2"
-   },
-   {
-    "id": "white2",
-    "name": "White 2"
+    "id": "unova2",
+    "name": "Unova (Black 2/White 2)",
+    "region": "unova-b2w2",
+    "games": [
+     {
+      "id": "black2",
+      "name": "Black 2",
+      "color": "#3d4252"
+     },
+     {
+      "id": "white2",
+      "name": "White 2",
+      "color": "#aab0c2"
+     }
+    ]
    }
   ]
  },

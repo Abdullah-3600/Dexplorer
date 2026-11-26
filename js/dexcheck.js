@@ -3,8 +3,8 @@
 const $ = id => document.getElementById(id);
 const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e };
 const GAMES = SaveReader.GAMES, G = Object.fromEntries(GAMES.map(g => [g.id, g]));
-const REGIONS = [{ name: "Kanto", gen: "I", from: 1, to: 151 }, { name: "Johto", gen: "II", from: 152, to: 251 }, { name: "Hoenn", gen: "III", from: 252, to: 386 }, { name: "Sinnoh", gen: "IV", from: 387, to: 493 }];
-const ROMAN = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"], MAX = 493, KEY = "pokebank.v3";
+const REGIONS = [{ name: "Kanto", gen: "I", from: 1, to: 151 }, { name: "Johto", gen: "II", from: 152, to: 251 }, { name: "Hoenn", gen: "III", from: 252, to: 386 }, { name: "Sinnoh", gen: "IV", from: 387, to: 493 }, { name: "Unova", gen: "V", from: 494, to: 649 }];
+const ROMAN = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"], MAX = 649, KEY = "pokebank.v3";
 const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
 const SRC = { p: "party", b: "boxes", d: "daycare" };
 let dupes = [], order = "national", groups = [], dex = [], saves = [], sel = new Set(), status = "all", query = "", idx = new Map(), cells = [], seen = new Set(), tick = 0;
@@ -38,7 +38,7 @@ addEventListener("keydown", e => { if (e.key === "Escape") recover() });
 /* ---------- helpers ---------- */
 const dot = g => { const d = el("i", "dot"); d.style.setProperty("--c1", g.c[0]); d.style.setProperty("--c2", g.c[1] || g.c[0]); return d };
 const pad = n => String(n).padStart(3, "0");
-const spriteGen = g => g && g.gen >= 1 && g.gen <= 4 ? g.gen : 4;
+const spriteGen = g => g && g.gen >= 1 && g.gen <= 5 ? g.gen : 5;
 function spriteFor(p, g) { // the sprite of the game's own generation; later games fall back to the newest sprite we have
   const want = spriteGen(G[g]), have = Object.keys(p.sprites).map(Number);
   const gen = have.includes(want) ? want : Math.max(...have.filter(x => x <= want), Math.min(...have));
@@ -85,7 +85,7 @@ const gameRank = g => GAMES.findIndex(x => x.id === g);
 /* ---------- grid ---------- */
 function makeGroups() {
   const by = (title, list, key) => ({ title, items: list.map(p => ({ p, no: key ? p.dex[key] : p.id })).sort((x, y) => x.no - y.no) });
-  if (order === "region") return [["Kanto Dex", "kanto"], ["Johto Dex", "hgss"], ["Hoenn Dex", "hoenn"], ["Sinnoh Dex", "sinnoh-pt"]].map(([n, k]) => by(n, dex.filter(p => p.dex && p.dex[k]), k));
+  if (order === "region") return [["Kanto Dex", "kanto"], ["Johto Dex", "hgss"], ["Hoenn Dex", "hoenn"], ["Sinnoh Dex", "sinnoh-pt"], ["Unova Dex", "unova"], ["Unova Dex (Black 2 / White 2)", "unova2"]].map(([n, k]) => by(n, dex.filter(p => p.dex && p.dex[k]), k));
   if (order === "generation") return REGIONS.map(r => by("Generation " + r.gen + " · " + r.name, dex.filter(p => p.id >= r.from && p.id <= r.to)));
   return [by("National Dex", dex)];
 }
@@ -206,7 +206,7 @@ function renderGames() {
   const per = {}; for (const [n, m] of idx) for (const g of m.keys()) per[g] = (per[g] || 0) + 1;
   const present = new Set(); saves.forEach(s => s.mons.forEach(m => present.add(m.g)));
   for (let gen = 1; gen <= 9; gen++) {
-    const gs = GAMES.filter(g => g.gen === gen && (gen <= 4 || present.has(g.id) || sel.has(g.id)));
+    const gs = GAMES.filter(g => g.gen === gen && (gen <= 5 || present.has(g.id) || sel.has(g.id)));
     if (!gs.length) continue;
     box.appendChild(el("div", "gg", "Generation " + ROMAN[gen]));
     const row = el("div", "gc"); row.setAttribute("role", "group"); row.setAttribute("aria-label", "Generation " + ROMAN[gen] + " games");
@@ -244,9 +244,9 @@ function loadExtra() {
   if (typeof EXTRA !== "undefined") return extra = Promise.resolve(EXTRA);
   return extra = fetch("data/dexcheck.json").then(r => r.json());
 }
-const VG = { rb: "red-blue", yellow: "yellow", gs: "gold-silver", crystal: "crystal", ruby: "ruby-sapphire", sapphire: "ruby-sapphire", emerald: "emerald", firered: "firered-leafgreen", leafgreen: "firered-leafgreen", diamond: "diamond-pearl", pearl: "diamond-pearl", platinum: "platinum", heartgold: "heartgold-soulsilver", soulsilver: "heartgold-soulsilver" };
+const VG = { rb: "red-blue", yellow: "yellow", gs: "gold-silver", crystal: "crystal", ruby: "ruby-sapphire", sapphire: "ruby-sapphire", emerald: "emerald", firered: "firered-leafgreen", leafgreen: "firered-leafgreen", diamond: "diamond-pearl", pearl: "diamond-pearl", platinum: "platinum", heartgold: "heartgold-soulsilver", soulsilver: "heartgold-soulsilver", black: "black-white", white: "black-white", black2: "black-2-white-2", white2: "black-2-white-2" };
 const VERS = { rb: ["red", "blue"], gs: ["gold", "silver"] };
-const REGION_NAME = { kanto: "Kanto", johto: "Johto", hoenn: "Hoenn", "sinnoh-dp": "Sinnoh (D/P)", "sinnoh-pt": "Sinnoh (Pt)", hgss: "Johto (HGSS)" };
+const REGION_NAME = { kanto: "Kanto", johto: "Johto", hoenn: "Hoenn", "sinnoh-dp": "Sinnoh (D/P)", "sinnoh-pt": "Sinnoh (Pt)", hgss: "Johto (HGSS)", unova: "Unova (B/W)", unova2: "Unova (B2/W2)" };
 function dexLine(p) { // National number plus each regional number, under the name
   const d = el("div", "dexn"); d.appendChild(el("span", "", "National #" + pad(p.id)));
   for (const [k, n] of Object.entries(p.dex || {})) d.appendChild(el("span", "", (REGION_NAME[k] || title(k)) + " #" + pad(n)));
@@ -259,7 +259,7 @@ function ballOf(m) { // small icon of the ball it was caught in (recorded from G
   const k = BALL3[m.bl]; if (!k) return null; const i = el("img", "ball"); i.alt = BALL_NAME[k]; i.title = "Caught in a " + BALL_NAME[k];
   i.src = typeof BALL_DATA !== "undefined" ? BALL_DATA[k] : "assets/balls/" + k + "-ball.png"; i.width = i.height = 24; return i;
 }
-const GK = { 2: "ii", 3: "iii", 4: "iv" };
+const GK = { 2: "ii", 3: "iii", 4: "iv", 5: "v" };
 const GENN = ["", "i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix"];
 const title = s => s.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase());
 const SPD = { hp: "HP", attack: "Atk", defense: "Def", "special-attack": "SpA", "special-defense": "SpD", speed: "Spe" };
@@ -272,6 +272,7 @@ function genderOf(m, rec, gen) {
   const r = rec.genderRate; if (r < 0) return "Genderless"; if (r === 0) return "Male"; if (r === 8) return "Female";
   if (gen === 2) return m.dv[0] < r * 2 ? "Female" : "Male";
   if (gen === 3 || gen === 4) return (m.pid & 255) < r * 32 - 1 ? "Female" : "Male";
+  if (gen === 5 && m.gd != null) return m.gd === 1 ? "Female" : m.gd === 0 ? "Male" : "Genderless"; // Generation V stores the gender in the Pokémon
   return "";
 }
 // Base stats as they were in that generation: current values unless pastStats records an older one (earliest entry that still covers the generation wins).
@@ -293,7 +294,7 @@ function calc(m, rec, gen) {
     const dv = [dh, da, dd, dc, dc, ds], ev = [eh, ea, ed, ec, ec, es];
     return base.map((b, i) => Math.floor(((b + dv[i]) * 2 + ev[i]) * L / 100) + (i ? 5 : L + 10));
   }
-  const n = m.pid % 25, up = Math.floor(n / 5), dn = n % 5, map = [null, 0, 1, 3, 4, 2];
+  const n = m.nat != null ? m.nat : m.pid % 25, up = Math.floor(n / 5), dn = n % 5, map = [null, 0, 1, 3, 4, 2];
   return base.map((b, i) => { const v = Math.floor((2 * b + m.iv[i] + Math.floor(m.ev[i] / 4)) * L / 100); if (!i) return v + L + 10; const k = map[i], f = up === dn ? 1 : k === up ? 1.1 : k === dn ? .9 : 1; return Math.floor((v + 5) * f) });
 }
 const slug = n => n.toLowerCase().replace(/[^a-z]/g, "");
@@ -377,12 +378,12 @@ function detail(p) {
   }
   if (!$("dlg").open) $("dlg").showModal();
 }
-const GAME_COLOR = { red: "rb", blue: "rb", yellow: "yellow", gold: "gs", silver: "gs", crystal: "crystal", ruby: "ruby", sapphire: "sapphire", emerald: "emerald", firered: "firered", leafgreen: "leafgreen", diamond: "diamond", pearl: "pearl", platinum: "platinum", heartgold: "heartgold", soulsilver: "soulsilver" };
-const GAME_ORDER = ["red", "blue", "yellow", "gold", "silver", "crystal", "ruby", "sapphire", "emerald", "firered", "leafgreen", "diamond", "pearl", "platinum", "heartgold", "soulsilver"], GAME_NAME = { red: "Red", blue: "Blue", yellow: "Yellow", gold: "Gold", silver: "Silver", crystal: "Crystal", ruby: "Ruby", sapphire: "Sapphire", emerald: "Emerald", firered: "FireRed", leafgreen: "LeafGreen", diamond: "Diamond", pearl: "Pearl", platinum: "Platinum", heartgold: "HeartGold", soulsilver: "SoulSilver" };
-const METHOD = { walk: "Grass", surf: "Surfing", "old-rod": "Old Rod", "good-rod": "Good Rod", "super-rod": "Super Rod", "rock-smash": "Rock Smash", "headbutt-low": "Headbutt (low)", "headbutt-normal": "Headbutt (normal)", "headbutt-high": "Headbutt (high)", "headbutt": "Headbutt", "npc-trade": "Trade", gift: "Gift", "gift-egg": "Gift egg", static: "Static", "roaming-grass": "Roaming", "roaming-water": "Roaming", seaweed: "Seaweed", "feebas-tile-fishing": "Fishing (Feebas tile)", pokeflute: "Poké Flute", "squirt-bottle": "Squirtbottle", "wailmer-pail": "Wailmer Pail", "devon-scope": "Devon Scope", "headbutt-common": "Headbutt (common)", "headbutt-rare": "Headbutt (rare)", "headbutt-secret": "Headbutt (secret)", "hoenn-sound": "Hoenn Sound", "sinnoh-sound": "Sinnoh Sound", "honey-tree": "Honey tree", "poke-radar": "Poké Radar", "pal-park": "Pal Park", "bug-contest": "Bug-Catching Contest" };
-const condText = c => ({ "tree-low": "Low trees", "tree-normal": "Normal trees", "tree-high": "High trees", "tree-common": "Common trees", "tree-rare": "Rare trees", "tree-secret": "Secret trees", "time-morning": "Morning", "time-day": "Day", "time-night": "Night", "swarm-yes": "Swarm", "weekday-friday": "Fridays" })[c]
+const GAME_COLOR = { red: "rb", blue: "rb", yellow: "yellow", gold: "gs", silver: "gs", crystal: "crystal", ruby: "ruby", sapphire: "sapphire", emerald: "emerald", firered: "firered", leafgreen: "leafgreen", diamond: "diamond", pearl: "pearl", platinum: "platinum", heartgold: "heartgold", soulsilver: "soulsilver", black: "black", white: "white", black2: "black2", white2: "white2" };
+const GAME_ORDER = ["red", "blue", "yellow", "gold", "silver", "crystal", "ruby", "sapphire", "emerald", "firered", "leafgreen", "diamond", "pearl", "platinum", "heartgold", "soulsilver", "black", "white", "black2", "white2"], GAME_NAME = { red: "Red", blue: "Blue", yellow: "Yellow", gold: "Gold", silver: "Silver", crystal: "Crystal", ruby: "Ruby", sapphire: "Sapphire", emerald: "Emerald", firered: "FireRed", leafgreen: "LeafGreen", diamond: "Diamond", pearl: "Pearl", platinum: "Platinum", heartgold: "HeartGold", soulsilver: "SoulSilver", black: "Black", white: "White", black2: "Black 2", white2: "White 2" };
+const METHOD = { walk: "Grass", surf: "Surfing", "old-rod": "Old Rod", "good-rod": "Good Rod", "super-rod": "Super Rod", "rock-smash": "Rock Smash", "headbutt-low": "Headbutt (low)", "headbutt-normal": "Headbutt (normal)", "headbutt-high": "Headbutt (high)", "headbutt": "Headbutt", "npc-trade": "Trade", gift: "Gift", "gift-egg": "Gift egg", static: "Static", "roaming-grass": "Roaming", "roaming-water": "Roaming", seaweed: "Seaweed", "feebas-tile-fishing": "Fishing (Feebas tile)", pokeflute: "Poké Flute", "squirt-bottle": "Squirtbottle", "wailmer-pail": "Wailmer Pail", "devon-scope": "Devon Scope", "headbutt-common": "Headbutt (common)", "headbutt-rare": "Headbutt (rare)", "headbutt-secret": "Headbutt (secret)", "hoenn-sound": "Hoenn Sound", "sinnoh-sound": "Sinnoh Sound", "honey-tree": "Honey tree", "poke-radar": "Poké Radar", "pal-park": "Pal Park", "bug-contest": "Bug-Catching Contest", "dark-grass": "Dark grass", "grass-spots": "Rustling grass", "cave-spots": "Dust cloud", "bridge-spots": "Bridge shadow", "surf-spots": "Rippling water (surf)", "super-rod-spots": "Rippling water (Super Rod)", "yellow-flowers": "Yellow flowers", "purple-flowers": "Purple flowers", "red-flowers": "Red flowers", "rough-terrain": "Rough terrain", "hidden-grotto": "Hidden Grotto" };
+const condText = c => ({ "tree-low": "Low trees", "tree-normal": "Normal trees", "tree-high": "High trees", "tree-common": "Common trees", "tree-rare": "Rare trees", "tree-secret": "Secret trees", "time-morning": "Morning", "time-day": "Day", "time-night": "Night", "swarm-yes": "Swarm", "weekday-friday": "Fridays", "season-spring": "Spring", "season-summer": "Summer", "season-autumn": "Autumn", "season-winter": "Winter" })[c]
   || (/^coins-/.test(c) ? c.slice(6) + " coins" : /^trade-/.test(c) ? "for " + title(c.slice(6)) : /^starter-/.test(c) ? "with " + title(c.slice(8)) + " as starter" : title(c.replace(/^(story-progress|item|tv-option|other)-/, "")));
-const areaName = a => title(a.replace(/^(johto|kanto|hoenn|sinnoh)-/, "").replace(/-area$/, "")).replace(/\b(b?\d+f)\b/gi, m => m.toUpperCase());
+const areaName = a => title(a.replace(/^(johto|kanto|hoenn|sinnoh|unova)-/, "").replace(/-area$/, "")).replace(/\b(b?\d+f)\b/gi, m => m.toUpperCase());
 const lvText = (lo, hi) => "Lv. " + (lo === hi ? lo : lo + "–" + hi);
 // One row per area; each way of finding it (grass, surfing, rods...) is a line, with time of day shown when the odds change.
 function areasOf(list) {
@@ -403,7 +404,7 @@ function whereToFind(p, x) {
   const sum = el("summary", "dis"); sum.append(el("span", "dlab", "Where to find"), el("small", "cnt", ""), el("i", "chv")); outer.appendChild(sum);
   const games = GAME_ORDER.filter(v => areasOf(V[v] || []).length);
   sum.querySelector(".cnt").textContent = games.length ? games.length + (games.length === 1 ? " game" : " games") : "None";
-  if (!games.length) { outer.appendChild(el("p", "e", "Not found in the wild in any Generation I–IV game (gift, evolution, trade or event).")); return outer }
+  if (!games.length) { outer.appendChild(el("p", "e", "Not found in the wild in any Generation I–V game (gift, evolution, trade or event).")); return outer }
   for (const v of games) {
     const areas = areasOf(V[v]), d = el("details", "ls sub");
     const gs = el("summary", "dis"), gd = dot(G[GAME_COLOR[v]]); gs.append(gd, el("span", "dlab", "Pokémon " + GAME_NAME[v]), el("small", "cnt", areas.length + (areas.length === 1 ? " area" : " areas")), el("i", "chv")); d.appendChild(gs);
@@ -427,7 +428,7 @@ function showMon(p, m, g) {
   loadExtra().then(x => {
     $("dn").hidden = true; const vg0 = VG[g], rec = x.stats[p.id], gen = G[g].gen, lv = levelOf(m, rec), dv = $("dv"); dv.replaceChildren(); $("dl").hidden = true; dv.hidden = false;
     const back = el("button", "link", "‹ " + p.name); back.type = "button"; back.onclick = () => detail(p); dv.appendChild(back);
-    const sg = Math.min(gen, 4), shinyOk = !!(p.shinySprites && p.shinySprites[sg]); let shiny = !!m.sh && shinyOk; // a shiny copy opens in shiny colours
+    const sg = Math.min(gen, 5), shinyOk = !!(p.shinySprites && p.shinySprites[sg]); let shiny = !!m.sh && shinyOk; // a shiny copy opens in shiny colours
     const art = el("div", "hero"), img = el("img");
     const setImg = () => { img.src = (shiny ? p.shinySprites[sg] : p.sprites[sg] || Object.values(p.sprites).pop()); img.alt = (shiny ? "Shiny " : "") + p.name }; setImg(); art.appendChild(img);
     if (shinyOk) {
@@ -441,7 +442,7 @@ function showMon(p, m, g) {
     const SPECIAL_LOC = { 253: "In-game trade", 254: "Fateful encounter", 255: "Not recorded" }, TOD = { 1: "Morning", 2: "Day", 3: "Night" };
     const loc = m.loc == null ? null : gen === 3 && SPECIAL_LOC[m.loc] ? SPECIAL_LOC[m.loc] : table[m.loc] || (m.loc === 0 && gen === 2 ? "Unknown" : "Unknown (#" + m.loc + ")");
     const met = m.mlv ? "Lv. " + m.mlv + (gen === 2 && TOD[m.tod] ? " · " + TOD[m.tod] : "") : null;
-    const kv = [["Level", lv], ["Gender", gd || "—"], ["Nature", m.pid != null ? NAT[m.pid % 25] : null], ["Held item", gen === 1 ? null : m.it ? it || "Item #" + m.it : "None"], ["Met location", loc], ["Met level", met], ["Game", "Pokémon " + G[g].name]];
+    const kv = [["Level", lv], ["Gender", gd || "—"], ["Nature", m.nat != null ? NAT[m.nat] : m.pid != null ? NAT[m.pid % 25] : null], ["Held item", gen === 1 ? null : m.it ? it || "Item #" + m.it : "None"], ["Met location", loc], ["Met level", met], ["Game", "Pokémon " + G[g].name]];
     const dl = el("dl", "kv"); kv.filter(r => r[1]).forEach(([k, v]) => { dl.append(el("dt", "", k), el("dd", "", String(v))) });
     if (m.fr != null) { // friendship: value with a small meter
       const dd = el("dd", "fr"), bar = el("span", "fmeter"), fill = el("i"); fill.style.width = Math.round(m.fr / 255 * 100) + "%"; bar.appendChild(fill);
@@ -465,7 +466,7 @@ function showMon(p, m, g) {
       dv.appendChild(sec("Level up (" + L["level-up"].length + ")", L["level-up"].map(([l, id]) => moveRow(mvAt(x.moves[id], vg0), l ? "Lv. " + l : "—"))));
       dv.appendChild(sec("Egg moves (" + L.egg.length + ")", L.egg.length ? L.egg.map(id => moveRow(mvAt(x.moves[id], vg0))) : [el("li", "e", "None")]));
       dv.appendChild(sec("TM / HM / Tutor (" + (L.machine.length + L.tutor.length) + ")", [...L.machine, ...L.tutor].map(id => moveRow(mvAt(x.moves[id], vg0)))));
-    } else dv.appendChild(el("p", "e", "Moveset data covers Generation I–IV games for now."));
+    } else dv.appendChild(el("p", "e", "Moveset data covers Generation I–V games for now."));
     dv.appendChild(whereToFind(p, x));
     dv.scrollIntoView({ block: "start" }); $("dlg").scrollTop = 0;
   });

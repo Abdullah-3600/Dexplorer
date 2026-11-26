@@ -164,5 +164,39 @@
   "zones": "data/johto-hgss/zones.json",
   "encounters": "data/johto-hgss/encounters.json",
   "dexKey": "hgss"
+ },
+ {
+  "id": "unova-bw",
+  "name": "Unova",
+  "generation": 5,
+  "dex": [
+   1,
+   649
+  ],
+  "map": "assets/unova-bw-map.png",
+  "mapSize": [
+   1305,
+   857
+  ],
+  "zones": "data/unova/zones.json",
+  "encounters": "data/unova/encounters.json",
+  "dexKey": "unova"
+ },
+ {
+  "id": "unova-b2w2",
+  "name": "Unova",
+  "generation": 5,
+  "dex": [
+   1,
+   649
+  ],
+  "map": "assets/unova-b2w2-map.png",
+  "mapSize": [
+   1307,
+   857
+  ],
+  "zones": "data/unova-b2w2/zones.json",
+  "encounters": "data/unova-b2w2/encounters.json",
+  "dexKey": "unova2"
  }
 ]

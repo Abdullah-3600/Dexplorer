@@ -4,18 +4,19 @@
 
 - **Encounter heatmap:** pick a Pokémon and see where to find it on the map, from blue (lowest encounter rate) to green (highest).
 - **Encounter details:** hover over a highlighted area to see how to catch it (walking, surfing, fishing, gift or static), the level range and the encounter rate.
-- **Game switcher:** switch between Red, Blue and Yellow (Generation I), Gold, Silver and Crystal (Generation II), or Ruby, Sapphire and Emerald (Generation III, Hoenn) or FireRed and LeafGreen (Generation III, Kanto) to see each game's own encounters, including version exclusives and time-of-day differences.
+- **Game switcher:** switch between Red, Blue and Yellow (Generation I), Gold, Silver and Crystal (Generation II), Ruby, Sapphire and Emerald (Generation III, Hoenn), FireRed and LeafGreen (Generation III, Kanto), Diamond, Pearl, Platinum, HeartGold and SoulSilver (Generation IV), or Black, White, Black 2 and White 2 (Generation V, Unova) to see each game's own encounters, including seasons, including version exclusives and time-of-day differences.
 - **Generation selector:** the game list follows the generation you choose.
-- **Region selector:** generations with more than one region (Generation III: Hoenn for Ruby, Sapphire and Emerald, Kanto for FireRed and LeafGreen; Generation IV: Sinnoh for Diamond, Pearl and Platinum, Johto for HeartGold and SoulSilver) get a region dropdown under the generation selector, and the game list follows the region. It stays hidden for single-region generations.
+- **Region selector:** generations with more than one region (Generation III: Hoenn for Ruby, Sapphire and Emerald, Kanto for FireRed and LeafGreen; Generation IV: Sinnoh for Diamond, Pearl and Platinum, Johto for HeartGold and SoulSilver; Generation V: Unova (Black and White) and Unova (Black 2 and White 2), each with its own map) get a region dropdown under the generation selector, and the game list follows the region. It stays hidden for single-region generations.
 - **Gifts, statics, trades and roaming:** Hoenn includes starters, legendaries, Devon Scope Kecleon, NPC trades and the roaming Latias/Latios. Event-only Pokémon and places with no spot on the map (for example Birth Island and Navel Rock) are mentioned in text, without a map location.
-- **Pokémon picker:** browse Generation I (151), Generation II (251), Generation III (386) and Generation IV (493) Pokémon, each with sprites from its own generation's games, and search by name or number.
+- **Pokémon picker:** browse Generation I (151), Generation II (251), Generation III (386), Generation IV (493) and Generation V (649) Pokémon, each with sprites from its own generation's games, and search by name or number.
+- **Seasons and Unova specifics:** Black, White, Black 2 and White 2 encounters are labelled by season (Spring–Autumn, Winter, or all year), floor, Hidden Grotto, dust clouds, rustling grass, Dream Radar and event-only Pokémon.
 - **Comfortable to use:** light and dark mode, smooth animations, and full keyboard support.
 
 ## Roadmap
 
 - Pokémon stat viewer
 - Pokédex page
-- Generation IV onwards
+- Generation VI onwards
 
 # DexCheck
 
@@ -26,12 +27,12 @@ Add your Pokémon saves and DexCheck shows what you've caught, what's missing, a
 ## Add all your saves at once
 - One **Add Save Files** button, or drop files anywhere on the page.
 - Mix games and generations in a single dex.
-- Reads Red, Blue, Yellow, Gold, Silver, Crystal, Ruby, Sapphire, Emerald, FireRed, LeafGreen, Diamond, Pearl, Platinum, HeartGold, SoulSilver.
-    [upcoming: Black, White, Black 2, White 2, X, Y, Omega Ruby, Alpha Sapphire, Sun, Moon, Ultra Sun, Ultra Moon, Sword, Shield, Scarlet and Violet.]
+- Reads Red, Blue, Yellow, Gold, Silver, Crystal, Ruby, Sapphire, Emerald, FireRed, LeafGreen, Diamond, Pearl, Platinum, HeartGold, SoulSilver, Black, White, Black 2, White 2.
+    [upcoming: X, Y, Omega Ruby, Alpha Sapphire, Sun, Moon, Ultra Sun, Ultra Moon, Sword, Shield, Scarlet and Violet.]
 - Your saves stay loaded after a refresh.
 
 ## A living dex you can read at a glance
-- A grid of all 493 Pokémon from Generations I to IV.
+- A grid of all 649 Pokémon from Generations I to V.
 - Live progress count and bar.
 - Sort by **National Dex**, **Region** or **Generation**.
 - Search by name or number, and switch between **All**, **Caught** and **Missing**.
@@ -46,7 +47,7 @@ Add your Pokémon saves and DexCheck shows what you've caught, what's missing, a
 - National and regional dex numbers.
 - A stats chart 
 - A type matchup chart: weak to, resists and immune to, for that game's generation.
-- Its four moves with type, power and accuracy as in that game (Generation IV games included).
+- Its four moves with type, power and accuracy as in that game (Generation V games included).
 - Moveset: level-up moves, egg moves and TM/HM/tutor moves.
 
 ## Find the ones you're missing

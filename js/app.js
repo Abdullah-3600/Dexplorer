@@ -20,7 +20,7 @@ const scale = () => state.region ? state.region.mapSize[0] / 1130 : 1;
 function shape(s, a) {
   return s.type === "circle"
     ? mk("circle", { cx: s.cx, cy: s.cy, r: s.r, ...a })
-    : mk("rect", { x: s.x, y: s.y, width: s.w, height: s.h, rx: 10 * scale(), ...a });
+    : mk("rect", { x: s.x, y: s.y, width: s.w, height: s.h, rx: 10 * scale(), ...(s.rot ? { transform: `rotate(${s.rot} ${s.x + s.w / 2} ${s.y + s.h / 2})` } : {}), ...a });   // optional "rot" (degrees) tilts a rectangle around its centre, for diagonal routes
 }
 const TIME = { morning: "Morning", day: "Day", night: "Night" };
 const tlab = r => r.time && r.time.length < 3 ? " · " + r.time.map(t => TIME[t]).join("/") : "";

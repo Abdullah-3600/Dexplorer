@@ -1,0 +1,720 @@
+{
+ "nuvema": {
+  "name": "Nuvema Town",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1164,
+    "y": 788,
+    "w": 36,
+    "h": 36
+   }
+  ]
+ },
+ "accumula": {
+  "name": "Accumula Town",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1164,
+    "y": 686,
+    "w": 36,
+    "h": 36
+   }
+  ]
+ },
+ "striaton": {
+  "name": "Striaton City",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1126,
+    "y": 566,
+    "w": 72,
+    "h": 72
+   }
+  ]
+ },
+ "nacrene": {
+  "name": "Nacrene City",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 998,
+    "y": 566,
+    "w": 72,
+    "h": 72
+   }
+  ]
+ },
+ "castelia": {
+  "name": "Castelia City",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 636,
+    "y": 626,
+    "w": 72,
+    "h": 72
+   }
+  ]
+ },
+ "nimbasa": {
+  "name": "Nimbasa City",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 636,
+    "y": 428,
+    "w": 72,
+    "h": 72
+   }
+  ]
+ },
+ "driftveil": {
+  "name": "Driftveil City",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 340,
+    "y": 428,
+    "w": 72,
+    "h": 72
+   }
+  ]
+ },
+ "mistralton": {
+  "name": "Mistralton City",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 167,
+    "y": 305,
+    "w": 72,
+    "h": 72
+   }
+  ]
+ },
+ "icirrus": {
+  "name": "Icirrus City",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 340,
+    "y": 183,
+    "w": 72,
+    "h": 72
+   }
+  ]
+ },
+ "opelucid": {
+  "name": "Opelucid City",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 636,
+    "y": 183,
+    "w": 72,
+    "h": 72
+   }
+  ]
+ },
+ "lacunosa": {
+  "name": "Lacunosa Town",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 950,
+    "y": 201,
+    "w": 36,
+    "h": 36
+   }
+  ]
+ },
+ "undella": {
+  "name": "Undella Town",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1124,
+    "y": 323,
+    "w": 36,
+    "h": 36
+   }
+  ]
+ },
+ "blackcitywhiteforest": {
+  "name": "Black City / White Forest",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 932,
+    "y": 428,
+    "w": 72,
+    "h": 72
+   }
+  ]
+ },
+ "anville": {
+  "name": "Anville Town",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 16,
+    "y": 134,
+    "w": 36,
+    "h": 36
+   }
+  ]
+ },
+ "pokemonleague": {
+  "name": "Pokémon League",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 866,
+    "cy": 76,
+    "r": 24
+   }
+  ]
+ },
+ "victoryroad": {
+  "name": "Victory Road",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 830,
+    "cy": 122,
+    "r": 16
+   }
+  ]
+ },
+ "r8": {
+  "name": "Route 8",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 412,
+    "y": 201,
+    "w": 68,
+    "h": 36
+   }
+  ]
+ },
+ "tubelinebridge": {
+  "name": "Tubeline Bridge",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 480,
+    "y": 201,
+    "w": 96,
+    "h": 36
+   }
+  ]
+ },
+ "r9": {
+  "name": "Route 9",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 576,
+    "y": 201,
+    "w": 60,
+    "h": 36
+   }
+  ]
+ },
+ "r11": {
+  "name": "Route 11",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 708,
+    "y": 201,
+    "w": 62,
+    "h": 36
+   }
+  ]
+ },
+ "villagebridge": {
+  "name": "Village Bridge",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 770,
+    "y": 201,
+    "w": 90,
+    "h": 36
+   }
+  ]
+ },
+ "r12": {
+  "name": "Route 12",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 860,
+    "y": 201,
+    "w": 90,
+    "h": 36
+   }
+  ]
+ },
+ "driftveildrawbridge": {
+  "name": "Driftveil Drawbridge",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 412,
+    "y": 446,
+    "w": 164,
+    "h": 36
+   }
+  ]
+ },
+ "r5": {
+  "name": "Route 5",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 576,
+    "y": 446,
+    "w": 60,
+    "h": 36
+   }
+  ]
+ },
+ "r16": {
+  "name": "Route 16",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 708,
+    "y": 446,
+    "w": 57,
+    "h": 36
+   }
+  ]
+ },
+ "marvelousbridge": {
+  "name": "Marvelous Bridge",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 765,
+    "y": 446,
+    "w": 95,
+    "h": 36
+   }
+  ]
+ },
+ "r15": {
+  "name": "Route 15",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 860,
+    "y": 446,
+    "w": 72,
+    "h": 36
+   }
+  ]
+ },
+ "r10": {
+  "name": "Route 10",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 663,
+    "y": 140,
+    "w": 36,
+    "h": 43
+   },
+   {
+    "type": "rect",
+    "x": 699,
+    "y": 140,
+    "w": 113,
+    "h": 36
+   }
+  ]
+ },
+ "r1": {
+  "name": "Route 1",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1164,
+    "y": 722,
+    "w": 36,
+    "h": 66
+   }
+  ]
+ },
+ "r3": {
+  "name": "Route 3",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1070,
+    "y": 584,
+    "w": 56,
+    "h": 36
+   }
+  ]
+ },
+ "r17": {
+  "name": "Route 17",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1030,
+    "y": 788,
+    "w": 134,
+    "h": 36
+   }
+  ]
+ },
+ "r2": {
+  "name": "Route 2",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1154,
+    "y": 644,
+    "w": 40,
+    "h": 36,
+    "rot": 78.9
+   }
+  ]
+ },
+ "r18": {
+  "name": "Route 18",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 1132,
+    "cy": 770,
+    "r": 16
+   }
+  ]
+ },
+ "desertresort": {
+  "name": "Desert Resort",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 576,
+    "y": 500,
+    "w": 252,
+    "h": 90
+   }
+  ]
+ },
+ "r4": {
+  "name": "Route 4",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 654,
+    "y": 590,
+    "w": 36,
+    "h": 36
+   }
+  ]
+ },
+ "reliccastle": {
+  "name": "Relic Castle",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 586,
+    "cy": 530,
+    "r": 16
+   }
+  ]
+ },
+ "skyarrowbridge": {
+  "name": "Skyarrow Bridge",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 715,
+    "y": 608,
+    "w": 161,
+    "h": 36,
+    "rot": -13.8
+   },
+   {
+    "type": "rect",
+    "x": 875,
+    "y": 586,
+    "w": 123,
+    "h": 36
+   }
+  ]
+ },
+ "pinwheelforest": {
+  "name": "Pinwheel Forest",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 980,
+    "cy": 648,
+    "r": 16
+   }
+  ]
+ },
+ "dreamyard": {
+  "name": "Dreamyard",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 1218,
+    "cy": 602,
+    "r": 16
+   }
+  ]
+ },
+ "wellspringcave": {
+  "name": "Wellspring Cave",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 1096,
+    "cy": 560,
+    "r": 16
+   }
+  ]
+ },
+ "entralink": {
+  "name": "Entralink",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 603,
+    "y": 315,
+    "w": 144,
+    "h": 72
+   }
+  ]
+ },
+ "coldstorage": {
+  "name": "Cold Storage",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 376,
+    "cy": 525,
+    "r": 16
+   }
+  ]
+ },
+ "lostlornforest": {
+  "name": "Lostlorn Forest",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 744,
+    "cy": 428,
+    "r": 16
+   }
+  ]
+ },
+ "poketransferlab": {
+  "name": "Poké Transfer Lab",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 902,
+    "cy": 428,
+    "r": 16
+   }
+  ]
+ },
+ "r6": {
+  "name": "Route 6",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 235,
+    "y": 385,
+    "w": 109,
+    "h": 36,
+    "rot": -144.6
+   }
+  ]
+ },
+ "r7": {
+  "name": "Route 7",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 236,
+    "y": 262,
+    "w": 108,
+    "h": 36,
+    "rot": -35.2
+   }
+  ]
+ },
+ "r13": {
+  "name": "Route 13",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 976,
+    "y": 262,
+    "w": 159,
+    "h": 36,
+    "rot": 35.0
+   }
+  ]
+ },
+ "r14": {
+  "name": "Route 14",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 999,
+    "y": 377,
+    "w": 134,
+    "h": 36,
+    "rot": -35.3
+   }
+  ]
+ },
+ "chargestonecave": {
+  "name": "Chargestone Cave",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 351,
+    "cy": 377,
+    "r": 16
+   }
+  ]
+ },
+ "mistraltoncave": {
+  "name": "Mistralton Cave",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 214,
+    "cy": 408,
+    "r": 16
+   }
+  ]
+ },
+ "celestialtower": {
+  "name": "Celestial Tower",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 270,
+    "cy": 250,
+    "r": 16
+   }
+  ]
+ },
+ "twistmountain": {
+  "name": "Twist Mountain",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 366,
+    "cy": 280,
+    "r": 16
+   }
+  ]
+ },
+ "dragonspiraltower": {
+  "name": "Dragonspiral Tower",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 336,
+    "cy": 158,
+    "r": 16
+   }
+  ]
+ },
+ "mooroficirrus": {
+  "name": "Moor of Icirrus",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 448,
+    "cy": 183,
+    "r": 16
+   }
+  ]
+ },
+ "challengerscave": {
+  "name": "Challenger's Cave",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 596,
+    "cy": 254,
+    "r": 16
+   }
+  ]
+ },
+ "giantchasm": {
+  "name": "Giant Chasm",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 1009,
+    "cy": 158,
+    "r": 16
+   }
+  ]
+ },
+ "abundantshrine": {
+  "name": "Abundant Shrine",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 1004,
+    "cy": 392,
+    "r": 16
+   }
+  ]
+ },
+ "undellabay": {
+  "name": "Undella Bay",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 1264,
+    "cy": 346,
+    "r": 16
+   }
+  ]
+ },
+ "abyssalruins": {
+  "name": "Abyssal Ruins",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 1250,
+    "cy": 412,
+    "r": 16
+   }
+  ]
+ },
+ "libertygarden": {
+  "name": "Liberty Garden",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 376,
+    "cy": 739,
+    "r": 16
+   }
+  ]
+ }
+}
