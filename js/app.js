@@ -124,7 +124,31 @@ function find(id) {
 }
 const dkey = () => (state.region.dexByGame && state.region.dexByGame[state.game]) || state.region.dexKey; // Sinnoh: Diamond/Pearl and Platinum have different regional dexes
 const offMap = id => state.rows.filter(r => r.pokemon === id && !r.zone && r.games.includes(state.game));
+/* Picking an entry under the map focuses its zone: the rest of that map is dimmed by 30% (a black layer with the zone cut out of it). Picking it again clears the focus. */
+let dimN = 0;
+function clearDim() {
+  state.maps.forEach(m => { if (m.dim) { m.dim.remove(); m.dim = null } if (m.mask) { m.mask.remove(); m.mask = null } });
+  document.querySelectorAll("#list .row[aria-pressed=true]").forEach(r => r.setAttribute("aria-pressed", "false"));
+}
+function focusZone(x, row) {
+  const again = row.getAttribute("aria-pressed") === "true";
+  clearDim();
+  if (again) return;
+  const M = state.maps[x.z.m || 0], svg = M.hits.ownerSVGElement, vb = svg.viewBox.baseVal, id = "dim" + ++dimN;
+  const mask = mk("mask", { id, maskUnits: "userSpaceOnUse", x: 0, y: 0, width: vb.width, height: vb.height });
+  mask.appendChild(mk("rect", { x: 0, y: 0, width: vb.width, height: vb.height, fill: "#fff" }));
+  x.z.shapes.forEach(s => mask.appendChild(shape(s, { fill: "#000" })));
+  let defs = svg.querySelector("defs"); if (!defs) { defs = mk("defs", {}); svg.prepend(defs) }
+  defs.appendChild(mask);
+  const dim = mk("rect", { class: "dim", x: 0, y: 0, width: vb.width, height: vb.height, fill: "#000", opacity: .3, mask: `url(#${id})`, "pointer-events": "none" });
+  svg.insertBefore(dim, M.hits);
+  M.dim = dim; M.mask = mask; row.setAttribute("aria-pressed", "true");
+}
+/* The focus ends on any click outside the entries under the map, or on Escape. It also resets whenever the Pokémon, game, generation or map changes (draw / setGeneration / buildMaps). */
+document.addEventListener("click", e => { if (!e.target.closest || !e.target.closest("#list .row[role=button]")) clearDim() });
+document.addEventListener("keydown", e => { if (e.key === "Escape") clearDim() });
 function draw() {
+  clearDim();
   $("tipbox").hidden = true;
   const L = $("list");
   state.maps.forEach(m => { m.heat.replaceChildren(); m.hits.replaceChildren() }); L.replaceChildren();
@@ -156,6 +180,9 @@ function draw() {
     const bm = {}; x.rows.forEach(r => bm[mlab(r)] = Math.max(bm[mlab(r)] || 0, heat(r)));
     const d = document.createElement("div"); d.className = "row";
     d.innerHTML = "<b>" + zname + "</b><span>" + Object.entries(bm).map(([m, v]) => m + " " + v + "%").join(" · ") + "</span>";
+    d.tabIndex = 0; d.setAttribute("role", "button"); d.setAttribute("aria-pressed", "false"); d.setAttribute("aria-label", "Focus " + zname + " on the map");
+    d.onclick = () => focusZone(x, d);
+    d.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); focusZone(x, d) } };
     L.appendChild(d);
   }
   for (const r of ev) {   // events and places with no spot on the map: text only
@@ -295,6 +322,7 @@ mn.querySelectorAll("[role=menuitem]").forEach(b => b.onclick = () => { if (b.da
 
 /* ---------- extra maps beside the main one ---------- */
 function buildMaps(extras) {
+  clearDim();   // the old map layers go away with the old maps
   insetsEl.replaceChildren();
   state.maps = [{ heat: $("heat"), hits: $("hits") }];
   for (const r of extras) {
@@ -309,6 +337,7 @@ function buildMaps(extras) {
 
 /* ---------- loading ---------- */
 async function setGeneration(g, o) {
+  clearDim();
   o = o || optsOf(g).find(optOk);
   const region = state.regions.find(r => r.id === o.region);
   const load = r => regionData[r.id] || (regionData[r.id] = Promise.all([getJSON(r.zones), getJSON(r.encounters)]));

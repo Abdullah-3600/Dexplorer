@@ -379,7 +379,11 @@ const SaveReader = (() => {
     for (let i = 0; i < n; i++) r.add(pk45(d, 0x18E00 + 8 + i * 220, 1, true), "p");
     for (let i = 0; i < 2; i++) if (u32(d, o.dc + i * 228) === 1) r.add(pk45(d, o.dc + i * 228 + 4, 1), "d");
     for (let b = 0; b < 24; b++) for (let s = 0; s < 30; s++) r.add(pk45(d, 0x400 + b * 0x1000 + s * 136, 1), "b");
-    return { gen: 5, game: null, label: o.label, mons: r.mons, eggs: r.eggs };
+    // The trainer block stores the game this save belongs to (PKHeX SAV5: Trainer1 0x19400, version byte at +0x1F).
+    // 20 White, 21 Black, 22 White 2, 23 Black 2. Only trusted when it agrees with the save layout found above.
+    const ver = d[0x19400 + 0x1F], two = o.label.startsWith("Black 2"), names = { 20: "White", 21: "Black", 22: "White 2", 23: "Black 2" };
+    const known = names[ver] && (ver >= 22) === two;
+    return { gen: 5, game: known ? gameOf(ver) : null, label: known ? names[ver] : o.label, mons: r.mons, eggs: r.eggs };
   }
 
   /* ---------- Generation 6 and 7 (Nintendo 3DS) ---------- */

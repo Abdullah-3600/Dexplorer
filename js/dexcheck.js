@@ -84,8 +84,9 @@ const gameRank = g => GAMES.findIndex(x => x.id === g);
 
 /* ---------- grid ---------- */
 function makeGroups() {
-  const by = (title, list, key) => ({ title, items: list.map(p => ({ p, no: key ? p.dex[key] : p.id })).sort((x, y) => x.no - y.no) });
-  if (order === "region") return [["Kanto Dex", "kanto"], ["Johto Dex", "hgss"], ["Hoenn Dex", "hoenn"], ["Sinnoh Dex", "sinnoh-pt"], ["Unova Dex", "unova"], ["Unova Dex (Black 2 / White 2)", "unova2"]].map(([n, k]) => by(n, dex.filter(p => p.dex && p.dex[k]), k));
+  const by = (title, list, key) => ({ title, items: list.map(p => ({ p, no: key ? (p.dex[key] || p.dex[ALT[key]]) : p.id })).sort((x, y) => x.no - y.no) });
+  const ALT = { unova2: "unova" };   // Unova has one dex here: the Black 2 / White 2 numbering, which contains every Black / White entry
+  if (order === "region") return [["Kanto Dex", "kanto"], ["Johto Dex", "hgss"], ["Hoenn Dex", "hoenn"], ["Sinnoh Dex", "sinnoh-pt"], ["Unova Dex", "unova2"]].map(([n, k]) => by(n, dex.filter(p => p.dex && (p.dex[k] || p.dex[ALT[k]])), k));
   if (order === "generation") return REGIONS.map(r => by("Generation " + r.gen + " · " + r.name, dex.filter(p => p.id >= r.from && p.id <= r.to)));
   return [by("National Dex", dex)];
 }
@@ -460,7 +461,7 @@ function showMon(p, m, g) {
     const own = ownAbility(x, rec, m, gen), pool = abilitiesFor(rec, gen);
     if (own || pool.length) {
       dv.appendChild(el("h3", "", "Abilities")); const al = el("ul", "ml");
-      if (own) { const li = el("li", "ab own"); li.append(el("b", "", own.name + (own.hidden ? " · Hidden" : "")), el("small", "", own.effect || "")); al.appendChild(li) }
+      if (own) { const li = el("li", "ab own"); li.dataset.t = typesFor(rec, gen)[0] || "unknown"; li.append(el("b", "", own.name + (own.hidden ? " · Hidden" : "")), el("small", "", own.effect || "")); al.appendChild(li) }
       for (const a of pool) { const info = abilityInfo(x, a.name); if (own && slug(own.name) === slug(info.name)) continue; const li = el("li", "ab"); li.append(el("b", "", info.name + (a.hidden ? " · Hidden" : "")), el("small", "", info.effect || "")); al.appendChild(li) }
       dv.appendChild(al);
     } else if (gen <= 2) dv.appendChild(el("p", "e", "Abilities were introduced in Generation III."));

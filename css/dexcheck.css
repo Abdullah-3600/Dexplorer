@@ -79,7 +79,12 @@ details.ls>.ml{margin:8px 10px 10px}details.ls>p.e{margin:10px 14px}
 .dexn{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 8px}.dexn span{padding:2px 9px;border-radius:10px;background:var(--bg);color:var(--mu);font-size:12px;font-weight:600;font-variant-numeric:tabular-nums}
 .mu{display:grid;gap:8px;padding:10px 12px;border:1px solid var(--ln);border-radius:14px}.mur{display:grid;grid-template-columns:72px 1fr;gap:8px;align-items:start}.mul{color:var(--mu);font-size:13px;font-weight:600;padding-top:3px}
 .muc{display:flex;flex-wrap:wrap;gap:6px}.muc .ty{display:inline-flex;align-items:center;gap:6px}.muc .ty b{background:rgba(255,255,255,.25);border-radius:8px;padding:0 6px;font-size:11px}.none2{color:var(--mu);font-size:13px;padding-top:3px}
-.ab{display:grid;gap:2px;padding:8px 12px;background:var(--bg);border-radius:10px}.ab small{color:var(--mu);font-size:13px}.ab.own{border-left:4px solid var(--ac)}
+/* ability pills: the Pokémon's own ability is filled with its main type colour (white text, every fill is 4.5:1 or better); the other possible abilities stay neutral */
+.ab{display:grid;gap:2px;padding:9px 16px;background:var(--bg);border-radius:16px}.ab small{color:var(--mu);font-size:13px;line-height:1.35}
+.ab.own{--tc:#707074;background:var(--tc);color:#fff;box-shadow:inset 0 1px 0 #ffffff2e}.ab.own b{font-weight:700}.ab.own small{color:#fff;font-weight:400}
+@supports (corner-shape:squircle){.ab{corner-shape:squircle;border-radius:24px}}
+.ab.own[data-t=normal]{--tc:#6b6b70}.ab.own[data-t=fire]{--tc:#cb430e}.ab.own[data-t=water]{--tc:#1c6dd0}.ab.own[data-t=electric]{--tc:#916908}.ab.own[data-t=grass]{--tc:#28813a}.ab.own[data-t=ice]{--tc:#237986}.ab.own[data-t=fighting]{--tc:#a61e1e}.ab.own[data-t=poison]{--tc:#862e9c}.ab.own[data-t=ground]{--tc:#8a6d3b}.ab.own[data-t=flying]{--tc:#5c6bc1}.ab.own[data-t=psychic]{--tc:#c2255c}.ab.own[data-t=bug]{--tc:#5c7c0a}.ab.own[data-t=rock]{--tc:#7c6f3a}.ab.own[data-t=ghost]{--tc:#5a4a9c}.ab.own[data-t=dragon]{--tc:#4c3fb4}.ab.own[data-t=dark]{--tc:#3d3d44}.ab.own[data-t=steel]{--tc:#5b7083}
+
 summary.dis{box-sizing:border-box;align-items:center;color:var(--tx);line-height:1.2;font-size:15px}details.ls>summary{min-height:48px}.ls summary{display:flex}
 
 /* Filters card */
