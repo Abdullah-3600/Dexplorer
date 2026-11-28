@@ -1,0 +1,628 @@
+{
+ "vaniville": {
+  "name": "Vaniville Town",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 865,
+    "cy": 734,
+    "r": 34
+   }
+  ]
+ },
+ "aquacorde": {
+  "name": "Aquacorde Town",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 865,
+    "cy": 636,
+    "r": 34
+   }
+  ]
+ },
+ "santalune": {
+  "name": "Santalune City",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 803,
+    "cy": 485,
+    "r": 40
+   }
+  ]
+ },
+ "lumiose": {
+  "name": "Lumiose City",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 677,
+    "cy": 318,
+    "r": 62
+   }
+  ]
+ },
+ "camphrier": {
+  "name": "Camphrier Town",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 534,
+    "cy": 494,
+    "r": 34
+   }
+  ]
+ },
+ "cyllage": {
+  "name": "Cyllage City",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 228,
+    "cy": 490,
+    "r": 40
+   }
+  ]
+ },
+ "ambrette": {
+  "name": "Ambrette Town",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 293,
+    "cy": 649,
+    "r": 34
+   }
+  ]
+ },
+ "geosenge": {
+  "name": "Geosenge Town",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 118,
+    "cy": 408,
+    "r": 34
+   }
+  ]
+ },
+ "shalour": {
+  "name": "Shalour City",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 195,
+    "cy": 309,
+    "r": 40
+   }
+  ]
+ },
+ "coumarine": {
+  "name": "Coumarine City",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 448,
+    "cy": 257,
+    "r": 40
+   }
+  ]
+ },
+ "laverre": {
+  "name": "Laverre City",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 673,
+    "cy": 98,
+    "r": 40
+   }
+  ]
+ },
+ "dendemille": {
+  "name": "Dendemille Town",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 893,
+    "cy": 257,
+    "r": 34
+   }
+  ]
+ },
+ "anistar": {
+  "name": "Anistar City",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 1146,
+    "cy": 326,
+    "r": 40
+   }
+  ]
+ },
+ "couriway": {
+  "name": "Couriway Town",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 1216,
+    "cy": 392,
+    "r": 34
+   }
+  ]
+ },
+ "snowbelle": {
+  "name": "Snowbelle City",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 1105,
+    "cy": 477,
+    "r": 40
+   }
+  ]
+ },
+ "pokemonleague": {
+  "name": "Pokémon League",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 958,
+    "cy": 375,
+    "r": 30
+   }
+  ]
+ },
+ "kiloude": {
+  "name": "Kiloude City",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 979,
+    "cy": 792,
+    "r": 40
+   }
+  ]
+ },
+ "pokeballfactory": {
+  "name": "Poké Ball Factory",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 675,
+    "cy": 47,
+    "r": 22
+   }
+  ]
+ },
+ "azurebay": {
+  "name": "Azure Bay",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 325,
+    "cy": 155,
+    "r": 22
+   }
+  ]
+ },
+ "losthotel": {
+  "name": "Lost Hotel",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 778,
+    "cy": 221,
+    "r": 22
+   }
+  ]
+ },
+ "frostcavern": {
+  "name": "Frost Cavern",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 945,
+    "cy": 196,
+    "r": 22
+   }
+  ]
+ },
+ "seaspiritsden": {
+  "name": "Sea Spirit's Den",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 1251,
+    "cy": 319,
+    "r": 22
+   }
+  ]
+ },
+ "kalospowerplant": {
+  "name": "Kalos Power Plant",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 499,
+    "cy": 346,
+    "r": 22
+   }
+  ]
+ },
+ "parfumpalace": {
+  "name": "Parfum Palace",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 384,
+    "cy": 379,
+    "r": 22
+   }
+  ]
+ },
+ "reflectioncave": {
+  "name": "Reflection Cave",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 162,
+    "cy": 341,
+    "r": 22
+   }
+  ]
+ },
+ "connectingcave": {
+  "name": "Connecting Cave",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 290,
+    "cy": 491,
+    "r": 22
+   }
+  ]
+ },
+ "glitteringcave": {
+  "name": "Glittering Cave",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 470,
+    "cy": 645,
+    "r": 22
+   }
+  ]
+ },
+ "victoryroad": {
+  "name": "Victory Road",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 956,
+    "cy": 468,
+    "r": 22
+   }
+  ]
+ },
+ "terminuscave": {
+  "name": "Terminus Cave",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 903,
+    "cy": 513,
+    "r": 22
+   }
+  ]
+ },
+ "santaluneforest": {
+  "name": "Santalune Forest",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 865,
+    "cy": 550,
+    "r": 22
+   }
+  ]
+ },
+ "pokemonvillage": {
+  "name": "Pokémon Village",
+  "shapes": [
+   {
+    "type": "circle",
+    "cx": 1053,
+    "cy": 648,
+    "r": 22
+   }
+  ]
+ },
+ "r1": {
+  "name": "Route 1",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 853,
+    "y": 665,
+    "w": 24,
+    "h": 40,
+    "rot": -90.0
+   }
+  ]
+ },
+ "r2": {
+  "name": "Route 2",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 853,
+    "y": 567,
+    "w": 24,
+    "h": 40,
+    "rot": -90.0
+   }
+  ]
+ },
+ "r3": {
+  "name": "Route 3",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 827,
+    "y": 503,
+    "w": 24,
+    "h": 40,
+    "rot": 46.4
+   }
+  ]
+ },
+ "r4": {
+  "name": "Route 4",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 696,
+    "y": 390,
+    "w": 101,
+    "h": 40,
+    "rot": 53.0
+   }
+  ]
+ },
+ "r22": {
+  "name": "Route 22",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 845,
+    "y": 456,
+    "w": 86,
+    "h": 40,
+    "rot": -6.3
+   }
+  ]
+ },
+ "r5": {
+  "name": "Route 5",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 534,
+    "y": 397,
+    "w": 125,
+    "h": 40,
+    "rot": -50.9
+   }
+  ]
+ },
+ "r6": {
+  "name": "Route 6",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 391,
+    "y": 413,
+    "w": 127,
+    "h": 40,
+    "rot": 37.5
+   }
+  ]
+ },
+ "r7": {
+  "name": "Route 7",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 315,
+    "y": 472,
+    "w": 182,
+    "h": 40
+   }
+  ]
+ },
+ "r8": {
+  "name": "Route 8",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 216,
+    "y": 552,
+    "w": 92,
+    "h": 40,
+    "rot": 67.8
+   }
+  ]
+ },
+ "r9": {
+  "name": "Route 9",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 330,
+    "y": 627,
+    "w": 115,
+    "h": 40,
+    "rot": -1.3
+   }
+  ]
+ },
+ "r10": {
+  "name": "Route 10",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 142,
+    "y": 427,
+    "w": 57,
+    "h": 40,
+    "rot": 36.7
+   }
+  ]
+ },
+ "r11": {
+  "name": "Route 11",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 133,
+    "y": 347,
+    "w": 24,
+    "h": 40,
+    "rot": -56.7
+   }
+  ]
+ },
+ "r12": {
+  "name": "Route 12",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 235,
+    "y": 263,
+    "w": 172,
+    "h": 40,
+    "rot": -11.6
+   }
+  ]
+ },
+ "r13": {
+  "name": "Route 13",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 487,
+    "y": 265,
+    "w": 129,
+    "h": 40,
+    "rot": 14.9
+   }
+  ]
+ },
+ "r14": {
+  "name": "Route 14",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 619,
+    "y": 177,
+    "w": 112,
+    "h": 40,
+    "rot": 89.0
+   }
+  ]
+ },
+ "r15": {
+  "name": "Route 15",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 690,
+    "y": 159,
+    "w": 191,
+    "h": 40,
+    "rot": 35.9
+   }
+  ]
+ },
+ "r16": {
+  "name": "Route 16",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 737,
+    "y": 264,
+    "w": 122,
+    "h": 40,
+    "rot": -15.8
+   }
+  ]
+ },
+ "r17": {
+  "name": "Route 17",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 925,
+    "y": 271,
+    "w": 182,
+    "h": 40,
+    "rot": 15.3
+   }
+  ]
+ },
+ "r18": {
+  "name": "Route 18",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1174,
+    "y": 344,
+    "w": 24,
+    "h": 40,
+    "rot": 43.3
+   }
+  ]
+ },
+ "r19": {
+  "name": "Route 19",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1133,
+    "y": 413,
+    "w": 60,
+    "h": 40,
+    "rot": -37.4
+   }
+  ]
+ },
+ "r20": {
+  "name": "Route 20",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 1021,
+    "y": 551,
+    "w": 111,
+    "h": 40,
+    "rot": -73.1
+   }
+  ]
+ },
+ "r21": {
+  "name": "Route 21",
+  "shapes": [
+   {
+    "type": "rect",
+    "x": 981,
+    "y": 452,
+    "w": 81,
+    "h": 40,
+    "rot": 3.5
+   }
+  ]
+ }
+}

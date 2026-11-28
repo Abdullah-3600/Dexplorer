@@ -88,3 +88,5 @@ svg{display:block;width:100%;height:auto}svg image{image-rendering:pixelated}
 .srt:hover{color:var(--tx);border-color:var(--mu)}.srt:active{transform:scale(.95);background:var(--bg)}
 .srt:focus-visible{outline:3px solid var(--ac);outline-offset:2px}
 @media(prefers-reduced-motion:reduce){.srt{transition:none}.srt:active{transform:none}}
+
+.cell small{display:flex;align-items:center;justify-content:center;gap:3px;white-space:nowrap}.cell .dxi{width:16px;height:16px;image-rendering:auto;flex:none;cursor:help}.cell:hover .dxi{transform:none}

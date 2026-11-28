@@ -198,5 +198,38 @@
   "zones": "data/unova-b2w2/zones.json",
   "encounters": "data/unova-b2w2/encounters.json",
   "dexKey": "unova2"
+ },
+ {
+  "id": "kalos",
+  "name": "Kalos",
+  "generation": 6,
+  "dex": [
+   1,
+   721
+  ],
+  "map": "assets/kalos-map.png",
+  "mapSize": [
+   1305,
+   857
+  ],
+  "zones": "data/kalos/zones.json",
+  "encounters": "data/kalos/encounters.json",
+  "dexSets": [
+   {
+    "key": "kalos-central",
+    "name": "Central",
+    "icon": "assets/dex/central.svg"
+   },
+   {
+    "key": "kalos-coastal",
+    "name": "Coastal",
+    "icon": "assets/dex/coastal.svg"
+   },
+   {
+    "key": "kalos-mountain",
+    "name": "Mountain",
+    "icon": "assets/dex/mountain.svg"
+   }
+  ]
  }
 ]

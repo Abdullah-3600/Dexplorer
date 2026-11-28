@@ -206,16 +206,19 @@ function tip(cx, cy, x) {
 /* ---------- Pokémon grid ---------- */
 function list(f = "") {
   const u = $("dex"); u.replaceChildren(); f = f.toLowerCase();
-  const [lo, hi] = state.region.dex, k = dkey();
+  const [lo, hi] = state.region.dex, k = dkey(), sets = state.region.dexSets;   // dexSets: several regional dexes at once (Kalos: Central, Coastal, Mountain), listed in that order
   const reg = m => (k && m.dex && m.dex[k]) || null;
-  const inRange = state.mons.filter(m => m.id >= lo && m.id <= hi), split = !!k && inRange.some(m => reg(m) && reg(m) !== m.id);   // the sort button only matters when the regional dex differs from the national one
+  const rs = m => { if (sets) for (let i = 0; i < sets.length; i++) { const n = m.dex && m.dex[sets[i].key]; if (n) return { n, i, s: sets[i] } } return null };
+  const inRange = state.mons.filter(m => m.id >= lo && m.id <= hi), split = sets ? inRange.some(rs) : !!k && inRange.some(m => reg(m) && reg(m) !== m.id);   // the sort button only matters when the regional dex differs from the national one
   sortUI(split);
   const byRegion = split && state.order === "regional";
-  inRange.filter(m => m.name.toLowerCase().includes(f) || String(m.id).includes(f) || String(reg(m) || "").includes(f))
-    .sort((a, b) => byRegion ? (reg(a) || 1e3 + a.id) - (reg(b) || 1e3 + b.id) : a.id - b.id).forEach(m => {
-    const b = document.createElement("button"), r = reg(m);
+  const rank = m => { const x = sets ? rs(m) : null; return sets ? (x ? x.i * 1e3 + x.n : 1e5 + m.id) : (reg(m) || 1e3 + m.id) };
+  inRange.filter(m => m.name.toLowerCase().includes(f) || String(m.id).includes(f) || String(reg(m) || "").includes(f) || (sets && sets.some(x => String(m.dex && m.dex[x.key] || "").includes(f))))
+    .sort((a, b) => byRegion ? rank(a) - rank(b) : a.id - b.id).forEach(m => {
+    const b = document.createElement("button"), r = reg(m), x = rs(m);
     b.className = "cell"; b.setAttribute("aria-pressed", !!state.sel && state.sel.id === m.id); b.setAttribute("aria-label", m.name);
-    b.innerHTML = `<img alt="" src="${spriteSrc(m)}" width="72" height="72" loading="lazy" decoding="async"><small>#${pad(m.id)}${r && r !== m.id ? " · #" + pad(r) : ""}</small><span>${m.name}</span>`;
+    const lab = x ? `<img class="dxi" src="${x.s.icon}" alt="${x.s.name}" title="${x.s.name}" width="16" height="16"> · #${pad(x.n)} · #${pad(m.id)}` : `#${pad(m.id)}${r && r !== m.id ? " · #" + pad(r) : ""}`;
+    b.innerHTML = `<img alt="" src="${spriteSrc(m)}" width="72" height="72" loading="lazy" decoding="async"><small>${lab}</small><span>${m.name}</span>`;
     b.onclick = () => { state.sel = m; u.querySelectorAll(".cell").forEach(c => c.setAttribute("aria-pressed", c === b)); draw() };
     u.appendChild(b);
   });

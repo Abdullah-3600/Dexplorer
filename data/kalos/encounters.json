@@ -1,0 +1,10469 @@
+[
+{
+"pokemon": 142,
+"zone": "ambrette",
+"method": "Gift (Fossil)",
+"games": [
+"x",
+"y"
+],
+"levels": "20",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Revive Old Amber"
+},
+{
+"pokemon": 698,
+"zone": "ambrette",
+"method": "Gift (Fossil)",
+"games": [
+"x",
+"y"
+],
+"levels": "20",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Revive Sail Fossil"
+},
+{
+"pokemon": 347,
+"zone": "ambrette",
+"method": "Gift (Fossil)",
+"games": [
+"x",
+"y"
+],
+"levels": "20",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Revive Claw Fossil"
+},
+{
+"pokemon": 566,
+"zone": "ambrette",
+"method": "Gift (Fossil)",
+"games": [
+"x",
+"y"
+],
+"levels": "20",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Revive Plume Fossil"
+},
+{
+"pokemon": 688,
+"zone": "ambrette",
+"method": "Rock Smash",
+"games": [
+"x"
+],
+"levels": "18-20",
+"rate": 34,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 688,
+"zone": "ambrette",
+"method": "Rock Smash",
+"games": [
+"y"
+],
+"levels": "13-15",
+"rate": 34,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 692,
+"zone": "ambrette",
+"method": "Good Rod",
+"games": [
+"x"
+],
+"levels": "25",
+"rate": 65,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 693,
+"zone": "ambrette",
+"method": "Super Rod",
+"games": [
+"x"
+],
+"levels": "35",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 408,
+"zone": "ambrette",
+"method": "Gift (Fossil)",
+"games": [
+"x",
+"y"
+],
+"levels": "20",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Revive Skull Fossil"
+},
+{
+"pokemon": 691,
+"zone": "ambrette",
+"method": "Super Rod",
+"games": [
+"y"
+],
+"levels": "35",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 557,
+"zone": "ambrette",
+"method": "Rock Smash",
+"games": [
+"x"
+],
+"levels": "18-20",
+"rate": 66,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 557,
+"zone": "ambrette",
+"method": "Rock Smash",
+"games": [
+"y"
+],
+"levels": "13-15",
+"rate": 66,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 133,
+"zone": "ambrette",
+"method": "Trade",
+"games": [
+"x",
+"y"
+],
+"levels": "5",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Trade Any Pokémon"
+},
+{
+"pokemon": 116,
+"zone": "ambrette",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 140,
+"zone": "ambrette",
+"method": "Gift (Fossil)",
+"games": [
+"x",
+"y"
+],
+"levels": "20",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Revive Dome Fossil"
+},
+{
+"pokemon": 345,
+"zone": "ambrette",
+"method": "Gift (Fossil)",
+"games": [
+"x",
+"y"
+],
+"levels": "20",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Revive Root Fossil"
+},
+{
+"pokemon": 370,
+"zone": "ambrette",
+"method": "Old Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "15",
+"rate": 100,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 129,
+"zone": "ambrette",
+"method": "Trade",
+"games": [
+"x",
+"y"
+],
+"levels": "5",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Trade Gyarados"
+},
+{
+"pokemon": 138,
+"zone": "ambrette",
+"method": "Gift (Fossil)",
+"games": [
+"x",
+"y"
+],
+"levels": "20",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Revive Helix Fossil"
+},
+{
+"pokemon": 369,
+"zone": "ambrette",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 117,
+"zone": "ambrette",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 410,
+"zone": "ambrette",
+"method": "Gift (Fossil)",
+"games": [
+"x",
+"y"
+],
+"levels": "20",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Revive Armor Fossil"
+},
+{
+"pokemon": 690,
+"zone": "ambrette",
+"method": "Good Rod",
+"games": [
+"y"
+],
+"levels": "25",
+"rate": 65,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 72,
+"zone": "ambrette",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "25-27",
+"rate": 69,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 564,
+"zone": "ambrette",
+"method": "Gift (Fossil)",
+"games": [
+"x",
+"y"
+],
+"levels": "20",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Revive Cover Fossil"
+},
+{
+"pokemon": 696,
+"zone": "ambrette",
+"method": "Gift (Fossil)",
+"games": [
+"x",
+"y"
+],
+"levels": "20",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Revive Jaw Fossil"
+},
+{
+"pokemon": 320,
+"zone": "ambrette",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "25-27",
+"rate": 31,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 650,
+"zone": "aquacorde",
+"method": "Choice",
+"games": [
+"x",
+"y"
+],
+"levels": "5",
+"rate": 100,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 653,
+"zone": "aquacorde",
+"method": "Choice",
+"games": [
+"x",
+"y"
+],
+"levels": "5",
+"rate": 100,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 656,
+"zone": "aquacorde",
+"method": "Choice",
+"games": [
+"x",
+"y"
+],
+"levels": "5",
+"rate": 100,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 594,
+"zone": "azurebay",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 688,
+"zone": "azurebay",
+"method": "Rock Smash",
+"games": [
+"x",
+"y"
+],
+"levels": "23-25",
+"rate": 34,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 441,
+"zone": "azurebay",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "25-27",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 170,
+"zone": "azurebay",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 557,
+"zone": "azurebay",
+"method": "Rock Smash",
+"games": [
+"x",
+"y"
+],
+"levels": "23-25",
+"rate": 66,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 102,
+"zone": "azurebay",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "26",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 102,
+"zone": "azurebay",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "14",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 686,
+"zone": "azurebay",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "26-27",
+"rate": 15,
+"source": "Bulbapedia + PokéAPI"
+},
+{
+"pokemon": 171,
+"zone": "azurebay",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 131,
+"zone": "azurebay",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "27",
+"rate": 1,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 370,
+"zone": "azurebay",
+"method": "Old Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "15",
+"rate": 100,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 458,
+"zone": "azurebay",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "27",
+"rate": 15,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 224,
+"zone": "azurebay",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 223,
+"zone": "azurebay",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 65,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 79,
+"zone": "azurebay",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "25-27",
+"rate": 40,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 79,
+"zone": "azurebay",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "13",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 72,
+"zone": "azurebay",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "25-27",
+"rate": 84,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 278,
+"zone": "azurebay",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "13",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 412,
+"zone": "r7",
+"method": "Static",
+"games": [
+"x",
+"y"
+],
+"levels": "14-15",
+"rate": 100,
+"source": "Bulbapedia",
+"sublocation": "Berry fields",
+"note": "Rustling Berry tree"
+},
+{
+"pokemon": 415,
+"zone": "r7",
+"method": "Static",
+"games": [
+"x",
+"y"
+],
+"levels": "14-15",
+"rate": 100,
+"source": "Bulbapedia",
+"sublocation": "Berry fields",
+"note": "Rustling Berry tree"
+},
+{
+"pokemon": 314,
+"zone": "r7",
+"method": "Static",
+"games": [
+"x",
+"y"
+],
+"levels": "14-15",
+"rate": 100,
+"source": "Bulbapedia",
+"sublocation": "Berry fields",
+"note": "Rustling Berry tree"
+},
+{
+"pokemon": 165,
+"zone": "r7",
+"method": "Static",
+"games": [
+"x",
+"y"
+],
+"levels": "14-15",
+"rate": 100,
+"source": "Bulbapedia",
+"sublocation": "Berry fields",
+"note": "Rustling Berry tree"
+},
+{
+"pokemon": 665,
+"zone": "r7",
+"method": "Static",
+"games": [
+"x",
+"y"
+],
+"levels": "14-15",
+"rate": 100,
+"source": "Bulbapedia",
+"sublocation": "Berry fields",
+"note": "Rustling Berry tree"
+},
+{
+"pokemon": 313,
+"zone": "r7",
+"method": "Static",
+"games": [
+"x",
+"y"
+],
+"levels": "14-15",
+"rate": 100,
+"source": "Bulbapedia",
+"sublocation": "Berry fields",
+"note": "Rustling Berry tree"
+},
+{
+"pokemon": 280,
+"zone": "lumiose",
+"method": "Trade",
+"games": [
+"x",
+"y"
+],
+"levels": "5",
+"rate": 100,
+"source": "Bulbapedia",
+"sublocation": "Generation VI",
+"note": "Trade Any Pokémon"
+},
+{
+"pokemon": 133,
+"zone": "camphrier",
+"method": "Trade",
+"games": [
+"x",
+"y"
+],
+"levels": "5",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Trade Any Pokémon"
+},
+{
+"pokemon": 129,
+"zone": "camphrier",
+"method": "Trade",
+"games": [
+"x",
+"y"
+],
+"levels": "5",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Trade Gyarados"
+},
+{
+"pokemon": 610,
+"zone": "connectingcave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "13-15",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 610,
+"zone": "connectingcave",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "8",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 307,
+"zone": "connectingcave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "13-15",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 293,
+"zone": "connectingcave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "13-15",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 293,
+"zone": "connectingcave",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "7",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 41,
+"zone": "connectingcave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "13-15",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 41,
+"zone": "connectingcave",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "8",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 133,
+"zone": "coumarine",
+"method": "Trade",
+"games": [
+"x",
+"y"
+],
+"levels": "5",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Trade Any Pokémon"
+},
+{
+"pokemon": 129,
+"zone": "coumarine",
+"method": "Trade",
+"games": [
+"x",
+"y"
+],
+"levels": "5",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Trade Gyarados"
+},
+{
+"pokemon": 550,
+"zone": "couriway",
+"method": "Good Rod",
+"games": [
+"y",
+"x"
+],
+"levels": "35",
+"rate": 65,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 550,
+"zone": "couriway",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "45",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 133,
+"zone": "couriway",
+"method": "Trade",
+"games": [
+"x",
+"y"
+],
+"levels": "5",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Trade Any Pokémon"
+},
+{
+"pokemon": 419,
+"zone": "couriway",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 34,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 271,
+"zone": "couriway",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 66,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 129,
+"zone": "couriway",
+"method": "Trade",
+"games": [
+"x",
+"y"
+],
+"levels": "5",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Trade Gyarados"
+},
+{
+"pokemon": 60,
+"zone": "couriway",
+"method": "Old Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 100,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 61,
+"zone": "couriway",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 61,
+"zone": "couriway",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "45",
+"rate": 65,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 688,
+"zone": "cyllage",
+"method": "Rock Smash",
+"games": [
+"y"
+],
+"levels": "13-15",
+"rate": 34,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 692,
+"zone": "cyllage",
+"method": "Good Rod",
+"games": [
+"x"
+],
+"levels": "25",
+"rate": 65,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 693,
+"zone": "cyllage",
+"method": "Super Rod",
+"games": [
+"x"
+],
+"levels": "35",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 691,
+"zone": "cyllage",
+"method": "Super Rod",
+"games": [
+"y"
+],
+"levels": "35",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 557,
+"zone": "cyllage",
+"method": "Rock Smash",
+"games": [
+"x"
+],
+"levels": "15-17",
+"rate": 65,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 557,
+"zone": "cyllage",
+"method": "Rock Smash",
+"games": [
+"y"
+],
+"levels": "13-15",
+"rate": 66,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 133,
+"zone": "cyllage",
+"method": "Trade",
+"games": [
+"x",
+"y"
+],
+"levels": "5",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Trade Any Pokémon"
+},
+{
+"pokemon": 116,
+"zone": "cyllage",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 370,
+"zone": "cyllage",
+"method": "Old Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "15",
+"rate": 100,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 129,
+"zone": "cyllage",
+"method": "Trade",
+"games": [
+"x",
+"y"
+],
+"levels": "5",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Trade Gyarados"
+},
+{
+"pokemon": 95,
+"zone": "cyllage",
+"method": "Rock Smash",
+"games": [
+"x"
+],
+"levels": "15-17",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 369,
+"zone": "cyllage",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 117,
+"zone": "cyllage",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 690,
+"zone": "cyllage",
+"method": "Good Rod",
+"games": [
+"y"
+],
+"levels": "25",
+"rate": 65,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 208,
+"zone": "cyllage",
+"method": "Trade",
+"games": [
+"x",
+"y"
+],
+"levels": "20",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Trade Luvdisc"
+},
+{
+"pokemon": 72,
+"zone": "cyllage",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "25-27",
+"rate": 69,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 320,
+"zone": "cyllage",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "25-27",
+"rate": 31,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 550,
+"zone": "frostcavern",
+"method": "Good Rod",
+"games": [
+"y",
+"x"
+],
+"levels": "30",
+"rate": 65,
+"source": "Bulbapedia + Serebii",
+"sublocation": "2F"
+},
+{
+"pokemon": 550,
+"zone": "frostcavern",
+"method": "Good Rod",
+"games": [
+"y",
+"x"
+],
+"levels": "30",
+"rate": 65,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Outside"
+},
+{
+"pokemon": 550,
+"zone": "frostcavern",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "40",
+"rate": 35,
+"source": "Bulbapedia + Serebii",
+"sublocation": "2F"
+},
+{
+"pokemon": 550,
+"zone": "frostcavern",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "40",
+"rate": 35,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Outside"
+},
+{
+"pokemon": 614,
+"zone": "frostcavern",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "39-40",
+"rate": 20,
+"source": "Bulbapedia + Serebii",
+"sublocation": "1F"
+},
+{
+"pokemon": 614,
+"zone": "frostcavern",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "39-40",
+"rate": 20,
+"source": "Bulbapedia + Serebii",
+"sublocation": "2F"
+},
+{
+"pokemon": 614,
+"zone": "frostcavern",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "39-40",
+"rate": 20,
+"source": "Bulbapedia + Serebii",
+"sublocation": "3F"
+},
+{
+"pokemon": 712,
+"zone": "frostcavern",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "39-40",
+"rate": 20,
+"source": "Bulbapedia + Serebii",
+"sublocation": "1F"
+},
+{
+"pokemon": 712,
+"zone": "frostcavern",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "39-40",
+"rate": 20,
+"source": "Bulbapedia + Serebii",
+"sublocation": "2F"
+},
+{
+"pokemon": 712,
+"zone": "frostcavern",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "39-40",
+"rate": 20,
+"source": "Bulbapedia + Serebii",
+"sublocation": "3F"
+},
+{
+"pokemon": 615,
+"zone": "frostcavern",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "40",
+"rate": 4,
+"source": "Bulbapedia + Serebii",
+"sublocation": "1F"
+},
+{
+"pokemon": 615,
+"zone": "frostcavern",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "40",
+"rate": 4,
+"source": "Bulbapedia + Serebii",
+"sublocation": "2F"
+},
+{
+"pokemon": 615,
+"zone": "frostcavern",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "40",
+"rate": 4,
+"source": "Bulbapedia + Serebii",
+"sublocation": "3F"
+},
+{
+"pokemon": 613,
+"zone": "frostcavern",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "20",
+"rate": 35,
+"source": "Bulbapedia",
+"sublocation": "1F"
+},
+{
+"pokemon": 613,
+"zone": "frostcavern",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "20",
+"rate": 35,
+"source": "Bulbapedia",
+"sublocation": "2F"
+},
+{
+"pokemon": 613,
+"zone": "frostcavern",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "20",
+"rate": 35,
+"source": "Bulbapedia",
+"sublocation": "3F"
+},
+{
+"pokemon": 419,
+"zone": "frostcavern",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "38-40",
+"rate": 34,
+"source": "Bulbapedia",
+"sublocation": "2F"
+},
+{
+"pokemon": 419,
+"zone": "frostcavern",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "38-40",
+"rate": 34,
+"source": "Bulbapedia",
+"sublocation": "Outside"
+},
+{
+"pokemon": 93,
+"zone": "frostcavern",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "38-40",
+"rate": 16,
+"source": "Bulbapedia + Serebii",
+"sublocation": "1F"
+},
+{
+"pokemon": 93,
+"zone": "frostcavern",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "38-40",
+"rate": 16,
+"source": "Bulbapedia + Serebii",
+"sublocation": "2F"
+},
+{
+"pokemon": 93,
+"zone": "frostcavern",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "38-40",
+"rate": 16,
+"source": "Bulbapedia + Serebii",
+"sublocation": "3F"
+},
+{
+"pokemon": 124,
+"zone": "frostcavern",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "39-40",
+"rate": 20,
+"source": "Bulbapedia + Serebii",
+"sublocation": "1F"
+},
+{
+"pokemon": 124,
+"zone": "frostcavern",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "39-40",
+"rate": 20,
+"source": "Bulbapedia + Serebii",
+"sublocation": "2F"
+},
+{
+"pokemon": 124,
+"zone": "frostcavern",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "39-40",
+"rate": 20,
+"source": "Bulbapedia + Serebii",
+"sublocation": "3F"
+},
+{
+"pokemon": 221,
+"zone": "frostcavern",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "38-39",
+"rate": 20,
+"source": "Bulbapedia + Serebii",
+"sublocation": "1F"
+},
+{
+"pokemon": 221,
+"zone": "frostcavern",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "38-39",
+"rate": 20,
+"source": "Bulbapedia + Serebii",
+"sublocation": "2F"
+},
+{
+"pokemon": 221,
+"zone": "frostcavern",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "38-39",
+"rate": 20,
+"source": "Bulbapedia + Serebii",
+"sublocation": "3F"
+},
+{
+"pokemon": 60,
+"zone": "frostcavern",
+"method": "Old Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "20",
+"rate": 100,
+"source": "Bulbapedia + Serebii",
+"sublocation": "2F"
+},
+{
+"pokemon": 60,
+"zone": "frostcavern",
+"method": "Old Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "20",
+"rate": 100,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Outside"
+},
+{
+"pokemon": 61,
+"zone": "frostcavern",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "30",
+"rate": 35,
+"source": "Bulbapedia + Serebii",
+"sublocation": "2F"
+},
+{
+"pokemon": 61,
+"zone": "frostcavern",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "30",
+"rate": 35,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Outside"
+},
+{
+"pokemon": 61,
+"zone": "frostcavern",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "40",
+"rate": 65,
+"source": "Bulbapedia + Serebii",
+"sublocation": "2F"
+},
+{
+"pokemon": 61,
+"zone": "frostcavern",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "40",
+"rate": 65,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Outside"
+},
+{
+"pokemon": 61,
+"zone": "frostcavern",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "38-40",
+"rate": 66,
+"source": "Bulbapedia",
+"sublocation": "2F"
+},
+{
+"pokemon": 61,
+"zone": "frostcavern",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "38-40",
+"rate": 66,
+"source": "Bulbapedia",
+"sublocation": "Outside"
+},
+{
+"pokemon": 238,
+"zone": "frostcavern",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "21",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "1F"
+},
+{
+"pokemon": 238,
+"zone": "frostcavern",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "21",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "2F"
+},
+{
+"pokemon": 238,
+"zone": "frostcavern",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "21",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "3F"
+},
+{
+"pokemon": 582,
+"zone": "frostcavern",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "20",
+"rate": 60,
+"source": "Bulbapedia",
+"sublocation": "1F"
+},
+{
+"pokemon": 582,
+"zone": "frostcavern",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "20",
+"rate": 60,
+"source": "Bulbapedia",
+"sublocation": "2F"
+},
+{
+"pokemon": 582,
+"zone": "frostcavern",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "20",
+"rate": 60,
+"source": "Bulbapedia",
+"sublocation": "3F"
+},
+{
+"pokemon": 133,
+"zone": "geosenge",
+"method": "Trade",
+"games": [
+"x",
+"y"
+],
+"levels": "5",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Trade Any Pokémon"
+},
+{
+"pokemon": 129,
+"zone": "geosenge",
+"method": "Trade",
+"games": [
+"x",
+"y"
+],
+"levels": "5",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Trade Gyarados"
+},
+{
+"pokemon": 104,
+"zone": "glitteringcave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "15-16",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "Deep cave"
+},
+{
+"pokemon": 557,
+"zone": "glitteringcave",
+"method": "Rock Smash",
+"games": [
+"x",
+"y"
+],
+"levels": "15-17",
+"rate": 65,
+"source": "Bulbapedia",
+"sublocation": "Main cave"
+},
+{
+"pokemon": 597,
+"zone": "glitteringcave",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "15-17",
+"rate": 15,
+"source": "Bulbapedia",
+"sublocation": "Main cave"
+},
+{
+"pokemon": 597,
+"zone": "glitteringcave",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "15-17",
+"rate": 15,
+"source": "Bulbapedia",
+"sublocation": "Deep cave"
+},
+{
+"pokemon": 115,
+"zone": "glitteringcave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "17",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "Deep cave"
+},
+{
+"pokemon": 337,
+"zone": "glitteringcave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "17",
+"rate": 10,
+"source": "Bulbapedia",
+"sublocation": "Deep cave"
+},
+{
+"pokemon": 66,
+"zone": "glitteringcave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "15-17",
+"rate": 30,
+"source": "Bulbapedia",
+"sublocation": "Deep cave"
+},
+{
+"pokemon": 303,
+"zone": "glitteringcave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "15-16",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "Deep cave"
+},
+{
+"pokemon": 95,
+"zone": "glitteringcave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "17",
+"rate": 10,
+"source": "Bulbapedia",
+"sublocation": "Deep cave"
+},
+{
+"pokemon": 95,
+"zone": "glitteringcave",
+"method": "Rock Smash",
+"games": [
+"x",
+"y"
+],
+"levels": "15-17",
+"rate": 35,
+"source": "Bulbapedia",
+"sublocation": "Main cave"
+},
+{
+"pokemon": 111,
+"zone": "glitteringcave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "17",
+"rate": 10,
+"source": "Bulbapedia",
+"sublocation": "Deep cave"
+},
+{
+"pokemon": 338,
+"zone": "glitteringcave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "17",
+"rate": 10,
+"source": "Bulbapedia",
+"sublocation": "Deep cave"
+},
+{
+"pokemon": 527,
+"zone": "glitteringcave",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "15-17",
+"rate": 85,
+"source": "Bulbapedia",
+"sublocation": "Main cave"
+},
+{
+"pokemon": 527,
+"zone": "glitteringcave",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "15-17",
+"rate": 85,
+"source": "Bulbapedia",
+"sublocation": "Deep cave"
+},
+{
+"pokemon": 133,
+"zone": "r10",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "21",
+"rate": 5,
+"source": "Bulbapedia + PokéAPI"
+},
+{
+"pokemon": 133,
+"zone": "r10",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "19-20",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 309,
+"zone": "r10",
+"method": "Walking",
+"games": [
+"y"
+],
+"levels": "21",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 309,
+"zone": "r10",
+"method": "Horde",
+"games": [
+"y"
+],
+"levels": "11",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 309,
+"zone": "r10",
+"method": "Walking (Yellow flowers)",
+"games": [
+"y"
+],
+"levels": "19-20",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 587,
+"zone": "r10",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "19-20",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 587,
+"zone": "r10",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "19-20",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 622,
+"zone": "r10",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "19-21",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 622,
+"zone": "r10",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "21",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 701,
+"zone": "r10",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "19-20",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 701,
+"zone": "r10",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "21",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 228,
+"zone": "r10",
+"method": "Walking",
+"games": [
+"x"
+],
+"levels": "21",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 228,
+"zone": "r10",
+"method": "Horde",
+"games": [
+"x"
+],
+"levels": "11",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 228,
+"zone": "r10",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x"
+],
+"levels": "19-20",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 299,
+"zone": "r10",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "10",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 561,
+"zone": "r10",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "19-20",
+"rate": 20,
+"source": "Bulbapedia + PokéAPI"
+},
+{
+"pokemon": 561,
+"zone": "r10",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "21",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 209,
+"zone": "r10",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "21",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 209,
+"zone": "r10",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "19-21",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 193,
+"zone": "r10",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "10",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 433,
+"zone": "r11",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "21",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 702,
+"zone": "r11",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "21-22",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 297,
+"zone": "r11",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "22-23",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 29,
+"zone": "r11",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "11",
+"rate": 60,
+"source": "Bulbapedia",
+"note": "Horde: 60% with Nidoran♂"
+},
+{
+"pokemon": 32,
+"zone": "r11",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "11",
+"rate": 60,
+"source": "Bulbapedia",
+"note": "Horde: 60% with Nidoran♀"
+},
+{
+"pokemon": 30,
+"zone": "r11",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "21",
+"rate": 5,
+"source": "Bulbapedia + PokéAPI"
+},
+{
+"pokemon": 33,
+"zone": "r11",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "21",
+"rate": 10,
+"source": "Bulbapedia + PokéAPI"
+},
+{
+"pokemon": 539,
+"zone": "r11",
+"method": "Walking",
+"games": [
+"x"
+],
+"levels": "22-23",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 397,
+"zone": "r11",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "22-23",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 396,
+"zone": "r11",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "12",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 434,
+"zone": "r11",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "21",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 434,
+"zone": "r11",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "11",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 538,
+"zone": "r11",
+"method": "Walking",
+"games": [
+"y"
+],
+"levels": "22-23",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 688,
+"zone": "r12",
+"method": "Rock Smash",
+"games": [
+"x",
+"y"
+],
+"levels": "23-25",
+"rate": 34,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 441,
+"zone": "r12",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "23-25",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 441,
+"zone": "r12",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "27",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 366,
+"zone": "r12",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 222,
+"zone": "r12",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 557,
+"zone": "r12",
+"method": "Rock Smash",
+"games": [
+"x",
+"y"
+],
+"levels": "23-25",
+"rate": 66,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 102,
+"zone": "r12",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "24",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 102,
+"zone": "r12",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "26",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 368,
+"zone": "r12",
+"method": "Super Rod",
+"games": [
+"y"
+],
+"levels": "35",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 214,
+"zone": "r12",
+"method": "Walking",
+"games": [
+"y"
+],
+"levels": "25",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 214,
+"zone": "r12",
+"method": "Walking (Yellow flowers)",
+"games": [
+"y"
+],
+"levels": "27",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 367,
+"zone": "r12",
+"method": "Super Rod",
+"games": [
+"x"
+],
+"levels": "35",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 131,
+"zone": "r12",
+"method": "Gift",
+"games": [
+"x",
+"y"
+],
+"levels": "30",
+"rate": 100,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 131,
+"zone": "r12",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "27",
+"rate": 1,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 370,
+"zone": "r12",
+"method": "Old Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "15",
+"rate": 100,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 458,
+"zone": "r12",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "27",
+"rate": 15,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 179,
+"zone": "r12",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "13",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 241,
+"zone": "r12",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 241,
+"zone": "r12",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "14",
+"rate": 5,
+"source": "Bulbapedia",
+"note": "Horde: 5% with Tauros"
+},
+{
+"pokemon": 241,
+"zone": "r12",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "25-27",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 224,
+"zone": "r12",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 417,
+"zone": "r12",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "23-24",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 417,
+"zone": "r12",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "25-26",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 127,
+"zone": "r12",
+"method": "Walking",
+"games": [
+"x"
+],
+"levels": "25",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 127,
+"zone": "r12",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x"
+],
+"levels": "27",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 223,
+"zone": "r12",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 65,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 79,
+"zone": "r12",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "23-25",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 79,
+"zone": "r12",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "27",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 128,
+"zone": "r12",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 128,
+"zone": "r12",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "14",
+"rate": 5,
+"source": "Bulbapedia",
+"note": "Horde: 5% with Miltank"
+},
+{
+"pokemon": 128,
+"zone": "r12",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "25-27",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 72,
+"zone": "r12",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "25-27",
+"rate": 84,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 278,
+"zone": "r12",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "13",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 51,
+"zone": "r13",
+"method": "Walking (Dirt)",
+"games": [
+"x",
+"y"
+],
+"levels": "26-28",
+"rate": 40,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 443,
+"zone": "r13",
+"method": "Walking (Dirt)",
+"games": [
+"x",
+"y"
+],
+"levels": "26-28",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 75,
+"zone": "r13",
+"method": "Rock Smash",
+"games": [
+"x",
+"y"
+],
+"levels": "26-28",
+"rate": 66,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 218,
+"zone": "r13",
+"method": "Rock Smash",
+"games": [
+"x",
+"y"
+],
+"levels": "26-28",
+"rate": 34,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 328,
+"zone": "r13",
+"method": "Walking (Dirt)",
+"games": [
+"x",
+"y"
+],
+"levels": "26-28",
+"rate": 40,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 339,
+"zone": "r14",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "25-35",
+"rate": 65,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 69,
+"zone": "r14",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "16",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 455,
+"zone": "r14",
+"method": "Walking (Swamp)",
+"games": [
+"x",
+"y"
+],
+"levels": "31-32",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 455,
+"zone": "r14",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "30-32",
+"rate": 15,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 23,
+"zone": "r14",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "17",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 704,
+"zone": "r14",
+"method": "Walking (Swamp)",
+"games": [
+"x",
+"y"
+],
+"levels": "31-32",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 704,
+"zone": "r14",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "30",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 704,
+"zone": "r14",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "31",
+"rate": 15,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 93,
+"zone": "r14",
+"method": "Walking (Swamp)",
+"games": [
+"x",
+"y"
+],
+"levels": "31",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 93,
+"zone": "r14",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "31",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 588,
+"zone": "r14",
+"method": "Walking (Swamp)",
+"games": [
+"x",
+"y"
+],
+"levels": "30",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 588,
+"zone": "r14",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "30",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 60,
+"zone": "r14",
+"method": "Old Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "15",
+"rate": 100,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 61,
+"zone": "r14",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 61,
+"zone": "r14",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 65,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 195,
+"zone": "r14",
+"method": "Walking (Swamp)",
+"games": [
+"x",
+"y"
+],
+"levels": "30-32",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 195,
+"zone": "r14",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "30",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 195,
+"zone": "r14",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "30",
+"rate": 50,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 616,
+"zone": "r14",
+"method": "Walking (Swamp)",
+"games": [
+"x",
+"y"
+],
+"levels": "30",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 616,
+"zone": "r14",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "30",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 451,
+"zone": "r14",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "30-31",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 451,
+"zone": "r14",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "16",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 618,
+"zone": "r14",
+"method": "Walking (Swamp)",
+"games": [
+"x",
+"y"
+],
+"levels": "31-32",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 618,
+"zone": "r14",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "30-32",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 70,
+"zone": "r14",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "31-32",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 340,
+"zone": "r14",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 550,
+"zone": "r15",
+"method": "Good Rod",
+"games": [
+"y",
+"x"
+],
+"levels": "25",
+"rate": 65,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 550,
+"zone": "r15",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 419,
+"zone": "r15",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "34-36",
+"rate": 34,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 590,
+"zone": "r15",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "34-35",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 590,
+"zone": "r15",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "18",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 590,
+"zone": "r15",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "34-35",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 707,
+"zone": "r15",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "34-36",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 707,
+"zone": "r15",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "19",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 707,
+"zone": "r15",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "34-36",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 510,
+"zone": "r15",
+"method": "Walking",
+"games": [
+"y"
+],
+"levels": "34-36",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 510,
+"zone": "r15",
+"method": "Walking (Red flowers)",
+"games": [
+"y"
+],
+"levels": "36",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 271,
+"zone": "r15",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "34-36",
+"rate": 66,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 262,
+"zone": "r15",
+"method": "Walking",
+"games": [
+"x"
+],
+"levels": "34-36",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 262,
+"zone": "r15",
+"method": "Walking (Red flowers)",
+"games": [
+"x"
+],
+"levels": "36",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 198,
+"zone": "r15",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "18",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 624,
+"zone": "r15",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "36",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 624,
+"zone": "r15",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "34-35",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 60,
+"zone": "r15",
+"method": "Old Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "15",
+"rate": 100,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 61,
+"zone": "r15",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 61,
+"zone": "r15",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 65,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 451,
+"zone": "r15",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "34-35",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 451,
+"zone": "r15",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "36",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 505,
+"zone": "r15",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "36",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 505,
+"zone": "r15",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "34-36",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 550,
+"zone": "r16",
+"method": "Good Rod",
+"games": [
+"y",
+"x"
+],
+"levels": "25",
+"rate": 65,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 550,
+"zone": "r16",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 419,
+"zone": "r16",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "34-36",
+"rate": 34,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 419,
+"zone": "r16",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "35-36",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 590,
+"zone": "r16",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "34-36",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 590,
+"zone": "r16",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "18",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 590,
+"zone": "r16",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "34-36",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 707,
+"zone": "r16",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "34-35",
+"rate": 9,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 707,
+"zone": "r16",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "19",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 707,
+"zone": "r16",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "34-36",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 271,
+"zone": "r16",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "34-36",
+"rate": 66,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 198,
+"zone": "r16",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "18",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 708,
+"zone": "r16",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 708,
+"zone": "r16",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 60,
+"zone": "r16",
+"method": "Old Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "15",
+"rate": 100,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 61,
+"zone": "r16",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 61,
+"zone": "r16",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 65,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 710,
+"zone": "r16",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "35-36",
+"rate": 20,
+"source": "Bulbapedia + PokéAPI",
+"note": "Small size"
+},
+{
+"pokemon": 710,
+"zone": "r16",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "34-35",
+"rate": 30,
+"source": "Bulbapedia + PokéAPI",
+"note": "Average size"
+},
+{
+"pokemon": 710,
+"zone": "r16",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "36",
+"rate": 10,
+"source": "Bulbapedia + PokéAPI",
+"note": "Large size"
+},
+{
+"pokemon": 710,
+"zone": "r16",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "36",
+"rate": 1,
+"source": "Bulbapedia + PokéAPI",
+"note": "Super size"
+},
+{
+"pokemon": 451,
+"zone": "r16",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "34-35",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 70,
+"zone": "r16",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "35-36",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 460,
+"zone": "r17",
+"method": "Walking (Snow)",
+"games": [
+"x",
+"y"
+],
+"levels": "40",
+"rate": 1,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 225,
+"zone": "r17",
+"method": "Walking (Snow)",
+"games": [
+"x",
+"y"
+],
+"levels": "38-40",
+"rate": 40,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 215,
+"zone": "r17",
+"method": "Walking (Snow)",
+"games": [
+"x",
+"y"
+],
+"levels": "38-40",
+"rate": 29,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 459,
+"zone": "r17",
+"method": "Walking (Snow)",
+"games": [
+"x",
+"y"
+],
+"levels": "38-39",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 632,
+"zone": "r18",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "44",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 632,
+"zone": "r18",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "23",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 632,
+"zone": "r18",
+"method": "Horde",
+"games": [
+"x"
+],
+"levels": "23",
+"rate": 5,
+"source": "Bulbapedia",
+"note": "Horde: 5% with Heatmor"
+},
+{
+"pokemon": 632,
+"zone": "r18",
+"method": "Horde",
+"games": [
+"y"
+],
+"levels": "24",
+"rate": 5,
+"source": "Bulbapedia",
+"note": "Horde: 5% with Heatmor"
+},
+{
+"pokemon": 632,
+"zone": "r18",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "44",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 632,
+"zone": "r18",
+"method": "Static",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 90,
+"source": "Bulbapedia",
+"note": "approximate share"
+},
+{
+"pokemon": 74,
+"zone": "r18",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "23",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 75,
+"zone": "r18",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "45-46",
+"rate": 15,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 75,
+"zone": "r18",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "45-46",
+"rate": 15,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 75,
+"zone": "r18",
+"method": "Rock Smash",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 95,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 533,
+"zone": "r18",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 533,
+"zone": "r18",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "46",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 631,
+"zone": "r18",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "45-46",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 631,
+"zone": "r18",
+"method": "Horde",
+"games": [
+"x"
+],
+"levels": "23",
+"rate": 5,
+"source": "Bulbapedia",
+"note": "Horde: 5% with Durant"
+},
+{
+"pokemon": 631,
+"zone": "r18",
+"method": "Horde",
+"games": [
+"y"
+],
+"levels": "24",
+"rate": 5,
+"source": "Bulbapedia",
+"note": "Horde: 5% with Durant"
+},
+{
+"pokemon": 631,
+"zone": "r18",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "45-46",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 631,
+"zone": "r18",
+"method": "Static",
+"games": [
+"x",
+"y"
+],
+"levels": "45",
+"rate": 10,
+"source": "Bulbapedia",
+"note": "approximate share"
+},
+{
+"pokemon": 305,
+"zone": "r18",
+"method": "Walking",
+"games": [
+"x"
+],
+"levels": "46",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 305,
+"zone": "r18",
+"method": "Walking (Red flowers)",
+"games": [
+"x"
+],
+"levels": "44-46",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 247,
+"zone": "r18",
+"method": "Walking",
+"games": [
+"y"
+],
+"levels": "46",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 247,
+"zone": "r18",
+"method": "Walking (Red flowers)",
+"games": [
+"y"
+],
+"levels": "44-46",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 28,
+"zone": "r18",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "46",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 28,
+"zone": "r18",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "44-45",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 213,
+"zone": "r18",
+"method": "Rock Smash",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 324,
+"zone": "r18",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "44-45",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 324,
+"zone": "r18",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "46",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 24,
+"zone": "r19",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 339,
+"zone": "r19",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 65,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 455,
+"zone": "r19",
+"method": "Walking (Swamp)",
+"games": [
+"x",
+"y"
+],
+"levels": "46-48",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 455,
+"zone": "r19",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "46-48",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 455,
+"zone": "r19",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "46-48",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 452,
+"zone": "r19",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "46-48",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 452,
+"zone": "r19",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "48",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 207,
+"zone": "r19",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "24",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 93,
+"zone": "r19",
+"method": "Walking (Swamp)",
+"games": [
+"x",
+"y"
+],
+"levels": "47",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 93,
+"zone": "r19",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "47",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 93,
+"zone": "r19",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "47",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 588,
+"zone": "r19",
+"method": "Walking (Swamp)",
+"games": [
+"x",
+"y"
+],
+"levels": "47",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 588,
+"zone": "r19",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "47",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 588,
+"zone": "r19",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "47",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 186,
+"zone": "r19",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "50",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 60,
+"zone": "r19",
+"method": "Old Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 100,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 61,
+"zone": "r19",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 61,
+"zone": "r19",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "45",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 195,
+"zone": "r19",
+"method": "Walking (Swamp)",
+"games": [
+"x",
+"y"
+],
+"levels": "46-48",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 195,
+"zone": "r19",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "48",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 195,
+"zone": "r19",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "46",
+"rate": 50,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 195,
+"zone": "r19",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "46-48",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 616,
+"zone": "r19",
+"method": "Walking (Swamp)",
+"games": [
+"x",
+"y"
+],
+"levels": "47",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 616,
+"zone": "r19",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "47",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 616,
+"zone": "r19",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "47",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 705,
+"zone": "r19",
+"method": "Walking (Swamp)",
+"games": [
+"x",
+"y"
+],
+"levels": "47-48",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 705,
+"zone": "r19",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "48",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 705,
+"zone": "r19",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "47-48",
+"rate": 16,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 705,
+"zone": "r19",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "46-47",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 618,
+"zone": "r19",
+"method": "Walking (Swamp)",
+"games": [
+"x",
+"y"
+],
+"levels": "47-48",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 618,
+"zone": "r19",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "46-48",
+"rate": 34,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 70,
+"zone": "r19",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "24",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 70,
+"zone": "r19",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "46-47",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 70,
+"zone": "r19",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "48",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 340,
+"zone": "r19",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "45",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 659,
+"zone": "r2",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "2-3",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 10,
+"zone": "r2",
+"method": "Walking",
+"games": [
+"y"
+],
+"levels": "3-4",
+"rate": 11,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 661,
+"zone": "r2",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "2-3",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 16,
+"zone": "r2",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "3-4",
+"rate": 14,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 664,
+"zone": "r2",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "2-3",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 13,
+"zone": "r2",
+"method": "Walking",
+"games": [
+"x"
+],
+"levels": "3-4",
+"rate": 11,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 263,
+"zone": "r2",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "3-4",
+"rate": 15,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 591,
+"zone": "r20",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "48-50",
+"rate": 25,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 591,
+"zone": "r20",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "48-50",
+"rate": 25,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 590,
+"zone": "r20",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 575,
+"zone": "r20",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "50",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 575,
+"zone": "r20",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "48-50",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 39,
+"zone": "r20",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "48-49",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 39,
+"zone": "r20",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "50",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 164,
+"zone": "r20",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "48-50",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 164,
+"zone": "r20",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "50",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 185,
+"zone": "r20",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 5,
+"source": "Bulbapedia",
+"note": "Horde: 5% with Trevenant"
+},
+{
+"pokemon": 709,
+"zone": "r20",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "50",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 709,
+"zone": "r20",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 709,
+"zone": "r20",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 5,
+"source": "Bulbapedia",
+"note": "Horde: 5% with Sudowoodo"
+},
+{
+"pokemon": 709,
+"zone": "r20",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "48-49",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 571,
+"zone": "r20",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "48-50",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 571,
+"zone": "r20",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "48-50",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 334,
+"zone": "r21",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "50-51",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 334,
+"zone": "r21",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "50-51",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 550,
+"zone": "r21",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "40",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 550,
+"zone": "r21",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "50",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 148,
+"zone": "r21",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "50",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 147,
+"zone": "r21",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "40",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 419,
+"zone": "r21",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "50-52",
+"rate": 40,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 419,
+"zone": "r21",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "52",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 419,
+"zone": "r21",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "50-52",
+"rate": 34,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 271,
+"zone": "r21",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "50-52",
+"rate": 66,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 60,
+"zone": "r21",
+"method": "Old Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "30",
+"rate": 100,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 61,
+"zone": "r21",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "40",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 61,
+"zone": "r21",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "50",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 123,
+"zone": "r21",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "27",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 123,
+"zone": "r21",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "50-52",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 123,
+"zone": "r21",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "50-52",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 327,
+"zone": "r21",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "26",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 327,
+"zone": "r21",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "50-52",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 327,
+"zone": "r21",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "50-52",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 333,
+"zone": "r21",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "26",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 217,
+"zone": "r21",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "52",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 217,
+"zone": "r21",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "50-52",
+"rate": 40,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 184,
+"zone": "r22",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "25-27",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 184,
+"zone": "r22",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "25-26",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 298,
+"zone": "r22",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "6-7",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 400,
+"zone": "r22",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "26-27",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 399,
+"zone": "r22",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "6",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 659,
+"zone": "r22",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "5-6",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 318,
+"zone": "r22",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 660,
+"zone": "r22",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "27",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 206,
+"zone": "r22",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "7",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 206,
+"zone": "r22",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "26",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 83,
+"zone": "r22",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "7",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 83,
+"zone": "r22",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "26",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 118,
+"zone": "r22",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 65,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 130,
+"zone": "r22",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 667,
+"zone": "r22",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "5-6",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 667,
+"zone": "r22",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 129,
+"zone": "r22",
+"method": "Old Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "15",
+"rate": 100,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 54,
+"zone": "r22",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "6",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 54,
+"zone": "r22",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "25-27",
+"rate": 95,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 54,
+"zone": "r22",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "25-26",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 447,
+"zone": "r22",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "6-7",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 447,
+"zone": "r22",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "25-26",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 119,
+"zone": "r22",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 319,
+"zone": "r22",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 298,
+"zone": "r3",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "5",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 399,
+"zone": "r3",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "3-4",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 659,
+"zone": "r3",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "3-4",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 412,
+"zone": "r3",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "5",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 341,
+"zone": "r3",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 342,
+"zone": "r3",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 206,
+"zone": "r3",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "5",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 661,
+"zone": "r3",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "3-5",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 118,
+"zone": "r3",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 65,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 130,
+"zone": "r3",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 129,
+"zone": "r3",
+"method": "Old Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "15",
+"rate": 100,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 183,
+"zone": "r3",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "25-27",
+"rate": 34,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 284,
+"zone": "r3",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "25-27",
+"rate": 66,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 16,
+"zone": "r3",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "4",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 25,
+"zone": "r3",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "4-5",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 119,
+"zone": "r3",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 406,
+"zone": "r4",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "8",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 406,
+"zone": "r4",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "8",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 415,
+"zone": "r4",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "8",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 415,
+"zone": "r4",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "6-8",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 669,
+"zone": "r4",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "7",
+"rate": 4,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 669,
+"zone": "r4",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "6-8",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 669,
+"zone": "r4",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "8",
+"rate": 1,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 669,
+"zone": "r4",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "7",
+"rate": 4,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 669,
+"zone": "r4",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "8",
+"rate": 1,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 669,
+"zone": "r4",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "6-8",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 165,
+"zone": "r4",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "6-8",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 165,
+"zone": "r4",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "8",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 280,
+"zone": "r4",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "8",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 280,
+"zone": "r4",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "8",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 300,
+"zone": "r4",
+"method": "Walking (Red flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "8",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 300,
+"zone": "r4",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "8",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 63,
+"zone": "r5",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "10",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 63,
+"zone": "r5",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "10",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 659,
+"zone": "r5",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "8-10",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 659,
+"zone": "r5",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "10",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 84,
+"zone": "r5",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "10",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 84,
+"zone": "r5",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "10",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 676,
+"zone": "r5",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "8-9",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 676,
+"zone": "r5",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "10",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 316,
+"zone": "r5",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "10",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 316,
+"zone": "r5",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "5",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 316,
+"zone": "r5",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "10",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 312,
+"zone": "r5",
+"method": "Walking",
+"games": [
+"y"
+],
+"levels": "9-10",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 312,
+"zone": "r5",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "6",
+"rate": 5,
+"source": "Bulbapedia",
+"note": "Horde: 5% with Plusle"
+},
+{
+"pokemon": 312,
+"zone": "r5",
+"method": "Walking (Purple flowers)",
+"games": [
+"y"
+],
+"levels": "9-10",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 674,
+"zone": "r5",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "10",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 674,
+"zone": "r5",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "8-9",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 311,
+"zone": "r5",
+"method": "Walking",
+"games": [
+"x"
+],
+"levels": "9-10",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 311,
+"zone": "r5",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "6",
+"rate": 5,
+"source": "Bulbapedia",
+"note": "Horde: 5% with Minun"
+},
+{
+"pokemon": 311,
+"zone": "r5",
+"method": "Walking (Purple flowers)",
+"games": [
+"x"
+],
+"levels": "9-10",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 559,
+"zone": "r5",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "5",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 672,
+"zone": "r5",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "10",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 672,
+"zone": "r5",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "8-10",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 531,
+"zone": "r6",
+"method": "Static",
+"games": [
+"x",
+"y"
+],
+"levels": "10-12",
+"rate": 20,
+"source": "Bulbapedia",
+"note": "approximate share"
+},
+{
+"pokemon": 677,
+"zone": "r6",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "11-12",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 679,
+"zone": "r6",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "11-12",
+"rate": 15,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 352,
+"zone": "r6",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "11-12",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 290,
+"zone": "r6",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "12",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 43,
+"zone": "r6",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "10-12",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 161,
+"zone": "r6",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "10-11",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 543,
+"zone": "r6",
+"method": "Static",
+"games": [
+"x",
+"y"
+],
+"levels": "10-12",
+"rate": 80,
+"source": "Bulbapedia",
+"note": "approximate share"
+},
+{
+"pokemon": 453,
+"zone": "r7",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "12-14",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 453,
+"zone": "r7",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "14",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 453,
+"zone": "r7",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "14",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 580,
+"zone": "r7",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "14",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 580,
+"zone": "r7",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "14",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 580,
+"zone": "r7",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "14",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 669,
+"zone": "r7",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "13",
+"rate": 4,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 669,
+"zone": "r7",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "14",
+"rate": 1,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 669,
+"zone": "r7",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "12-14",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 669,
+"zone": "r7",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "13",
+"rate": 4,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 669,
+"zone": "r7",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "14",
+"rate": 1,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 669,
+"zone": "r7",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "13",
+"rate": 4,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 669,
+"zone": "r7",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "14",
+"rate": 1,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 669,
+"zone": "r7",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "12-14",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 187,
+"zone": "r7",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "7",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 314,
+"zone": "r7",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "13",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 314,
+"zone": "r7",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "13",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 314,
+"zone": "r7",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "13",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 54,
+"zone": "r7",
+"method": "Horde",
+"games": [
+"x"
+],
+"levels": "7",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 54,
+"zone": "r7",
+"method": "Horde",
+"games": [
+"y"
+],
+"levels": "8",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 315,
+"zone": "r7",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "14",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 315,
+"zone": "r7",
+"method": "Horde",
+"games": [
+"x"
+],
+"levels": "8",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 315,
+"zone": "r7",
+"method": "Horde",
+"games": [
+"y"
+],
+"levels": "7",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 315,
+"zone": "r7",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "14",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 315,
+"zone": "r7",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "14",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 235,
+"zone": "r7",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "14",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 235,
+"zone": "r7",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "14",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 235,
+"zone": "r7",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "14",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 682,
+"zone": "r7",
+"method": "Walking",
+"games": [
+"y"
+],
+"levels": "14",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 682,
+"zone": "r7",
+"method": "Walking (Purple flowers)",
+"games": [
+"y"
+],
+"levels": "14",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 682,
+"zone": "r7",
+"method": "Walking (Yellow flowers)",
+"games": [
+"y"
+],
+"levels": "14",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 684,
+"zone": "r7",
+"method": "Walking",
+"games": [
+"x"
+],
+"levels": "14",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 684,
+"zone": "r7",
+"method": "Walking (Purple flowers)",
+"games": [
+"x"
+],
+"levels": "14",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 684,
+"zone": "r7",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x"
+],
+"levels": "14",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 313,
+"zone": "r7",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "13",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 313,
+"zone": "r7",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "13",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 313,
+"zone": "r7",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "13",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 359,
+"zone": "r8",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "15",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 359,
+"zone": "r8",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "13-14",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 371,
+"zone": "r8",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "14-15",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 371,
+"zone": "r8",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "14-15",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 688,
+"zone": "r8",
+"method": "Rock Smash",
+"games": [
+"x"
+],
+"levels": "18-20",
+"rate": 34,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 688,
+"zone": "r8",
+"method": "Rock Smash",
+"games": [
+"y"
+],
+"levels": "13-15",
+"rate": 34,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 692,
+"zone": "r8",
+"method": "Good Rod",
+"games": [
+"x"
+],
+"levels": "25",
+"rate": 65,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 693,
+"zone": "r8",
+"method": "Super Rod",
+"games": [
+"x"
+],
+"levels": "35",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 91,
+"zone": "r8",
+"method": "Super Rod",
+"games": [
+"y"
+],
+"levels": "35",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 691,
+"zone": "r8",
+"method": "Super Rod",
+"games": [
+"y"
+],
+"levels": "35",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 425,
+"zone": "r8",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "13-15",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 425,
+"zone": "r8",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "15",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 557,
+"zone": "r8",
+"method": "Rock Smash",
+"games": [
+"x"
+],
+"levels": "18-20",
+"rate": 66,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 557,
+"zone": "r8",
+"method": "Rock Smash",
+"games": [
+"y"
+],
+"levels": "13-15",
+"rate": 66,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 686,
+"zone": "r8",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "14-15",
+"rate": 15,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 686,
+"zone": "r8",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "14-15",
+"rate": 15,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 370,
+"zone": "r8",
+"method": "Old Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "15",
+"rate": 100,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 619,
+"zone": "r8",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "15",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 619,
+"zone": "r8",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "13-15",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 211,
+"zone": "r8",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 336,
+"zone": "r8",
+"method": "Walking",
+"games": [
+"y"
+],
+"levels": "14",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 336,
+"zone": "r8",
+"method": "Horde",
+"games": [
+"y"
+],
+"levels": "8",
+"rate": 35,
+"source": "Bulbapedia",
+"note": "Horde: 35% with 1 Zangoose"
+},
+{
+"pokemon": 336,
+"zone": "r8",
+"method": "Walking (Yellow flowers)",
+"games": [
+"y"
+],
+"levels": "14",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 90,
+"zone": "r8",
+"method": "Good Rod",
+"games": [
+"y"
+],
+"levels": "25",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 690,
+"zone": "r8",
+"method": "Good Rod",
+"games": [
+"y"
+],
+"levels": "25",
+"rate": 65,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 325,
+"zone": "r8",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "13-14",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 325,
+"zone": "r8",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "15",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 121,
+"zone": "r8",
+"method": "Super Rod",
+"games": [
+"x"
+],
+"levels": "35",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 120,
+"zone": "r8",
+"method": "Good Rod",
+"games": [
+"x"
+],
+"levels": "25",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 276,
+"zone": "r8",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "7",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 72,
+"zone": "r8",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "25-27",
+"rate": 69,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 320,
+"zone": "r8",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "25-27",
+"rate": 31,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 278,
+"zone": "r8",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "7",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 335,
+"zone": "r8",
+"method": "Walking",
+"games": [
+"x"
+],
+"levels": "14",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 335,
+"zone": "r8",
+"method": "Horde",
+"games": [
+"x"
+],
+"levels": "8",
+"rate": 35,
+"source": "Bulbapedia",
+"note": "Horde: 35% with 1 Seviper"
+},
+{
+"pokemon": 335,
+"zone": "r8",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x"
+],
+"levels": "14",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 694,
+"zone": "r9",
+"method": "Walking (Terrain)",
+"games": [
+"x",
+"y"
+],
+"levels": "15-17",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 449,
+"zone": "r9",
+"method": "Walking (Terrain)",
+"games": [
+"x",
+"y"
+],
+"levels": "15-17",
+"rate": 40,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 551,
+"zone": "r9",
+"method": "Walking (Terrain)",
+"games": [
+"x",
+"y"
+],
+"levels": "15-17",
+"rate": 40,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 550,
+"zone": "laverre",
+"method": "Good Rod",
+"games": [
+"y",
+"x"
+],
+"levels": "25",
+"rate": 65,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 550,
+"zone": "laverre",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 60,
+"zone": "laverre",
+"method": "Old Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "15",
+"rate": 100,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 61,
+"zone": "laverre",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 61,
+"zone": "laverre",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 65,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 101,
+"zone": "losthotel",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "37-38",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "B1F"
+},
+{
+"pokemon": 569,
+"zone": "losthotel",
+"method": "Static",
+"games": [
+"x",
+"y"
+],
+"levels": "36-38",
+"rate": 20,
+"source": "Bulbapedia",
+"note": "Shaking trash cans"
+},
+{
+"pokemon": 707,
+"zone": "losthotel",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "36-38",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "B1F"
+},
+{
+"pokemon": 607,
+"zone": "losthotel",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "37-38",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "B1F"
+},
+{
+"pokemon": 82,
+"zone": "losthotel",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "37-38",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "B1F"
+},
+{
+"pokemon": 624,
+"zone": "losthotel",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "36-37",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "B1F"
+},
+{
+"pokemon": 479,
+"zone": "losthotel",
+"method": "Static",
+"games": [
+"x",
+"y"
+],
+"levels": "38",
+"rate": 75,
+"source": "Bulbapedia",
+"note": "Shaking trash cans"
+},
+{
+"pokemon": 479,
+"zone": "losthotel",
+"method": "Static",
+"games": [
+"x",
+"y"
+],
+"levels": "38",
+"rate": 5,
+"source": "Bulbapedia",
+"note": "Shaking trash cans"
+},
+{
+"pokemon": 568,
+"zone": "losthotel",
+"method": "Static",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 80,
+"source": "Bulbapedia",
+"note": "Shaking trash cans"
+},
+{
+"pokemon": 341,
+"zone": "parfumpalace",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 342,
+"zone": "parfumpalace",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 118,
+"zone": "parfumpalace",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 65,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 130,
+"zone": "parfumpalace",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 129,
+"zone": "parfumpalace",
+"method": "Old Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "15",
+"rate": 100,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 119,
+"zone": "parfumpalace",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 1,
+"zone": "lumiose",
+"method": "Choice",
+"games": [
+"x",
+"y"
+],
+"levels": "10",
+"rate": 100,
+"source": "Bulbapedia",
+"sublocation": "Generation VI"
+},
+{
+"pokemon": 4,
+"zone": "lumiose",
+"method": "Choice",
+"games": [
+"x",
+"y"
+],
+"levels": "10",
+"rate": 100,
+"source": "Bulbapedia",
+"sublocation": "Generation VI"
+},
+{
+"pokemon": 7,
+"zone": "lumiose",
+"method": "Choice",
+"games": [
+"x",
+"y"
+],
+"levels": "10",
+"rate": 100,
+"source": "Bulbapedia",
+"sublocation": "Generation VI"
+},
+{
+"pokemon": 591,
+"zone": "pokemonvillage",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "49-50",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 591,
+"zone": "pokemonvillage",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "49-50",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 354,
+"zone": "pokemonvillage",
+"method": "Static",
+"games": [
+"x",
+"y"
+],
+"levels": "46-50",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Shaking trash cans"
+},
+{
+"pokemon": 550,
+"zone": "pokemonvillage",
+"method": "Good Rod",
+"games": [
+"y",
+"x"
+],
+"levels": "40",
+"rate": 65,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 550,
+"zone": "pokemonvillage",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "50",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 132,
+"zone": "pokemonvillage",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "50",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 132,
+"zone": "pokemonvillage",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "48-49",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 590,
+"zone": "pokemonvillage",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 569,
+"zone": "pokemonvillage",
+"method": "Static",
+"games": [
+"x",
+"y"
+],
+"levels": "46-50",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Shaking trash cans"
+},
+{
+"pokemon": 575,
+"zone": "pokemonvillage",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "50",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 575,
+"zone": "pokemonvillage",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "48-50",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 39,
+"zone": "pokemonvillage",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "48-49",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 39,
+"zone": "pokemonvillage",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "50",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 271,
+"zone": "pokemonvillage",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 271,
+"zone": "pokemonvillage",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "48-50",
+"rate": 66,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 164,
+"zone": "pokemonvillage",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "48-50",
+"rate": 30,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 164,
+"zone": "pokemonvillage",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "50",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 60,
+"zone": "pokemonvillage",
+"method": "Old Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "30",
+"rate": 100,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 60,
+"zone": "pokemonvillage",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 61,
+"zone": "pokemonvillage",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "40",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 61,
+"zone": "pokemonvillage",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "50",
+"rate": 65,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 61,
+"zone": "pokemonvillage",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "48-50",
+"rate": 34,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 571,
+"zone": "pokemonvillage",
+"method": "Walking (Purple flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "48-50",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 571,
+"zone": "pokemonvillage",
+"method": "Walking (Yellow flowers)",
+"games": [
+"x",
+"y"
+],
+"levels": "48-50",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 703,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "23",
+"rate": 10,
+"source": "Bulbapedia",
+"sublocation": "1F"
+},
+{
+"pokemon": 703,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "23",
+"rate": 10,
+"source": "Bulbapedia",
+"sublocation": "B1F"
+},
+{
+"pokemon": 703,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "23",
+"rate": 10,
+"source": "Bulbapedia",
+"sublocation": "B2F"
+},
+{
+"pokemon": 703,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "23",
+"rate": 10,
+"source": "Bulbapedia",
+"sublocation": "B3F"
+},
+{
+"pokemon": 703,
+"zone": "reflectioncave",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "11",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "1F",
+"note": "Horde: 5% with Roggenrola"
+},
+{
+"pokemon": 703,
+"zone": "reflectioncave",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "11",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "B1F",
+"note": "Horde: 5% with Roggenrola"
+},
+{
+"pokemon": 703,
+"zone": "reflectioncave",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "11",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "B2F",
+"note": "Horde: 5% with Roggenrola"
+},
+{
+"pokemon": 703,
+"zone": "reflectioncave",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "11",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "B3F",
+"note": "Horde: 5% with Roggenrola"
+},
+{
+"pokemon": 433,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "21-22",
+"rate": 15,
+"source": "Bulbapedia",
+"sublocation": "1F"
+},
+{
+"pokemon": 433,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "21-22",
+"rate": 15,
+"source": "Bulbapedia",
+"sublocation": "B1F"
+},
+{
+"pokemon": 433,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "21-22",
+"rate": 15,
+"source": "Bulbapedia",
+"sublocation": "B2F"
+},
+{
+"pokemon": 433,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "21-22",
+"rate": 15,
+"source": "Bulbapedia",
+"sublocation": "B3F"
+},
+{
+"pokemon": 597,
+"zone": "reflectioncave",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "21-23",
+"rate": 15,
+"source": "Bulbapedia + PokéAPI",
+"sublocation": "1F"
+},
+{
+"pokemon": 439,
+"zone": "reflectioncave",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "11",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 122,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "22-23",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "1F"
+},
+{
+"pokemon": 122,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "22-23",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "B1F"
+},
+{
+"pokemon": 122,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "22-23",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "B2F"
+},
+{
+"pokemon": 122,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "22-23",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "B3F"
+},
+{
+"pokemon": 524,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "21-22",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "1F"
+},
+{
+"pokemon": 524,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "21-22",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "B1F"
+},
+{
+"pokemon": 524,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "21-22",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "B2F"
+},
+{
+"pokemon": 524,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "21-22",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "B3F"
+},
+{
+"pokemon": 524,
+"zone": "reflectioncave",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "11",
+"rate": 35,
+"source": "Bulbapedia",
+"sublocation": "1F"
+},
+{
+"pokemon": 524,
+"zone": "reflectioncave",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "11",
+"rate": 35,
+"source": "Bulbapedia",
+"sublocation": "B1F"
+},
+{
+"pokemon": 524,
+"zone": "reflectioncave",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "11",
+"rate": 35,
+"source": "Bulbapedia",
+"sublocation": "B2F"
+},
+{
+"pokemon": 524,
+"zone": "reflectioncave",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "11",
+"rate": 35,
+"source": "Bulbapedia",
+"sublocation": "B3F"
+},
+{
+"pokemon": 524,
+"zone": "reflectioncave",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "11",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "1F",
+"note": "Horde: 5% with Carbink"
+},
+{
+"pokemon": 524,
+"zone": "reflectioncave",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "11",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "B1F",
+"note": "Horde: 5% with Carbink"
+},
+{
+"pokemon": 524,
+"zone": "reflectioncave",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "11",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "B2F",
+"note": "Horde: 5% with Carbink"
+},
+{
+"pokemon": 524,
+"zone": "reflectioncave",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "11",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "B3F",
+"note": "Horde: 5% with Carbink"
+},
+{
+"pokemon": 302,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "22-23",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "1F"
+},
+{
+"pokemon": 302,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "22-23",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "B1F"
+},
+{
+"pokemon": 302,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "22-23",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "B2F"
+},
+{
+"pokemon": 302,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "22-23",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "B3F"
+},
+{
+"pokemon": 577,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "22-23",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "1F"
+},
+{
+"pokemon": 577,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "22-23",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "B1F"
+},
+{
+"pokemon": 577,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "22-23",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "B2F"
+},
+{
+"pokemon": 577,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "22-23",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "B3F"
+},
+{
+"pokemon": 202,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "22",
+"rate": 10,
+"source": "Bulbapedia",
+"sublocation": "1F"
+},
+{
+"pokemon": 202,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "22",
+"rate": 10,
+"source": "Bulbapedia",
+"sublocation": "B1F"
+},
+{
+"pokemon": 202,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "22",
+"rate": 10,
+"source": "Bulbapedia",
+"sublocation": "B2F"
+},
+{
+"pokemon": 202,
+"zone": "reflectioncave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "22",
+"rate": 10,
+"source": "Bulbapedia",
+"sublocation": "B3F"
+},
+{
+"pokemon": 527,
+"zone": "reflectioncave",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "21-23",
+"rate": 85,
+"source": "Bulbapedia + PokéAPI",
+"sublocation": "1F"
+},
+{
+"pokemon": 83,
+"zone": "santalune",
+"method": "Trade",
+"games": [
+"x",
+"y"
+],
+"levels": "10",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Trade Bunnelby"
+},
+{
+"pokemon": 10,
+"zone": "santaluneforest",
+"method": "Walking",
+"games": [
+"y"
+],
+"levels": "2-3",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 10,
+"zone": "santaluneforest",
+"method": "Walking",
+"games": [
+"x"
+],
+"levels": "2",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 661,
+"zone": "santaluneforest",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "4",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 14,
+"zone": "santaluneforest",
+"method": "Walking",
+"games": [
+"x"
+],
+"levels": "4",
+"rate": 4,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 11,
+"zone": "santaluneforest",
+"method": "Walking",
+"games": [
+"y"
+],
+"levels": "4",
+"rate": 4,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 515,
+"zone": "santaluneforest",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "4",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 511,
+"zone": "santaluneforest",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "4",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 513,
+"zone": "santaluneforest",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "4",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 25,
+"zone": "santaluneforest",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "3-4",
+"rate": 6,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 664,
+"zone": "santaluneforest",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "2-3",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 13,
+"zone": "santaluneforest",
+"method": "Walking",
+"games": [
+"x"
+],
+"levels": "2-3",
+"rate": 20,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 13,
+"zone": "santaluneforest",
+"method": "Walking",
+"games": [
+"y"
+],
+"levels": "2",
+"rate": 10,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 594,
+"zone": "shalour",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 60,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 170,
+"zone": "shalour",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 171,
+"zone": "shalour",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 5,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 370,
+"zone": "shalour",
+"method": "Old Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "15",
+"rate": 100,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 458,
+"zone": "shalour",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "27",
+"rate": 16,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 224,
+"zone": "shalour",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 35,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 223,
+"zone": "shalour",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "25",
+"rate": 65,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 72,
+"zone": "shalour",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "25-27",
+"rate": 84,
+"source": "Bulbapedia"
+},
+{
+"pokemon": 625,
+"zone": "snowbelle",
+"method": "Trade",
+"games": [
+"x",
+"y"
+],
+"levels": "50",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Trade Jigglypuff"
+},
+{
+"pokemon": 1,
+"zone": "lumiose",
+"method": "Choice",
+"games": [
+"x",
+"y"
+],
+"levels": "10",
+"rate": 100,
+"source": "Bulbapedia",
+"sublocation": "South Boulevard"
+},
+{
+"pokemon": 4,
+"zone": "lumiose",
+"method": "Choice",
+"games": [
+"x",
+"y"
+],
+"levels": "10",
+"rate": 100,
+"source": "Bulbapedia",
+"sublocation": "South Boulevard"
+},
+{
+"pokemon": 280,
+"zone": "lumiose",
+"method": "Trade",
+"games": [
+"x",
+"y"
+],
+"levels": "5",
+"rate": 100,
+"source": "Bulbapedia",
+"sublocation": "South Boulevard",
+"note": "Trade Any Pokémon"
+},
+{
+"pokemon": 7,
+"zone": "lumiose",
+"method": "Choice",
+"games": [
+"x",
+"y"
+],
+"levels": "10",
+"rate": 100,
+"source": "Bulbapedia",
+"sublocation": "South Boulevard"
+},
+{
+"pokemon": 168,
+"zone": "terminuscave",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 80,
+"source": "Bulbapedia",
+"sublocation": "1F",
+"note": "approximate share"
+},
+{
+"pokemon": 168,
+"zone": "terminuscave",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 80,
+"source": "Bulbapedia",
+"sublocation": "2F Left",
+"note": "approximate share"
+},
+{
+"pokemon": 168,
+"zone": "terminuscave",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 80,
+"source": "Bulbapedia",
+"sublocation": "2F Right",
+"note": "approximate share"
+},
+{
+"pokemon": 168,
+"zone": "terminuscave",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 80,
+"source": "Bulbapedia",
+"sublocation": "B1F",
+"note": "approximate share"
+},
+{
+"pokemon": 168,
+"zone": "terminuscave",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 80,
+"source": "Bulbapedia",
+"sublocation": "B2F",
+"note": "approximate share"
+},
+{
+"pokemon": 168,
+"zone": "terminuscave",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 80,
+"source": "Bulbapedia",
+"sublocation": "B3F",
+"note": "approximate share"
+},
+{
+"pokemon": 304,
+"zone": "terminuscave",
+"method": "Horde",
+"games": [
+"x"
+],
+"levels": "24",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "1F"
+},
+{
+"pokemon": 304,
+"zone": "terminuscave",
+"method": "Horde",
+"games": [
+"x"
+],
+"levels": "24",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "2F Left"
+},
+{
+"pokemon": 304,
+"zone": "terminuscave",
+"method": "Horde",
+"games": [
+"x"
+],
+"levels": "24",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "2F Right"
+},
+{
+"pokemon": 304,
+"zone": "terminuscave",
+"method": "Horde",
+"games": [
+"x"
+],
+"levels": "24",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "B1F"
+},
+{
+"pokemon": 304,
+"zone": "terminuscave",
+"method": "Horde",
+"games": [
+"x"
+],
+"levels": "24",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "B2F"
+},
+{
+"pokemon": 632,
+"zone": "terminuscave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 40,
+"source": "Bulbapedia",
+"sublocation": "1F"
+},
+{
+"pokemon": 632,
+"zone": "terminuscave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 40,
+"source": "Bulbapedia",
+"sublocation": "2F Left"
+},
+{
+"pokemon": 632,
+"zone": "terminuscave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 40,
+"source": "Bulbapedia",
+"sublocation": "2F Right"
+},
+{
+"pokemon": 632,
+"zone": "terminuscave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 40,
+"source": "Bulbapedia",
+"sublocation": "B1F"
+},
+{
+"pokemon": 632,
+"zone": "terminuscave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 40,
+"source": "Bulbapedia",
+"sublocation": "B2F"
+},
+{
+"pokemon": 632,
+"zone": "terminuscave",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "23",
+"rate": 60,
+"source": "Bulbapedia",
+"sublocation": "1F"
+},
+{
+"pokemon": 632,
+"zone": "terminuscave",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "23",
+"rate": 60,
+"source": "Bulbapedia",
+"sublocation": "2F Left"
+},
+{
+"pokemon": 632,
+"zone": "terminuscave",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "23",
+"rate": 60,
+"source": "Bulbapedia",
+"sublocation": "2F Right"
+},
+{
+"pokemon": 632,
+"zone": "terminuscave",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "23",
+"rate": 60,
+"source": "Bulbapedia",
+"sublocation": "B1F"
+},
+{
+"pokemon": 632,
+"zone": "terminuscave",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "23",
+"rate": 60,
+"source": "Bulbapedia",
+"sublocation": "B2F"
+},
+{
+"pokemon": 74,
+"zone": "terminuscave",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "23",
+"rate": 35,
+"source": "Bulbapedia",
+"sublocation": "1F"
+},
+{
+"pokemon": 74,
+"zone": "terminuscave",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "23",
+"rate": 35,
+"source": "Bulbapedia",
+"sublocation": "2F Left"
+},
+{
+"pokemon": 74,
+"zone": "terminuscave",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "23",
+"rate": 35,
+"source": "Bulbapedia",
+"sublocation": "2F Right"
+},
+{
+"pokemon": 74,
+"zone": "terminuscave",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "23",
+"rate": 35,
+"source": "Bulbapedia",
+"sublocation": "B1F"
+},
+{
+"pokemon": 74,
+"zone": "terminuscave",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "23",
+"rate": 35,
+"source": "Bulbapedia",
+"sublocation": "B2F"
+},
+{
+"pokemon": 75,
+"zone": "terminuscave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "1F"
+},
+{
+"pokemon": 75,
+"zone": "terminuscave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "2F Left"
+},
+{
+"pokemon": 75,
+"zone": "terminuscave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "2F Right"
+},
+{
+"pokemon": 75,
+"zone": "terminuscave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "B1F"
+},
+{
+"pokemon": 75,
+"zone": "terminuscave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "B2F"
+},
+{
+"pokemon": 75,
+"zone": "terminuscave",
+"method": "Rock Smash",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 95,
+"source": "Bulbapedia",
+"sublocation": "1F"
+},
+{
+"pokemon": 75,
+"zone": "terminuscave",
+"method": "Rock Smash",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 95,
+"source": "Bulbapedia",
+"sublocation": "B1F"
+},
+{
+"pokemon": 75,
+"zone": "terminuscave",
+"method": "Rock Smash",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 95,
+"source": "Bulbapedia",
+"sublocation": "B2F"
+},
+{
+"pokemon": 305,
+"zone": "terminuscave",
+"method": "Walking",
+"games": [
+"x"
+],
+"levels": "45-46",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "1F"
+},
+{
+"pokemon": 305,
+"zone": "terminuscave",
+"method": "Walking",
+"games": [
+"x"
+],
+"levels": "45-46",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "2F Left"
+},
+{
+"pokemon": 305,
+"zone": "terminuscave",
+"method": "Walking",
+"games": [
+"x"
+],
+"levels": "45-46",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "2F Right"
+},
+{
+"pokemon": 305,
+"zone": "terminuscave",
+"method": "Walking",
+"games": [
+"x"
+],
+"levels": "45-46",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "B1F"
+},
+{
+"pokemon": 305,
+"zone": "terminuscave",
+"method": "Walking",
+"games": [
+"x"
+],
+"levels": "45-46",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "B2F"
+},
+{
+"pokemon": 246,
+"zone": "terminuscave",
+"method": "Horde",
+"games": [
+"y"
+],
+"levels": "24",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "1F"
+},
+{
+"pokemon": 246,
+"zone": "terminuscave",
+"method": "Horde",
+"games": [
+"y"
+],
+"levels": "24",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "2F Left"
+},
+{
+"pokemon": 246,
+"zone": "terminuscave",
+"method": "Horde",
+"games": [
+"y"
+],
+"levels": "24",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "2F Right"
+},
+{
+"pokemon": 246,
+"zone": "terminuscave",
+"method": "Horde",
+"games": [
+"y"
+],
+"levels": "24",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "B1F"
+},
+{
+"pokemon": 246,
+"zone": "terminuscave",
+"method": "Horde",
+"games": [
+"y"
+],
+"levels": "24",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "B2F"
+},
+{
+"pokemon": 714,
+"zone": "terminuscave",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "1F",
+"note": "approximate share"
+},
+{
+"pokemon": 714,
+"zone": "terminuscave",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "2F Left",
+"note": "approximate share"
+},
+{
+"pokemon": 714,
+"zone": "terminuscave",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "2F Right",
+"note": "approximate share"
+},
+{
+"pokemon": 714,
+"zone": "terminuscave",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "B1F",
+"note": "approximate share"
+},
+{
+"pokemon": 714,
+"zone": "terminuscave",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "B2F",
+"note": "approximate share"
+},
+{
+"pokemon": 714,
+"zone": "terminuscave",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "B3F",
+"note": "approximate share"
+},
+{
+"pokemon": 247,
+"zone": "terminuscave",
+"method": "Walking",
+"games": [
+"y"
+],
+"levels": "45-46",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "1F"
+},
+{
+"pokemon": 247,
+"zone": "terminuscave",
+"method": "Walking",
+"games": [
+"y"
+],
+"levels": "45-46",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "2F Left"
+},
+{
+"pokemon": 247,
+"zone": "terminuscave",
+"method": "Walking",
+"games": [
+"y"
+],
+"levels": "45-46",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "2F Right"
+},
+{
+"pokemon": 247,
+"zone": "terminuscave",
+"method": "Walking",
+"games": [
+"y"
+],
+"levels": "45-46",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "B1F"
+},
+{
+"pokemon": 247,
+"zone": "terminuscave",
+"method": "Walking",
+"games": [
+"y"
+],
+"levels": "45-46",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "B2F"
+},
+{
+"pokemon": 28,
+"zone": "terminuscave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "45-46",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "1F"
+},
+{
+"pokemon": 28,
+"zone": "terminuscave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "45-46",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "2F Left"
+},
+{
+"pokemon": 28,
+"zone": "terminuscave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "45-46",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "2F Right"
+},
+{
+"pokemon": 28,
+"zone": "terminuscave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "45-46",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "B1F"
+},
+{
+"pokemon": 28,
+"zone": "terminuscave",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "45-46",
+"rate": 20,
+"source": "Bulbapedia",
+"sublocation": "B2F"
+},
+{
+"pokemon": 213,
+"zone": "terminuscave",
+"method": "Rock Smash",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "1F"
+},
+{
+"pokemon": 213,
+"zone": "terminuscave",
+"method": "Rock Smash",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "B1F"
+},
+{
+"pokemon": 213,
+"zone": "terminuscave",
+"method": "Rock Smash",
+"games": [
+"x",
+"y"
+],
+"levels": "44-46",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "B2F"
+},
+{
+"pokemon": 448,
+"zone": "shalour",
+"method": "Gift",
+"games": [
+"x",
+"y"
+],
+"levels": "32",
+"rate": 100,
+"source": "Bulbapedia",
+"sublocation": "Tower of Mastery"
+},
+{
+"pokemon": 650,
+"zone": "vaniville",
+"method": "Trade",
+"games": [
+"x",
+"y"
+],
+"levels": "5",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Trade Any Pokémon"
+},
+{
+"pokemon": 653,
+"zone": "vaniville",
+"method": "Trade",
+"games": [
+"x",
+"y"
+],
+"levels": "5",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Trade Any Pokémon"
+},
+{
+"pokemon": 656,
+"zone": "vaniville",
+"method": "Trade",
+"games": [
+"x",
+"y"
+],
+"levels": "5",
+"rate": 100,
+"source": "Bulbapedia",
+"note": "Trade Any Pokémon"
+},
+{
+"pokemon": 168,
+"zone": "victoryroad",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "58-59",
+"rate": 33,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 1",
+"note": "approximate share"
+},
+{
+"pokemon": 168,
+"zone": "victoryroad",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "58-59",
+"rate": 33,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 2",
+"note": "approximate share"
+},
+{
+"pokemon": 168,
+"zone": "victoryroad",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "58-59",
+"rate": 33,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 3",
+"note": "approximate share"
+},
+{
+"pokemon": 168,
+"zone": "victoryroad",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "58-59",
+"rate": 33,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 4",
+"note": "approximate share"
+},
+{
+"pokemon": 550,
+"zone": "victoryroad",
+"method": "Good Rod",
+"games": [
+"y",
+"x"
+],
+"levels": "45",
+"rate": 65,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Outside 3"
+},
+{
+"pokemon": 550,
+"zone": "victoryroad",
+"method": "Good Rod",
+"games": [
+"y",
+"x"
+],
+"levels": "45",
+"rate": 65,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 1"
+},
+{
+"pokemon": 550,
+"zone": "victoryroad",
+"method": "Good Rod",
+"games": [
+"y",
+"x"
+],
+"levels": "45",
+"rate": 65,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 4"
+},
+{
+"pokemon": 550,
+"zone": "victoryroad",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "55",
+"rate": 35,
+"source": "Bulbapedia",
+"sublocation": "Outside 3"
+},
+{
+"pokemon": 550,
+"zone": "victoryroad",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "55",
+"rate": 35,
+"source": "Bulbapedia",
+"sublocation": "Room 1"
+},
+{
+"pokemon": 550,
+"zone": "victoryroad",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "55",
+"rate": 35,
+"source": "Bulbapedia",
+"sublocation": "Room 4"
+},
+{
+"pokemon": 621,
+"zone": "victoryroad",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "58-59",
+"rate": 20,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 1"
+},
+{
+"pokemon": 621,
+"zone": "victoryroad",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "58-59",
+"rate": 20,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 2"
+},
+{
+"pokemon": 621,
+"zone": "victoryroad",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "58-59",
+"rate": 20,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 3"
+},
+{
+"pokemon": 621,
+"zone": "victoryroad",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "58-59",
+"rate": 20,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 4"
+},
+{
+"pokemon": 22,
+"zone": "victoryroad",
+"method": "Walking (Sky)",
+"games": [
+"x",
+"y"
+],
+"levels": "57-59",
+"rate": 77,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Outside 1",
+"note": "approximate share"
+},
+{
+"pokemon": 22,
+"zone": "victoryroad",
+"method": "Walking (Sky)",
+"games": [
+"x",
+"y"
+],
+"levels": "57-59",
+"rate": 77,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Outside 2",
+"note": "approximate share"
+},
+{
+"pokemon": 22,
+"zone": "victoryroad",
+"method": "Walking (Sky)",
+"games": [
+"x",
+"y"
+],
+"levels": "57-59",
+"rate": 77,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Outside 3",
+"note": "approximate share"
+},
+{
+"pokemon": 419,
+"zone": "victoryroad",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "29",
+"rate": 35,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 1"
+},
+{
+"pokemon": 419,
+"zone": "victoryroad",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "29",
+"rate": 35,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 4"
+},
+{
+"pokemon": 419,
+"zone": "victoryroad",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "57-59",
+"rate": 34,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Outside 3"
+},
+{
+"pokemon": 419,
+"zone": "victoryroad",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "57-59",
+"rate": 34,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 1"
+},
+{
+"pokemon": 419,
+"zone": "victoryroad",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "57-59",
+"rate": 34,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 4"
+},
+{
+"pokemon": 74,
+"zone": "victoryroad",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "28",
+"rate": 60,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 1"
+},
+{
+"pokemon": 74,
+"zone": "victoryroad",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "28",
+"rate": 60,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 2"
+},
+{
+"pokemon": 74,
+"zone": "victoryroad",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "28",
+"rate": 60,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 3"
+},
+{
+"pokemon": 74,
+"zone": "victoryroad",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "28",
+"rate": 60,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 4"
+},
+{
+"pokemon": 75,
+"zone": "victoryroad",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "57-58",
+"rate": 20,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 1"
+},
+{
+"pokemon": 75,
+"zone": "victoryroad",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "57-58",
+"rate": 20,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 2"
+},
+{
+"pokemon": 75,
+"zone": "victoryroad",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "57-58",
+"rate": 20,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 3"
+},
+{
+"pokemon": 75,
+"zone": "victoryroad",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "57-58",
+"rate": 20,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 4"
+},
+{
+"pokemon": 75,
+"zone": "victoryroad",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "57",
+"rate": 45,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 1",
+"note": "approximate share"
+},
+{
+"pokemon": 75,
+"zone": "victoryroad",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "57",
+"rate": 45,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 2",
+"note": "approximate share"
+},
+{
+"pokemon": 75,
+"zone": "victoryroad",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "57",
+"rate": 45,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 3",
+"note": "approximate share"
+},
+{
+"pokemon": 75,
+"zone": "victoryroad",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "57",
+"rate": 45,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 4",
+"note": "approximate share"
+},
+{
+"pokemon": 75,
+"zone": "victoryroad",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "29",
+"rate": 35,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 1"
+},
+{
+"pokemon": 75,
+"zone": "victoryroad",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "29",
+"rate": 35,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 2"
+},
+{
+"pokemon": 75,
+"zone": "victoryroad",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "29",
+"rate": 35,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 3"
+},
+{
+"pokemon": 75,
+"zone": "victoryroad",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "29",
+"rate": 35,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 4"
+},
+{
+"pokemon": 75,
+"zone": "victoryroad",
+"method": "Rock Smash",
+"games": [
+"x",
+"y"
+],
+"levels": "57-59",
+"rate": 95,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 1"
+},
+{
+"pokemon": 75,
+"zone": "victoryroad",
+"method": "Rock Smash",
+"games": [
+"x",
+"y"
+],
+"levels": "57-59",
+"rate": 95,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 2"
+},
+{
+"pokemon": 533,
+"zone": "victoryroad",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "57-59",
+"rate": 30,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 1"
+},
+{
+"pokemon": 533,
+"zone": "victoryroad",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "57-59",
+"rate": 30,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 2"
+},
+{
+"pokemon": 533,
+"zone": "victoryroad",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "57-59",
+"rate": 30,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 3"
+},
+{
+"pokemon": 533,
+"zone": "victoryroad",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "57-59",
+"rate": 30,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 4"
+},
+{
+"pokemon": 93,
+"zone": "victoryroad",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "58",
+"rate": 10,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 1"
+},
+{
+"pokemon": 93,
+"zone": "victoryroad",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "58",
+"rate": 10,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 2"
+},
+{
+"pokemon": 93,
+"zone": "victoryroad",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "58",
+"rate": 10,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 3"
+},
+{
+"pokemon": 93,
+"zone": "victoryroad",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "58",
+"rate": 10,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 4"
+},
+{
+"pokemon": 635,
+"zone": "victoryroad",
+"method": "Walking (Sky)",
+"games": [
+"x",
+"y"
+],
+"levels": "59",
+"rate": 5,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Outside 1",
+"note": "approximate share"
+},
+{
+"pokemon": 635,
+"zone": "victoryroad",
+"method": "Walking (Sky)",
+"games": [
+"x",
+"y"
+],
+"levels": "59",
+"rate": 5,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Outside 2",
+"note": "approximate share"
+},
+{
+"pokemon": 635,
+"zone": "victoryroad",
+"method": "Walking (Sky)",
+"games": [
+"x",
+"y"
+],
+"levels": "59",
+"rate": 5,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Outside 3",
+"note": "approximate share"
+},
+{
+"pokemon": 108,
+"zone": "victoryroad",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "58-59",
+"rate": 15,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 1"
+},
+{
+"pokemon": 108,
+"zone": "victoryroad",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "58-59",
+"rate": 15,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 2"
+},
+{
+"pokemon": 108,
+"zone": "victoryroad",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "58-59",
+"rate": 15,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 3"
+},
+{
+"pokemon": 108,
+"zone": "victoryroad",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "58-59",
+"rate": 15,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 4"
+},
+{
+"pokemon": 108,
+"zone": "victoryroad",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "30",
+"rate": 5,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 1"
+},
+{
+"pokemon": 108,
+"zone": "victoryroad",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "30",
+"rate": 5,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 2"
+},
+{
+"pokemon": 108,
+"zone": "victoryroad",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "30",
+"rate": 5,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 3"
+},
+{
+"pokemon": 108,
+"zone": "victoryroad",
+"method": "Horde",
+"games": [
+"x",
+"y"
+],
+"levels": "30",
+"rate": 5,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 4"
+},
+{
+"pokemon": 271,
+"zone": "victoryroad",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "57-59",
+"rate": 66,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Outside 3"
+},
+{
+"pokemon": 714,
+"zone": "victoryroad",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "57-59",
+"rate": 22,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 1",
+"note": "approximate share"
+},
+{
+"pokemon": 714,
+"zone": "victoryroad",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "57-59",
+"rate": 22,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 2",
+"note": "approximate share"
+},
+{
+"pokemon": 714,
+"zone": "victoryroad",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "57-59",
+"rate": 22,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 3",
+"note": "approximate share"
+},
+{
+"pokemon": 714,
+"zone": "victoryroad",
+"method": "Walking (Ceiling)",
+"games": [
+"x",
+"y"
+],
+"levels": "57-59",
+"rate": 22,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 4",
+"note": "approximate share"
+},
+{
+"pokemon": 60,
+"zone": "victoryroad",
+"method": "Old Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 100,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Outside 3"
+},
+{
+"pokemon": 60,
+"zone": "victoryroad",
+"method": "Old Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 100,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 1"
+},
+{
+"pokemon": 60,
+"zone": "victoryroad",
+"method": "Old Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "35",
+"rate": 100,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 4"
+},
+{
+"pokemon": 61,
+"zone": "victoryroad",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "45",
+"rate": 35,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Outside 3"
+},
+{
+"pokemon": 61,
+"zone": "victoryroad",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "45",
+"rate": 35,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 1"
+},
+{
+"pokemon": 61,
+"zone": "victoryroad",
+"method": "Good Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "45",
+"rate": 35,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 4"
+},
+{
+"pokemon": 61,
+"zone": "victoryroad",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "55",
+"rate": 65,
+"source": "Bulbapedia",
+"sublocation": "Outside 3"
+},
+{
+"pokemon": 61,
+"zone": "victoryroad",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "55",
+"rate": 65,
+"source": "Bulbapedia",
+"sublocation": "Room 1"
+},
+{
+"pokemon": 61,
+"zone": "victoryroad",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "55",
+"rate": 60,
+"source": "Bulbapedia",
+"sublocation": "Room 4"
+},
+{
+"pokemon": 61,
+"zone": "victoryroad",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "57-59",
+"rate": 66,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 1"
+},
+{
+"pokemon": 61,
+"zone": "victoryroad",
+"method": "Surfing",
+"games": [
+"x",
+"y"
+],
+"levels": "57-59",
+"rate": 66,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 4"
+},
+{
+"pokemon": 62,
+"zone": "victoryroad",
+"method": "Super Rod",
+"games": [
+"x",
+"y"
+],
+"levels": "60",
+"rate": 5,
+"source": "Bulbapedia",
+"sublocation": "Room 4"
+},
+{
+"pokemon": 213,
+"zone": "victoryroad",
+"method": "Rock Smash",
+"games": [
+"x",
+"y"
+],
+"levels": "57-59",
+"rate": 5,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 1"
+},
+{
+"pokemon": 213,
+"zone": "victoryroad",
+"method": "Rock Smash",
+"games": [
+"x",
+"y"
+],
+"levels": "57-59",
+"rate": 5,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 2"
+},
+{
+"pokemon": 227,
+"zone": "victoryroad",
+"method": "Walking (Sky)",
+"games": [
+"x",
+"y"
+],
+"levels": "57-59",
+"rate": 18,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Outside 1",
+"note": "approximate share"
+},
+{
+"pokemon": 227,
+"zone": "victoryroad",
+"method": "Walking (Sky)",
+"games": [
+"x",
+"y"
+],
+"levels": "57-59",
+"rate": 18,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Outside 2",
+"note": "approximate share"
+},
+{
+"pokemon": 227,
+"zone": "victoryroad",
+"method": "Walking (Sky)",
+"games": [
+"x",
+"y"
+],
+"levels": "57-59",
+"rate": 18,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Outside 3",
+"note": "approximate share"
+},
+{
+"pokemon": 634,
+"zone": "victoryroad",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "59",
+"rate": 5,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 1"
+},
+{
+"pokemon": 634,
+"zone": "victoryroad",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "59",
+"rate": 5,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 2"
+},
+{
+"pokemon": 634,
+"zone": "victoryroad",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "59",
+"rate": 5,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 3"
+},
+{
+"pokemon": 634,
+"zone": "victoryroad",
+"method": "Walking",
+"games": [
+"x",
+"y"
+],
+"levels": "59",
+"rate": 5,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Room 4"
+},
+{
+"pokemon": 143,
+"zone": "r7",
+"method": "Static",
+"games": [
+"x",
+"y"
+],
+"levels": "15",
+"rate": 100,
+"source": "Pokestop",
+"note": "Wake with the Poké Flute"
+},
+{
+"pokemon": 144,
+"method": "Roaming",
+"games": [
+"x",
+"y"
+],
+"levels": "70",
+"rate": 100,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Roaming Kalos",
+"note": "After Hall of Fame · Chespin starter"
+},
+{
+"pokemon": 144,
+"zone": "seaspiritsden",
+"method": "Static",
+"games": [
+"x",
+"y"
+],
+"levels": "70",
+"rate": 100,
+"source": "Bulbapedia + Serebii",
+"note": "After 11 roaming meetings · Chespin starter"
+},
+{
+"pokemon": 145,
+"method": "Roaming",
+"games": [
+"x",
+"y"
+],
+"levels": "70",
+"rate": 100,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Roaming Kalos",
+"note": "After Hall of Fame · Fennekin starter"
+},
+{
+"pokemon": 145,
+"zone": "seaspiritsden",
+"method": "Static",
+"games": [
+"x",
+"y"
+],
+"levels": "70",
+"rate": 100,
+"source": "Bulbapedia + Serebii",
+"note": "After 11 roaming meetings · Fennekin starter"
+},
+{
+"pokemon": 146,
+"method": "Roaming",
+"games": [
+"x",
+"y"
+],
+"levels": "70",
+"rate": 100,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Roaming Kalos",
+"note": "After Hall of Fame · Froakie starter"
+},
+{
+"pokemon": 146,
+"zone": "seaspiritsden",
+"method": "Static",
+"games": [
+"x",
+"y"
+],
+"levels": "70",
+"rate": 100,
+"source": "Bulbapedia + Serebii",
+"note": "After 11 roaming meetings · Froakie starter"
+},
+{
+"pokemon": 716,
+"zone": "geosenge",
+"method": "Static",
+"games": [
+"x"
+],
+"levels": "50",
+"rate": 100,
+"source": "Pokestop",
+"sublocation": "Team Flare HQ Basement"
+},
+{
+"pokemon": 717,
+"zone": "geosenge",
+"method": "Static",
+"games": [
+"y"
+],
+"levels": "50",
+"rate": 100,
+"source": "Pokestop",
+"sublocation": "Team Flare HQ Basement"
+},
+{
+"pokemon": 718,
+"zone": "terminuscave",
+"method": "Static",
+"games": [
+"x",
+"y"
+],
+"levels": "70",
+"rate": 100,
+"source": "Pokestop",
+"sublocation": "B3F"
+},
+{
+"pokemon": 150,
+"method": "Static",
+"games": [
+"x",
+"y"
+],
+"levels": "70",
+"rate": 100,
+"source": "Bulbapedia + Serebii",
+"sublocation": "Unknown Dungeon",
+"note": "After Hall of Fame",
+"zone": "pokemonvillage"
+},
+{
+"pokemon": 51,
+"zone": "r13",
+"method": "Walking (Dust cloud)",
+"games": [
+"x",
+"y"
+],
+"levels": "26-28",
+"rate": 40,
+"source": "PokéAPI"
+},
+{
+"pokemon": 328,
+"zone": "r13",
+"method": "Walking (Dust cloud)",
+"games": [
+"x",
+"y"
+],
+"levels": "26-28",
+"rate": 40,
+"source": "PokéAPI"
+},
+{
+"pokemon": 443,
+"zone": "r13",
+"method": "Walking (Dust cloud)",
+"games": [
+"x",
+"y"
+],
+"levels": "26-28",
+"rate": 20,
+"source": "PokéAPI"
+},
+{
+"pokemon": 336,
+"zone": "r8",
+"method": "Horde",
+"games": [
+"x"
+],
+"levels": "8",
+"rate": 35,
+"source": "PokéAPI",
+"note": "In the Zangoose horde (1 of 5)"
+},
+{
+"pokemon": 335,
+"zone": "r8",
+"method": "Horde",
+"games": [
+"y"
+],
+"levels": "8",
+"rate": 35,
+"source": "PokéAPI",
+"note": "In the Seviper horde (1 of 5)"
+}
+]
